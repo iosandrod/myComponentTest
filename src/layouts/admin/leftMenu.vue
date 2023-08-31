@@ -29,14 +29,14 @@ const go = (route: RouteRecordRaw) => {
 <template>
   <div class="admin-menu">
     <div class="menu" :class="{ hidden: !menuStore.menuState }">
-      <div class="logo cursor-pointer">
+      <div class="cursor-pointer logo">
         <application-one
           theme="outline"
           size="18"
           fill="#dcdcdc"
           class="mr-2"
           @click="$router.push({ name: RouteName.HOME })" />
-        <span class="text-md cursor-pointer" @click="$router.push({ name: RouteName.ADMIN })">晚八点直播</span>
+        <span class="cursor-pointer text-md" @click="$router.push({ name: RouteName.ADMIN })">晚八点直播</span>
       </div>
       <!-- 菜单 -->
       <div class="container">
@@ -60,7 +60,7 @@ const go = (route: RouteRecordRaw) => {
         </dl>
       </div>
     </div>
-    <div class="bg block md:hidden"></div>
+    <div class="block bg md:hidden"></div>
   </div>
 </template>
 <style lang="scss">

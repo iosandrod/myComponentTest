@@ -12,7 +12,7 @@ import Navbar from '@/layouts/admin/navbar.vue'
         <Navbar />
         <HistoryMenu />
       </div>
-      <div class="overflow-y-auto pb-32">
+      <div class="pb-32 overflow-y-auto">
         <router-view #default="{ Component, route }">
           <component :is="Component" class="m-5" :key="route.fullPath" />
         </router-view>

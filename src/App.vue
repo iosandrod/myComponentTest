@@ -1,33 +1,19 @@
 <script setup lang="ts">
-import zhCn from 'element-plus/lib/locale/lang/zh-cn'
+// import zhCn from 'element-plus/lib/locale/lang/zh-cn'
 </script>
 
 <template>
   <main>
-    <ElConfigProvider :locale="zhCn">
-      <RouterView v-slot="{ Component }">
-        <template v-if="Component">
-          <Suspense>
+    <RouterView v-slot="{ Component }">
+      <template v-if="Component">
+        <Suspense>
+          <template #default>
             <component :is="Component"></component>
-          </Suspense>
-        </template>
-      </RouterView>
-    </ElConfigProvider>
-
-    <el-backtop :right="20" :bottom="100">
-      <div
-        style="
-          height: 100%;
-          width: 100%;
-          background-color: none !important;
-          box-shadow: none !important;
-          text-align: center;
-          line-height: 40px;
-          color: #1989fa;
-        ">
-        <icon-up-square theme="filled" size="40" fill="#e66767" />
-      </div>
-    </el-backtop>
+          </template>
+          <template #fallback>正在加载当中 </template>
+        </Suspense>
+      </template>
+    </RouterView>
   </main>
 </template>
 

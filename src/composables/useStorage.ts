@@ -2,7 +2,7 @@ export interface IData {
   data: any
   expire?: number
 }
-
+//
 export default () => {
   /**
    * 设置缓存

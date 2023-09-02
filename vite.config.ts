@@ -3,6 +3,7 @@ import path from 'path'
 import { defineConfig, loadEnv } from 'vite'
 import prismjs from 'vite-plugin-prismjs'
 import autoImport from './vite/auto-import'
+import vueJsx from '@vitejs/plugin-vue-jsx'
 import { parseEnv } from './vite/util'
 
 export default defineConfig(({ command, mode }) => {
@@ -12,6 +13,8 @@ export default defineConfig(({ command, mode }) => {
   return {
     plugins: [
       ...autoImport,
+      vueJsx(),
+      '@vue/babel-plugin-jsx',
       vue(),
       prismjs({
         languages: 'all',

@@ -7,6 +7,9 @@ import Navbar from '@/layouts/admin/navbar.vue'
 <template>
   <main class="admin h-screen w-screen grid md:grid-cols-[auto_1fr]">
     <leftMenu />
+    <!-- 
+      历史的menu
+     -->
     <section class="content bg-gray-100 grid grid-rows-[auto_1fr] overflow-hidden">
       <div>
         <Navbar />
@@ -14,7 +17,7 @@ import Navbar from '@/layouts/admin/navbar.vue'
       </div>
       <div class="pb-32 overflow-y-auto">
         <router-view #default="{ Component, route }">
-          <component :is="Component" class="m-5" :key="route.fullPath" />
+          <component :is="Component" :key="route.fullPath" />
         </router-view>
       </div>
     </section>

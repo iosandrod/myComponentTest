@@ -1,7 +1,7 @@
 import { DashboardOne, DocDetail, ImageFiles } from '@icon-park/vue-next'
 import { RouteRecordRaw } from 'vue-router'
 import adminLayout from '@/layouts/admin/index.vue'
-import adminIndex from '@/views/admin/index.vue'
+import adminIndex from '@/views/admin/index'
 import animateListVue from '@/views/admin/animateList.vue'
 import utilVue from '@/views/admin/util.vue'
 import wangeditorVue from '@/views/admin/wangeditor.vue'

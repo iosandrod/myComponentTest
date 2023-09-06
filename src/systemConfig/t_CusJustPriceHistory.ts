@@ -1,0 +1,88 @@
+export default class t_CusJustPriceHistory {
+      columnArr=['iInterID','iCJPInterID','iCJPID','cCJPCode','dDate','cStatus','cOperator','cChecker','cModifier','dOpeDate','dCheckDate','dModifyDate','cPersonCode','cDepCode','bTaxCost','cSupplyType','iswfcontrolled','ufts','cNote','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','cOperationType','dEnableDate','dDisableDate','bSales','bInvValid','cCustNo','cInvCode','cFree1','cFree2','cFree3','cFree4','cFree5','cFree6','cFree7','cFree8','cFree9','cFree10','iLowerLimit','cPriceID','iInvSCost','iInvSalesCost','iCusDisrate','iCusMinPrice','iInvNowCost','iUnitPrice','iTaxRate','iTaxUnitPrice','cExch_Name','cTermCode','cSubNote','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26','cDefine27','cDefine28','cDefine29','cDefine30','cDefine31','cDefine32','cDefine33','cDefine34','cDefine35','cDefine36','cDefine37']
+      iInterID?:any
+iCJPInterID?:any
+iCJPID?:any
+cCJPCode?:any
+dDate?:any
+cStatus?:any
+cOperator?:any
+cChecker?:any
+cModifier?:any
+dOpeDate?:any
+dCheckDate?:any
+dModifyDate?:any
+cPersonCode?:any
+cDepCode?:any
+bTaxCost?:any
+cSupplyType?:any
+iswfcontrolled?:any
+ufts?:any
+cNote?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+cOperationType?:any
+dEnableDate?:any
+dDisableDate?:any
+bSales?:any
+bInvValid?:any
+cCustNo?:any
+cInvCode?:any
+cFree1?:any
+cFree2?:any
+cFree3?:any
+cFree4?:any
+cFree5?:any
+cFree6?:any
+cFree7?:any
+cFree8?:any
+cFree9?:any
+cFree10?:any
+iLowerLimit?:any
+cPriceID?:any
+iInvSCost?:any
+iInvSalesCost?:any
+iCusDisrate?:any
+iCusMinPrice?:any
+iInvNowCost?:any
+iUnitPrice?:any
+iTaxRate?:any
+iTaxUnitPrice?:any
+cExch_Name?:any
+cTermCode?:any
+cSubNote?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any
+cDefine27?:any
+cDefine28?:any
+cDefine29?:any
+cDefine30?:any
+cDefine31?:any
+cDefine32?:any
+cDefine33?:any
+cDefine34?:any
+cDefine35?:any
+cDefine36?:any
+cDefine37?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

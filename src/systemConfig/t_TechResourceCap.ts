@@ -1,0 +1,35 @@
+export default class t_TechResourceCap {
+      columnArr=['iInterID','cType','cVersionNo','cTechNo','cSeqNote','cWcNo','cDeptNo','iPlanDays','dPeriodBegTime','dPeriodEndTime','iResCount','iResCountAct','iResHoursPd','iResWorkersPd','iEfficient','iCapTime','iLoadTime','iDiffTime','iloadRate','iResDiffCount','dMinBegDate','dMaxEndDate','cProductNo','cInvCode','cMoldNo','cSubMoldNo','cResourceNo','cNote']
+      iInterID?:any
+cType?:any
+cVersionNo?:any
+cTechNo?:any
+cSeqNote?:any
+cWcNo?:any
+cDeptNo?:any
+iPlanDays?:any
+dPeriodBegTime?:any
+dPeriodEndTime?:any
+iResCount?:any
+iResCountAct?:any
+iResHoursPd?:any
+iResWorkersPd?:any
+iEfficient?:any
+iCapTime?:any
+iLoadTime?:any
+iDiffTime?:any
+iloadRate?:any
+iResDiffCount?:any
+dMinBegDate?:any
+dMaxEndDate?:any
+cProductNo?:any
+cInvCode?:any
+cMoldNo?:any
+cSubMoldNo?:any
+cResourceNo?:any
+cNote?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

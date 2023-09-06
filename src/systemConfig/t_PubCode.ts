@@ -1,0 +1,61 @@
+export default class t_PubCode {
+      columnArr=['cCode','cCodeNo','cCodeName','cCodeClsNo','bProperty','cBook_type','cHelp','cExch_name','cComUnitCode','bPerson','bCus','bVen','bDept','bItem','cAss_item','br','be','cGather','bEnd','bExchange','bCash','bBank','bUsed','bd_c','dBegintime','dEndtime','itrans','bClose','cOther','iOtherused','iViewItem','cUserDefineType','bGCJS','bCashItem','bReport','cCodeDefine1','cCodeDefine2','cCodeDefine3','cCodeDefine4','cCodeDefine5','cCodeDefine6','cCodeDefine7','cCodeDefine8','cCodeDefine9','cCodeDefine10','cCodeDefine11','cCodeDefine12','cCodeDefine13','cCodeDefine14','cCodeDefine15','cCodeDefine16','iShowSN','cCodeNameEng','iUnitPrice']
+      cCode?:any
+cCodeNo?:any
+cCodeName?:any
+cCodeClsNo?:any
+bProperty?:any
+cBook_type?:any
+cHelp?:any
+cExch_name?:any
+cComUnitCode?:any
+bPerson?:any
+bCus?:any
+bVen?:any
+bDept?:any
+bItem?:any
+cAss_item?:any
+br?:any
+be?:any
+cGather?:any
+bEnd?:any
+bExchange?:any
+bCash?:any
+bBank?:any
+bUsed?:any
+bd_c?:any
+dBegintime?:any
+dEndtime?:any
+itrans?:any
+bClose?:any
+cOther?:any
+iOtherused?:any
+iViewItem?:any
+cUserDefineType?:any
+bGCJS?:any
+bCashItem?:any
+bReport?:any
+cCodeDefine1?:any
+cCodeDefine2?:any
+cCodeDefine3?:any
+cCodeDefine4?:any
+cCodeDefine5?:any
+cCodeDefine6?:any
+cCodeDefine7?:any
+cCodeDefine8?:any
+cCodeDefine9?:any
+cCodeDefine10?:any
+cCodeDefine11?:any
+cCodeDefine12?:any
+cCodeDefine13?:any
+cCodeDefine14?:any
+cCodeDefine15?:any
+cCodeDefine16?:any
+iShowSN?:any
+cCodeNameEng?:any
+iUnitPrice?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

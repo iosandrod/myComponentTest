@@ -1,0 +1,51 @@
+export default class t_MoldBom {
+      columnArr=['iAutoID','cMoldNo','cInvCode','cGroupNo','iSubQty','cSubMoldNo','cPosition','cProductNo','cMaterialNo','cColorNo','cRelateInvCode','cMixInvCode','iMoldGross','iNetWeight','iGapPercent','iNetWeightDiff','cDetailNote','cFree1','cFree2','cFree3','cFree4','cFree5','cFree6','cFree7','cFree8','cFree9','cFree10','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26','cDefine27','cDefine28','cDefine29','cDefine30','cDefine31','cDefine32','cDefine33','cDefine34','cDefine35','cDefine36','cDefine37','iInterID']
+      iAutoID?:any
+cMoldNo?:any
+cInvCode?:any
+cGroupNo?:any
+iSubQty?:any
+cSubMoldNo?:any
+cPosition?:any
+cProductNo?:any
+cMaterialNo?:any
+cColorNo?:any
+cRelateInvCode?:any
+cMixInvCode?:any
+iMoldGross?:any
+iNetWeight?:any
+iGapPercent?:any
+iNetWeightDiff?:any
+cDetailNote?:any
+cFree1?:any
+cFree2?:any
+cFree3?:any
+cFree4?:any
+cFree5?:any
+cFree6?:any
+cFree7?:any
+cFree8?:any
+cFree9?:any
+cFree10?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any
+cDefine27?:any
+cDefine28?:any
+cDefine29?:any
+cDefine30?:any
+cDefine31?:any
+cDefine32?:any
+cDefine33?:any
+cDefine34?:any
+cDefine35?:any
+cDefine36?:any
+cDefine37?:any
+iInterID?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,33 @@
+export default class t_ApNoteEntry {
+      columnArr=['iVouchID','cVouchID','cLink','cProcStyle','dDate','iIntrest','iExpense','iAmount','cBank','iDisctIntrest','cCode','cOperator','cCancelNo','cCoVouchType','cCoVouchID','cPzID','cFlag','ID','iBsType','dHideDate','cTrustReceiver','iAmount_Local','iIntrest_Local','iExpense_Local','iOverAmount','nfrat']
+      iVouchID?:any
+cVouchID?:any
+cLink?:any
+cProcStyle?:any
+dDate?:any
+iIntrest?:any
+iExpense?:any
+iAmount?:any
+cBank?:any
+iDisctIntrest?:any
+cCode?:any
+cOperator?:any
+cCancelNo?:any
+cCoVouchType?:any
+cCoVouchID?:any
+cPzID?:any
+cFlag?:any
+ID?:any
+iBsType?:any
+dHideDate?:any
+cTrustReceiver?:any
+iAmount_Local?:any
+iIntrest_Local?:any
+iExpense_Local?:any
+iOverAmount?:any
+nfrat?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

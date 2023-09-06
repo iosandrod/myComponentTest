@@ -1,0 +1,39 @@
+export default class t_HrPerHouseAccFund {
+      columnArr=['iInterID','cPersonCode','cMateName','dStartDate','dSwitchinDate','cAddCause','cSwitchoutunit','cStartpayDate','dAccountDate','cDocuMonth','cEnsureCode','cHouseCase','nInviscale','dEndDate','nCustbase','dOpenDate','nCorpsCale','cAccountflag','cDepcode','nCorppullsCale','dSwitchoutdate','cReducause','bMatefund','bHouseloan','dDestroyDate','bSwitchflag','cDocuyear','iRecordID','cPeracCount','cSwitchinunit','dKeepdate','cMateidcard']
+      iInterID?:any
+cPersonCode?:any
+cMateName?:any
+dStartDate?:any
+dSwitchinDate?:any
+cAddCause?:any
+cSwitchoutunit?:any
+cStartpayDate?:any
+dAccountDate?:any
+cDocuMonth?:any
+cEnsureCode?:any
+cHouseCase?:any
+nInviscale?:any
+dEndDate?:any
+nCustbase?:any
+dOpenDate?:any
+nCorpsCale?:any
+cAccountflag?:any
+cDepcode?:any
+nCorppullsCale?:any
+dSwitchoutdate?:any
+cReducause?:any
+bMatefund?:any
+bHouseloan?:any
+dDestroyDate?:any
+bSwitchflag?:any
+cDocuyear?:any
+iRecordID?:any
+cPeracCount?:any
+cSwitchinunit?:any
+dKeepdate?:any
+cMateidcard?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,5 +1,5 @@
 import { App } from 'vue'
-import modal from './modal'
+import modal from './modal/modalIndex'
 const iconPrefix = 'vxe-icon-'
 export const GlobalConfig = {
   size: null, // 全局尺寸

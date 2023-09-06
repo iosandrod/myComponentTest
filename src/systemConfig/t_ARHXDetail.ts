@@ -1,0 +1,85 @@
+export default class t_ARHXDetail {
+      columnArr=['iAutoID','cUser','dVouchDate1','dRegDate1','cDwCode','cDwName','cvouchtype1','ctypename1','cvouchid1','cDeptCode','cDepName','cPerson','cPersonName','cCode','cCode_Name','cdigest1','exchname','Rate','cItem_Class','cItem_Name','cItemName','ibvid','cInvCode','cInvName','cContractType','cContractTypeName','cContractID','cContractName','dbill_date1','cPzNum1','cPzid1','csource1','corderno1','cdlcode1','csource2','corderno2','cdlcode2','iAmount_f1','iAmount1','iAmount_s1','cOperator1','cCheckMan1','cProcName','dVouchDate2','dRegDate2','cvouchtype2','ctypename2','cvouchid2','cNoteNo','cBankAccount','cBank','iAmount_f2','iAmount2','iAmount_s2','dbill_date2','cPzNum2','cPzid2','cDwCode2','cDwName2','cDeptCode2','cDepName2','cPerson2','cPersonName2','cOperator2','cCheckMan2','cCancelMan','cDigest2','exchname1','Rate1','dexpiredate','iAmount_f3','iAmount3','iAmount_s3','dbill_date3','iAmount_f4','iAmount4','iAmount_s4','cPzNum3']
+      iAutoID?:any
+cUser?:any
+dVouchDate1?:any
+dRegDate1?:any
+cDwCode?:any
+cDwName?:any
+cvouchtype1?:any
+ctypename1?:any
+cvouchid1?:any
+cDeptCode?:any
+cDepName?:any
+cPerson?:any
+cPersonName?:any
+cCode?:any
+cCode_Name?:any
+cdigest1?:any
+exchname?:any
+Rate?:any
+cItem_Class?:any
+cItem_Name?:any
+cItemName?:any
+ibvid?:any
+cInvCode?:any
+cInvName?:any
+cContractType?:any
+cContractTypeName?:any
+cContractID?:any
+cContractName?:any
+dbill_date1?:any
+cPzNum1?:any
+cPzid1?:any
+csource1?:any
+corderno1?:any
+cdlcode1?:any
+csource2?:any
+corderno2?:any
+cdlcode2?:any
+iAmount_f1?:any
+iAmount1?:any
+iAmount_s1?:any
+cOperator1?:any
+cCheckMan1?:any
+cProcName?:any
+dVouchDate2?:any
+dRegDate2?:any
+cvouchtype2?:any
+ctypename2?:any
+cvouchid2?:any
+cNoteNo?:any
+cBankAccount?:any
+cBank?:any
+iAmount_f2?:any
+iAmount2?:any
+iAmount_s2?:any
+dbill_date2?:any
+cPzNum2?:any
+cPzid2?:any
+cDwCode2?:any
+cDwName2?:any
+cDeptCode2?:any
+cDepName2?:any
+cPerson2?:any
+cPersonName2?:any
+cOperator2?:any
+cCheckMan2?:any
+cCancelMan?:any
+cDigest2?:any
+exchname1?:any
+Rate1?:any
+dexpiredate?:any
+iAmount_f3?:any
+iAmount3?:any
+iAmount_s3?:any
+dbill_date3?:any
+iAmount_f4?:any
+iAmount4?:any
+iAmount_s4?:any
+cPzNum3?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

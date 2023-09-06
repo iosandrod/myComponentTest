@@ -1,0 +1,43 @@
+export default class t_SalaryCalculation {
+      columnArr=['iInterID','cCode','cTeamNo','cTeamName','dDate','cStatus','cOperator','dOpeDate','cChecker','dCheckDate','cNote','iTiaozhengTime','iJiabanTime','iYichangTime','fTibanSalary','iHuibaoSumTime','iJineSum','iLirunSum','bJiaban','bTiban','bTigang','fBiaozhunTime','fKaohezhibiao','fBiaopeiSumSalary','iBiaopeirenshu','cChejianType','iShebeiNumber','iBaozhuangTime','iHuibaoTime','fQuegangSalary','fQueqinSalary','fRenyuanjieyu','fZulinbiaozhun','fRizulin','fZulinjieyu','fSalarymeifen']
+      iInterID?:any
+cCode?:any
+cTeamNo?:any
+cTeamName?:any
+dDate?:any
+cStatus?:any
+cOperator?:any
+dOpeDate?:any
+cChecker?:any
+dCheckDate?:any
+cNote?:any
+iTiaozhengTime?:any
+iJiabanTime?:any
+iYichangTime?:any
+fTibanSalary?:any
+iHuibaoSumTime?:any
+iJineSum?:any
+iLirunSum?:any
+bJiaban?:any
+bTiban?:any
+bTigang?:any
+fBiaozhunTime?:any
+fKaohezhibiao?:any
+fBiaopeiSumSalary?:any
+iBiaopeirenshu?:any
+cChejianType?:any
+iShebeiNumber?:any
+iBaozhuangTime?:any
+iHuibaoTime?:any
+fQuegangSalary?:any
+fQueqinSalary?:any
+fRenyuanjieyu?:any
+fZulinbiaozhun?:any
+fRizulin?:any
+fZulinjieyu?:any
+fSalarymeifen?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

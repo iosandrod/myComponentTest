@@ -1,0 +1,62 @@
+export default class t_SrmSgbPkgBoxMstHistory {
+      columnArr=['F_Id','cSgbId','cSgbCode','cSgbItemId','iBoxWidth','iBoxHeight','cInvCode','cBatchNo','iQty','cPoCode','dPDate','bIsLastCtn','iPrnCnt','F_CreatorTime','F_CreatorUserId','F_LastModifyTime','F_LastModifyUserId','F_DeleteTime','F_DeleteUserId','F_DeleteMark','iBindQty','bReceived','dvDate','cDefine25','cInvStd','rownum','countNum','cVenCode','cDNote','cDefine31','cProMaterialNote','cDefine34','cBillType','cBarCode','cSgbPkgChestID','cInvName','cResourceNo','cWcNo','cTeamNo','cHostIP','cHostPort','cHostName','iPoLineID','cCustNo','cSdOrderNo','iSdLineID','dDeliveryDate','cInvTransCode','iInvTransLineID','cType','bScanFlag','iQuantity','fPicQtyPer','fBoxQtyPer','bCompleted']
+      F_Id?:any
+cSgbId?:any
+cSgbCode?:any
+cSgbItemId?:any
+iBoxWidth?:any
+iBoxHeight?:any
+cInvCode?:any
+cBatchNo?:any
+iQty?:any
+cPoCode?:any
+dPDate?:any
+bIsLastCtn?:any
+iPrnCnt?:any
+F_CreatorTime?:any
+F_CreatorUserId?:any
+F_LastModifyTime?:any
+F_LastModifyUserId?:any
+F_DeleteTime?:any
+F_DeleteUserId?:any
+F_DeleteMark?:any
+iBindQty?:any
+bReceived?:any
+dvDate?:any
+cDefine25?:any
+cInvStd?:any
+rownum?:any
+countNum?:any
+cVenCode?:any
+cDNote?:any
+cDefine31?:any
+cProMaterialNote?:any
+cDefine34?:any
+cBillType?:any
+cBarCode?:any
+cSgbPkgChestID?:any
+cInvName?:any
+cResourceNo?:any
+cWcNo?:any
+cTeamNo?:any
+cHostIP?:any
+cHostPort?:any
+cHostName?:any
+iPoLineID?:any
+cCustNo?:any
+cSdOrderNo?:any
+iSdLineID?:any
+dDeliveryDate?:any
+cInvTransCode?:any
+iInvTransLineID?:any
+cType?:any
+bScanFlag?:any
+iQuantity?:any
+fPicQtyPer?:any
+fBoxQtyPer?:any
+bCompleted?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

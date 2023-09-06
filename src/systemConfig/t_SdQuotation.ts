@@ -1,0 +1,59 @@
+export default class t_SdQuotation {
+      columnArr=['iInterID','cQuotationNo','cPersonCode','cDepCode','dDate','dRevDate','cCustNo','cCustName','dReceiveQuote','cCusDiscount','cDiscount','cBusType','cSTCode','iQuoteQty','cComUnitCode','cSCCode','cExch_name','iExchRate','iTaxUnitPrice','iVTID','qkts','cOperator','dOpeDate','cChecker','dCheckDate','cStatus','cNote','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','cSolution','cVersions','cCloser','dCloseDate','iPrintCount','mProductPicture','mProductPicture2','cModifier','dModifyDate']
+      iInterID?:any
+cQuotationNo?:any
+cPersonCode?:any
+cDepCode?:any
+dDate?:any
+dRevDate?:any
+cCustNo?:any
+cCustName?:any
+dReceiveQuote?:any
+cCusDiscount?:any
+cDiscount?:any
+cBusType?:any
+cSTCode?:any
+iQuoteQty?:any
+cComUnitCode?:any
+cSCCode?:any
+cExch_name?:any
+iExchRate?:any
+iTaxUnitPrice?:any
+iVTID?:any
+qkts?:any
+cOperator?:any
+dOpeDate?:any
+cChecker?:any
+dCheckDate?:any
+cStatus?:any
+cNote?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+cSolution?:any
+cVersions?:any
+cCloser?:any
+dCloseDate?:any
+iPrintCount?:any
+mProductPicture?:any
+mProductPicture2?:any
+cModifier?:any
+dModifyDate?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

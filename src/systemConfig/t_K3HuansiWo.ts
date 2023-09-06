@@ -1,0 +1,29 @@
+export default class t_K3HuansiWo {
+      columnArr=['IDHS','hselect','iColor','sColorName','sColorShortName','iSizeID','sSizeName','iOrdQty','iPlanQty','FOrderNo','sPlanNo','iStatus','sBillStatus','sPlanType','tCreatetime','sMergeNo','sStyleNo','sStyleShortNo','sLotNo','sProductNo','dDeliveryDate','cWoStatus']
+      IDHS?:any
+hselect?:any
+iColor?:any
+sColorName?:any
+sColorShortName?:any
+iSizeID?:any
+sSizeName?:any
+iOrdQty?:any
+iPlanQty?:any
+FOrderNo?:any
+sPlanNo?:any
+iStatus?:any
+sBillStatus?:any
+sPlanType?:any
+tCreatetime?:any
+sMergeNo?:any
+sStyleNo?:any
+sStyleShortNo?:any
+sLotNo?:any
+sProductNo?:any
+dDeliveryDate?:any
+cWoStatus?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

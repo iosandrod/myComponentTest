@@ -1,0 +1,31 @@
+export default class t_SchProductRouteResTime {
+      columnArr=['cVersionNo','iSchSdID','iProcessProductID','iInterID','iWoProcessID','iResProcessID','cWoNo','iResourceID','cResourceNo','cResourceName','iTimeID','iPeriodTimeID','cTaskType','dResBegDate','dResEndDate','iResReqQty','iActResReqQty','iResRationHour','iActResRationHour','cSimulateVer','cNote','iResRealRationHour','dPeriodDay','FShiftType']
+      cVersionNo?:any
+iSchSdID?:any
+iProcessProductID?:any
+iInterID?:any
+iWoProcessID?:any
+iResProcessID?:any
+cWoNo?:any
+iResourceID?:any
+cResourceNo?:any
+cResourceName?:any
+iTimeID?:any
+iPeriodTimeID?:any
+cTaskType?:any
+dResBegDate?:any
+dResEndDate?:any
+iResReqQty?:any
+iActResReqQty?:any
+iResRationHour?:any
+iActResRationHour?:any
+cSimulateVer?:any
+cNote?:any
+iResRealRationHour?:any
+dPeriodDay?:any
+FShiftType?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

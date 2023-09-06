@@ -1,0 +1,34 @@
+export default class t_HrPerHurtInsure {
+      columnArr=['iInterID','cPersonCode','iRecordID','cSwitchOutUnit','cDepcode','cPersonType','dKeepDate','cPerClass','cAddCause','dEndDate','iCorpScale','cReduCause','dSwitchOutDate','dStartDate','cPersonName','cDocuYear','dOpenDate','bWorkHarm','dAccountDate','iCustBase','cDocuMonth','cAccountFlag','cEnsureCode','cComputercode','cStartPayDate','dDestroyDate','cWorkType']
+      iInterID?:any
+cPersonCode?:any
+iRecordID?:any
+cSwitchOutUnit?:any
+cDepcode?:any
+cPersonType?:any
+dKeepDate?:any
+cPerClass?:any
+cAddCause?:any
+dEndDate?:any
+iCorpScale?:any
+cReduCause?:any
+dSwitchOutDate?:any
+dStartDate?:any
+cPersonName?:any
+cDocuYear?:any
+dOpenDate?:any
+bWorkHarm?:any
+dAccountDate?:any
+iCustBase?:any
+cDocuMonth?:any
+cAccountFlag?:any
+cEnsureCode?:any
+cComputercode?:any
+cStartPayDate?:any
+dDestroyDate?:any
+cWorkType?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

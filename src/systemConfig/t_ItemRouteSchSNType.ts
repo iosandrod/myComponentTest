@@ -1,0 +1,30 @@
+export default class t_ItemRouteSchSNType {
+      columnArr=['iInterlID','cInvCode','cInvName','cSchSNTypeClsNo','cDeptNo','cWcNo','cAttributes1','cAttributes2','cAttributes3','cAttributes4','cAttributes5','cAttributes6','cAttributes7','cAttributes8','cAttributes9','cAttributes10','cAttributes11','cAttributes12','cAttributes13','cAttributes14','cAttributes15','cAttributes16','iSchSN']
+      iInterlID?:any
+cInvCode?:any
+cInvName?:any
+cSchSNTypeClsNo?:any
+cDeptNo?:any
+cWcNo?:any
+cAttributes1?:any
+cAttributes2?:any
+cAttributes3?:any
+cAttributes4?:any
+cAttributes5?:any
+cAttributes6?:any
+cAttributes7?:any
+cAttributes8?:any
+cAttributes9?:any
+cAttributes10?:any
+cAttributes11?:any
+cAttributes12?:any
+cAttributes13?:any
+cAttributes14?:any
+cAttributes15?:any
+cAttributes16?:any
+iSchSN?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

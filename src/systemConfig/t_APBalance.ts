@@ -1,0 +1,65 @@
+export default class t_APBalance {
+      columnArr=['iInterID','cDwCode','cDwName','cDeptCode','cDepName','cPerson','cPersonName','cInvCode','cInvName','cInvStd','cDwCCode','cDWCName','cDwDCode','cDCName','cHDwCode','cHDwName','cHDptCode','cHDepName','cHPsnCode','cHPersonName','cInvCCode','cInvCName','cCode','cCode_Name','cItem_Class','cItem_Name','cItemCode','cItemName','cContractType','cContractTypeName','cContractID','cContractName','cCusCreditCompany','cCusCreditName','qc_f','qc_s','qc','jf_f','jf_s','jf','df_f','df_s','df','jf_f2','jf_s2','jf2','df_f2','df_s2','df2','ye_f','ye_s','ye','turnrate_f','turnrate','turndays_f','turndays','csysid','cUser']
+      iInterID?:any
+cDwCode?:any
+cDwName?:any
+cDeptCode?:any
+cDepName?:any
+cPerson?:any
+cPersonName?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cDwCCode?:any
+cDWCName?:any
+cDwDCode?:any
+cDCName?:any
+cHDwCode?:any
+cHDwName?:any
+cHDptCode?:any
+cHDepName?:any
+cHPsnCode?:any
+cHPersonName?:any
+cInvCCode?:any
+cInvCName?:any
+cCode?:any
+cCode_Name?:any
+cItem_Class?:any
+cItem_Name?:any
+cItemCode?:any
+cItemName?:any
+cContractType?:any
+cContractTypeName?:any
+cContractID?:any
+cContractName?:any
+cCusCreditCompany?:any
+cCusCreditName?:any
+qc_f?:any
+qc_s?:any
+qc?:any
+jf_f?:any
+jf_s?:any
+jf?:any
+df_f?:any
+df_s?:any
+df?:any
+jf_f2?:any
+jf_s2?:any
+jf2?:any
+df_f2?:any
+df_s2?:any
+df2?:any
+ye_f?:any
+ye_s?:any
+ye?:any
+turnrate_f?:any
+turnrate?:any
+turndays_f?:any
+turndays?:any
+csysid?:any
+cUser?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,54 @@
+export default class t_InvCheck {
+      columnArr=['cCVCode','dCVDate','cDepCode','cPersonCode','cIRdCode','cORdCode','cWhCode','cCVBatch','cCVMemo','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cAccounter','cMaker','iNetLock','cPosition','dACDate','ID','VT_ID','bTransFlag','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','ufts','cCvType','cCvPeriod','csource','bPosCheck','ireturncount','iverifystate','iswfcontrolled','cModifyPerson','dModifyDate','dnmaketime','dnmodifytime','dnverifytime','dveridate']
+      cCVCode?:any
+dCVDate?:any
+cDepCode?:any
+cPersonCode?:any
+cIRdCode?:any
+cORdCode?:any
+cWhCode?:any
+cCVBatch?:any
+cCVMemo?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cAccounter?:any
+cMaker?:any
+iNetLock?:any
+cPosition?:any
+dACDate?:any
+ID?:any
+VT_ID?:any
+bTransFlag?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+ufts?:any
+cCvType?:any
+cCvPeriod?:any
+csource?:any
+bPosCheck?:any
+ireturncount?:any
+iverifystate?:any
+iswfcontrolled?:any
+cModifyPerson?:any
+dModifyDate?:any
+dnmaketime?:any
+dnmodifytime?:any
+dnverifytime?:any
+dveridate?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

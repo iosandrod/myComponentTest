@@ -1,0 +1,56 @@
+export default class t_InvTransScanHistory {
+      columnArr=['ID','iLineID','DLID','bRdFlag','cDLCode','cInvCode','iQuantity','iNum','cAssUnit','cBarCode','bFlag','dDate','cType','cWhCode','cPosition','cBatch','cSourCode','iSourLineID','cFree1','cFree2','cFree3','cFree4','cFree5','cFree6','cFree7','cFree8','cFree9','cFree10','cNote','dOpedate','cOperator','cHostName','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26','cDefine27','cDefine28','cDefine29','cDefine30','cDefine31','cDefine32','cDefine33','cDefine34','cDefine35','cDefine36','cDefine37','cRptNo']
+      ID?:any
+iLineID?:any
+DLID?:any
+bRdFlag?:any
+cDLCode?:any
+cInvCode?:any
+iQuantity?:any
+iNum?:any
+cAssUnit?:any
+cBarCode?:any
+bFlag?:any
+dDate?:any
+cType?:any
+cWhCode?:any
+cPosition?:any
+cBatch?:any
+cSourCode?:any
+iSourLineID?:any
+cFree1?:any
+cFree2?:any
+cFree3?:any
+cFree4?:any
+cFree5?:any
+cFree6?:any
+cFree7?:any
+cFree8?:any
+cFree9?:any
+cFree10?:any
+cNote?:any
+dOpedate?:any
+cOperator?:any
+cHostName?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any
+cDefine27?:any
+cDefine28?:any
+cDefine29?:any
+cDefine30?:any
+cDefine31?:any
+cDefine32?:any
+cDefine33?:any
+cDefine34?:any
+cDefine35?:any
+cDefine36?:any
+cDefine37?:any
+cRptNo?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

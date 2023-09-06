@@ -1,0 +1,93 @@
+export default class t_OmJob {
+      columnArr=['cJobCode','cJobName','cDepCode','cProductLine','cManuUnit','cNewJobName','fValidWorkTime','bisAbort','fWorkTime','fPassWorkTime','cCraft','iWoSeqID','qkts','cPlantType','cCheckType','cCheckRank','iCheckPeriod','iNormNum','cNormGroup','cNormClasses','fNormValidRate','fNormMaunRate','fBasicPay','cManageType','fNormWorkDate','iEquOperate','iEquDebug','iEquMaintain','iLabBeat','iLabweight','iLabDistance','iWorkEnvCold','iWorkEnvHot','iWorkEnvDust','iWorkEnvNoise','iWorkEnvSmell','iWorkEnvCriticality','iWorkCost','iWorkQuality','iWorkEqu','iWorkNum','iPJobWages','iJobWages','iOvertimeWages','iSumWages','iNote','iGauzeMasks','iDustMask','iTRGloves','iGlueGloves','iWhiteGloves','iWireGloves','iGasDefenseMask','iInsulationGloves','iElectricGloves','iHangGlueGloves','iEarPlug','bStartSsing','cPersonCode','cPersonName','iSuperior','dOpenDate','dCheckDate','cWorkAskfor','cWorkOutline','cWorkPlace','cWorkCondition','cWorkAim','bkeyJob','cRjobRank','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16']
+      cJobCode?:any
+cJobName?:any
+cDepCode?:any
+cProductLine?:any
+cManuUnit?:any
+cNewJobName?:any
+fValidWorkTime?:any
+bisAbort?:any
+fWorkTime?:any
+fPassWorkTime?:any
+cCraft?:any
+iWoSeqID?:any
+qkts?:any
+cPlantType?:any
+cCheckType?:any
+cCheckRank?:any
+iCheckPeriod?:any
+iNormNum?:any
+cNormGroup?:any
+cNormClasses?:any
+fNormValidRate?:any
+fNormMaunRate?:any
+fBasicPay?:any
+cManageType?:any
+fNormWorkDate?:any
+iEquOperate?:any
+iEquDebug?:any
+iEquMaintain?:any
+iLabBeat?:any
+iLabweight?:any
+iLabDistance?:any
+iWorkEnvCold?:any
+iWorkEnvHot?:any
+iWorkEnvDust?:any
+iWorkEnvNoise?:any
+iWorkEnvSmell?:any
+iWorkEnvCriticality?:any
+iWorkCost?:any
+iWorkQuality?:any
+iWorkEqu?:any
+iWorkNum?:any
+iPJobWages?:any
+iJobWages?:any
+iOvertimeWages?:any
+iSumWages?:any
+iNote?:any
+iGauzeMasks?:any
+iDustMask?:any
+iTRGloves?:any
+iGlueGloves?:any
+iWhiteGloves?:any
+iWireGloves?:any
+iGasDefenseMask?:any
+iInsulationGloves?:any
+iElectricGloves?:any
+iHangGlueGloves?:any
+iEarPlug?:any
+bStartSsing?:any
+cPersonCode?:any
+cPersonName?:any
+iSuperior?:any
+dOpenDate?:any
+dCheckDate?:any
+cWorkAskfor?:any
+cWorkOutline?:any
+cWorkPlace?:any
+cWorkCondition?:any
+cWorkAim?:any
+bkeyJob?:any
+cRjobRank?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

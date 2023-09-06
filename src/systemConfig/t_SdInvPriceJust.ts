@@ -1,0 +1,43 @@
+export default class t_SdInvPriceJust {
+      columnArr=['id','ddate','drdate','ccode','cmaker','cpersoncode','cmainmemo','cverifier','dverifydate','cdepcode','ivtid','ufts','cdefine1','cdefine2','cdefine3','cdefine4','cdefine5','cdefine6','cdefine7','cdefine8','cdefine9','cdefine10','cdefine11','cdefine12','cdefine13','cdefine14','cdefine15','cdefine16','iverifystate','ireturncount','iswfcontrolled','cmodifier','dmoddate','dcreatesystime','dverifysystime','dmodifysystime']
+      id?:any
+ddate?:any
+drdate?:any
+ccode?:any
+cmaker?:any
+cpersoncode?:any
+cmainmemo?:any
+cverifier?:any
+dverifydate?:any
+cdepcode?:any
+ivtid?:any
+ufts?:any
+cdefine1?:any
+cdefine2?:any
+cdefine3?:any
+cdefine4?:any
+cdefine5?:any
+cdefine6?:any
+cdefine7?:any
+cdefine8?:any
+cdefine9?:any
+cdefine10?:any
+cdefine11?:any
+cdefine12?:any
+cdefine13?:any
+cdefine14?:any
+cdefine15?:any
+cdefine16?:any
+iverifystate?:any
+ireturncount?:any
+iswfcontrolled?:any
+cmodifier?:any
+dmoddate?:any
+dcreatesystime?:any
+dverifysystime?:any
+dmodifysystime?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

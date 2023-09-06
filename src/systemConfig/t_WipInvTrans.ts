@@ -1,0 +1,38 @@
+export default class t_WipInvTrans {
+      columnArr=['AutoID','bRdFlag','cWipBusType','cBillType','cBillCode','iID','iLineID','bProFlag','cSourceType','cSourceCode','iSourceLineID','cWoNo','cResourceNo','cWcNo','cInvCode','cBatch','iQuantity','iNum','cFree1','cFree2','cFree3','cFree4','cFree5','cFree6','cFree7','cFree8','cFree9','cFree10','dDate','dOpeDate','cNote']
+      AutoID?:any
+bRdFlag?:any
+cWipBusType?:any
+cBillType?:any
+cBillCode?:any
+iID?:any
+iLineID?:any
+bProFlag?:any
+cSourceType?:any
+cSourceCode?:any
+iSourceLineID?:any
+cWoNo?:any
+cResourceNo?:any
+cWcNo?:any
+cInvCode?:any
+cBatch?:any
+iQuantity?:any
+iNum?:any
+cFree1?:any
+cFree2?:any
+cFree3?:any
+cFree4?:any
+cFree5?:any
+cFree6?:any
+cFree7?:any
+cFree8?:any
+cFree9?:any
+cFree10?:any
+dDate?:any
+dOpeDate?:any
+cNote?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

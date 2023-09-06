@@ -1,0 +1,37 @@
+export default class t_WorkOrderLess {
+      columnArr=['iInterID','cCode','cHostName','dEndDate','iWoCount','iCompCount','iLessCount','iCompRate','cSdOrderNo','cMiNo','cProductWo','cProductNo','cNote','cStatus','cOperator','dOpeDate','cChecker','dCheckDate','iVT_ID','iAuditTypeID','cCloser','dCloseDate','iPrintCount','cModifier','dModifyDate','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5']
+      iInterID?:any
+cCode?:any
+cHostName?:any
+dEndDate?:any
+iWoCount?:any
+iCompCount?:any
+iLessCount?:any
+iCompRate?:any
+cSdOrderNo?:any
+cMiNo?:any
+cProductWo?:any
+cProductNo?:any
+cNote?:any
+cStatus?:any
+cOperator?:any
+dOpeDate?:any
+cChecker?:any
+dCheckDate?:any
+iVT_ID?:any
+iAuditTypeID?:any
+cCloser?:any
+dCloseDate?:any
+iPrintCount?:any
+cModifier?:any
+dModifyDate?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

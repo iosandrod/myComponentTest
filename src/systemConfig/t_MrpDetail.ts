@@ -1,0 +1,55 @@
+export default class t_MrpDetail {
+      columnArr=['cVersionNo','cSourType','iMrpID','iGrossID','dGrossBegDate','dGrossEndDate','cInvCode','iLowCode','cMiNo','cProductNo','cSdOrderNo','cBillNo','iQty','iNetQty','dReqDate','cCalenType','cRouteNo','dBegDate','iYieldage','iShrinkage','cMoldNo','cNote','cExchangeNo','iGroupID','cBomStatus','iProductQty','cBegWcNo','iAuditBatchID','iRationHour','cPlanMode','iSourID','cDataType','cIsNewData','cSubMiNo','cCalType','dOpeDate','cPriorityType','iAvailableQty','iDispatchedQty','iSdLineID','cSourceCode','iSourceLineID','iForeInQty','iSafeStock','iCurInvQty','iGrossReqQty','cProductWo','cHostName']
+      cVersionNo?:any
+cSourType?:any
+iMrpID?:any
+iGrossID?:any
+dGrossBegDate?:any
+dGrossEndDate?:any
+cInvCode?:any
+iLowCode?:any
+cMiNo?:any
+cProductNo?:any
+cSdOrderNo?:any
+cBillNo?:any
+iQty?:any
+iNetQty?:any
+dReqDate?:any
+cCalenType?:any
+cRouteNo?:any
+dBegDate?:any
+iYieldage?:any
+iShrinkage?:any
+cMoldNo?:any
+cNote?:any
+cExchangeNo?:any
+iGroupID?:any
+cBomStatus?:any
+iProductQty?:any
+cBegWcNo?:any
+iAuditBatchID?:any
+iRationHour?:any
+cPlanMode?:any
+iSourID?:any
+cDataType?:any
+cIsNewData?:any
+cSubMiNo?:any
+cCalType?:any
+dOpeDate?:any
+cPriorityType?:any
+iAvailableQty?:any
+iDispatchedQty?:any
+iSdLineID?:any
+cSourceCode?:any
+iSourceLineID?:any
+iForeInQty?:any
+iSafeStock?:any
+iCurInvQty?:any
+iGrossReqQty?:any
+cProductWo?:any
+cHostName?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

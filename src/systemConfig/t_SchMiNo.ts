@@ -1,0 +1,46 @@
+export default class t_SchMiNo {
+      columnArr=['cMiNo','cMiNoNote','cParentMiNo','dOpeDate','cOperator','dLastSchDate','dFirstBegDate','dFirstEndDate','dPlanBegDate','dPlanEndDate','dActBegDate','dActEndDate','cStatus','iProductReqQty','iProductActQty','iReqQty','iActQty','iReqHour','iActHour','iWoCount','iActWoCount','iComprate','iSchBatch','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26','cDefine27','cDefine28','cDefine29','cDefine30','cDefine31','cDefine32','cDefine33','cDefine34','cDefine35','cDefine36','cDefine37']
+      cMiNo?:any
+cMiNoNote?:any
+cParentMiNo?:any
+dOpeDate?:any
+cOperator?:any
+dLastSchDate?:any
+dFirstBegDate?:any
+dFirstEndDate?:any
+dPlanBegDate?:any
+dPlanEndDate?:any
+dActBegDate?:any
+dActEndDate?:any
+cStatus?:any
+iProductReqQty?:any
+iProductActQty?:any
+iReqQty?:any
+iActQty?:any
+iReqHour?:any
+iActHour?:any
+iWoCount?:any
+iActWoCount?:any
+iComprate?:any
+iSchBatch?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any
+cDefine27?:any
+cDefine28?:any
+cDefine29?:any
+cDefine30?:any
+cDefine31?:any
+cDefine32?:any
+cDefine33?:any
+cDefine34?:any
+cDefine35?:any
+cDefine36?:any
+cDefine37?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

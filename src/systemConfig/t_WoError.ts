@@ -1,0 +1,80 @@
+export default class t_WoError {
+      columnArr=['iInterID','cCode','cPersonCode','cPersonName','dCallDate','dFillDate','fCheckScore','cDepCode','cUnDepCode','cStopDepCode','cProductLine','cStopProductLine','cWorkStatus','cClasses','cDutyclass','iWoSeqID','cMemberShip','cAssess','cUnusualType','cJobCode','cDisposeStatus','iStopDateScore','iNum','cRelPersonCode','cAppPersonCode','cTrackPersonCode','dOpeDate','cOperator','dCheckDate','cChecker','dModifyDate','cModifier','cFillPerson','cTallPerson','cTallPersonDepCode','dStopDate','dBeginDate','cDescribe','cSolution','iPointsScore','iBonPointsScore','cBonPointsAssItem','cPointsAssItem','iFineMoney','iRewardMoney','cPersonRank','cNote','cStatus','bRoutineCheck','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','cSeverity','cSolveType','cInvCode','cWoNo','cResourceNo','cBatchNo','iStopTime','cType']
+      iInterID?:any
+cCode?:any
+cPersonCode?:any
+cPersonName?:any
+dCallDate?:any
+dFillDate?:any
+fCheckScore?:any
+cDepCode?:any
+cUnDepCode?:any
+cStopDepCode?:any
+cProductLine?:any
+cStopProductLine?:any
+cWorkStatus?:any
+cClasses?:any
+cDutyclass?:any
+iWoSeqID?:any
+cMemberShip?:any
+cAssess?:any
+cUnusualType?:any
+cJobCode?:any
+cDisposeStatus?:any
+iStopDateScore?:any
+iNum?:any
+cRelPersonCode?:any
+cAppPersonCode?:any
+cTrackPersonCode?:any
+dOpeDate?:any
+cOperator?:any
+dCheckDate?:any
+cChecker?:any
+dModifyDate?:any
+cModifier?:any
+cFillPerson?:any
+cTallPerson?:any
+cTallPersonDepCode?:any
+dStopDate?:any
+dBeginDate?:any
+cDescribe?:any
+cSolution?:any
+iPointsScore?:any
+iBonPointsScore?:any
+cBonPointsAssItem?:any
+cPointsAssItem?:any
+iFineMoney?:any
+iRewardMoney?:any
+cPersonRank?:any
+cNote?:any
+cStatus?:any
+bRoutineCheck?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+cSeverity?:any
+cSolveType?:any
+cInvCode?:any
+cWoNo?:any
+cResourceNo?:any
+cBatchNo?:any
+iStopTime?:any
+cType?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

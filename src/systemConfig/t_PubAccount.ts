@@ -1,0 +1,41 @@
+export default class t_PubAccount {
+      columnArr=['iSysID','cAcc_Id','cAcc_Name','cAcc_Path','iYear','iMonth','cAcc_Master','cCurCode','cCurName','cUnitName','cUnitAbbre','cUnitAddr','cUnitZap','cUnitTel','cUnitFax','cUnitEMail','cUnitTaxNo','cUnitLP','cFinKind','cFinType','cEntType','cTradeKind','cIsCompanyVer','cDomain','cOrgCode','cUnitNameEn','cUnitAddress1En','cUnitAddress2En','cUnitAddress3En','cUnitAddress4En','cCustomCode','cPortCode','cCustomBrokerCode','cDescription']
+      iSysID?:any
+cAcc_Id?:any
+cAcc_Name?:any
+cAcc_Path?:any
+iYear?:any
+iMonth?:any
+cAcc_Master?:any
+cCurCode?:any
+cCurName?:any
+cUnitName?:any
+cUnitAbbre?:any
+cUnitAddr?:any
+cUnitZap?:any
+cUnitTel?:any
+cUnitFax?:any
+cUnitEMail?:any
+cUnitTaxNo?:any
+cUnitLP?:any
+cFinKind?:any
+cFinType?:any
+cEntType?:any
+cTradeKind?:any
+cIsCompanyVer?:any
+cDomain?:any
+cOrgCode?:any
+cUnitNameEn?:any
+cUnitAddress1En?:any
+cUnitAddress2En?:any
+cUnitAddress3En?:any
+cUnitAddress4En?:any
+cCustomCode?:any
+cPortCode?:any
+cCustomBrokerCode?:any
+cDescription?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,46 @@
+export default class t_HrSalaryTotal {
+      columnArr=['iInterID','cPeriod','cPsn_Num','cPsn_Name','cDepCode','cPostition','fDaySalary','fBaseSalary','fBenefitsSalary','fProfitSalary','fAssessmentSalary','fSkillsSalary','fLevelSalary','fInternshipSalary','fOtherSalary','fPensionSalary','fUnemploymentSalary','fActualSalary','iAttendancedays','cPsnDefine1','cPsnDefine2','cPsnDefine3','cPsnDefine4','cPsnDefine5','cPsnDefine6','cPsnDefine7','cPsnDefine8','cPsnDefine9','cPsnDefine10','cPsnDefine11','cPsnDefine12','cPsnDefine13','cPsnDefine14','cPsnDefine15','cPsnDefine16','cPsnDefine17','cPsnDefine18','cPsnDefine19','cPsnDefine20']
+      iInterID?:any
+cPeriod?:any
+cPsn_Num?:any
+cPsn_Name?:any
+cDepCode?:any
+cPostition?:any
+fDaySalary?:any
+fBaseSalary?:any
+fBenefitsSalary?:any
+fProfitSalary?:any
+fAssessmentSalary?:any
+fSkillsSalary?:any
+fLevelSalary?:any
+fInternshipSalary?:any
+fOtherSalary?:any
+fPensionSalary?:any
+fUnemploymentSalary?:any
+fActualSalary?:any
+iAttendancedays?:any
+cPsnDefine1?:any
+cPsnDefine2?:any
+cPsnDefine3?:any
+cPsnDefine4?:any
+cPsnDefine5?:any
+cPsnDefine6?:any
+cPsnDefine7?:any
+cPsnDefine8?:any
+cPsnDefine9?:any
+cPsnDefine10?:any
+cPsnDefine11?:any
+cPsnDefine12?:any
+cPsnDefine13?:any
+cPsnDefine14?:any
+cPsnDefine15?:any
+cPsnDefine16?:any
+cPsnDefine17?:any
+cPsnDefine18?:any
+cPsnDefine19?:any
+cPsnDefine20?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

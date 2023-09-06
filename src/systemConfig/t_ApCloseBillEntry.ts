@@ -1,0 +1,50 @@
+export default class t_ApCloseBillEntry {
+      columnArr=['iID','iVouchID','cVouchID','iType','bPrePay','cCusVen','iAmt_f','iAmt','iRAmt_f','iRAmt','cKm','cXmClass','cXm','cDepCode','cPersonCode','cOrderID','cItemName','cConType','cConID','iAmt_s','iRAmt_s','iOrderType','cDLCode','ccItemCode','RegisterFlag','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26','cDefine27','cDefine28','cDefine29','cDefine30','cDefine31','cDefine32','cDefine33','cDefine34','cDefine35','cDefine36','cDefine37','cStageCode','cCoVouchID']
+      iID?:any
+iVouchID?:any
+cVouchID?:any
+iType?:any
+bPrePay?:any
+cCusVen?:any
+iAmt_f?:any
+iAmt?:any
+iRAmt_f?:any
+iRAmt?:any
+cKm?:any
+cXmClass?:any
+cXm?:any
+cDepCode?:any
+cPersonCode?:any
+cOrderID?:any
+cItemName?:any
+cConType?:any
+cConID?:any
+iAmt_s?:any
+iRAmt_s?:any
+iOrderType?:any
+cDLCode?:any
+ccItemCode?:any
+RegisterFlag?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any
+cDefine27?:any
+cDefine28?:any
+cDefine29?:any
+cDefine30?:any
+cDefine31?:any
+cDefine32?:any
+cDefine33?:any
+cDefine34?:any
+cDefine35?:any
+cDefine36?:any
+cDefine37?:any
+cStageCode?:any
+cCoVouchID?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

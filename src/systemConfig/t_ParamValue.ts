@@ -1,0 +1,44 @@
+export default class t_ParamValue {
+      columnArr=['cParamNo','cParamName','cValue','Remark','cModule','cParamType','cParamTypeName','cTable','cTableName','cColumnNo','cColumnName','cColumnType','cDataSource','cUsed','cType','cVisibleSN','dOpeDate','cDetailNote','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','bVisible','iInterID','cDefaultValue']
+      cParamNo?:any
+cParamName?:any
+cValue?:any
+Remark?:any
+cModule?:any
+cParamType?:any
+cParamTypeName?:any
+cTable?:any
+cTableName?:any
+cColumnNo?:any
+cColumnName?:any
+cColumnType?:any
+cDataSource?:any
+cUsed?:any
+cType?:any
+cVisibleSN?:any
+dOpeDate?:any
+cDetailNote?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+bVisible?:any
+iInterID?:any
+cDefaultValue?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

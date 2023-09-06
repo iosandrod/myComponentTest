@@ -1,0 +1,34 @@
+export default class t_QMCheckGuide {
+      columnArr=['ID','cChkGuideCode','cParentClsNo','cChkGuideName','cInportGrade','cGuideUnit','cChkItemCode','bRef','cNote','cInsLevel','fAQL','cDTStyle','cBugGrade','cChkGuidType','cDTMethod','fDTRate','fDTQuantity','cRuleCode','bSynChron','cGroupCode','cGComUnitCode','bBreakCheck','bMustBreak','cRounded','bRounded','bRohs','cCHKStandArdprovision']
+      ID?:any
+cChkGuideCode?:any
+cParentClsNo?:any
+cChkGuideName?:any
+cInportGrade?:any
+cGuideUnit?:any
+cChkItemCode?:any
+bRef?:any
+cNote?:any
+cInsLevel?:any
+fAQL?:any
+cDTStyle?:any
+cBugGrade?:any
+cChkGuidType?:any
+cDTMethod?:any
+fDTRate?:any
+fDTQuantity?:any
+cRuleCode?:any
+bSynChron?:any
+cGroupCode?:any
+cGComUnitCode?:any
+bBreakCheck?:any
+bMustBreak?:any
+cRounded?:any
+bRounded?:any
+bRohs?:any
+cCHKStandArdprovision?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

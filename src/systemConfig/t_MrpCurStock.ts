@@ -1,0 +1,36 @@
+export default class t_MrpCurStock {
+      columnArr=['iAutoID','cVersionNo','cWhCode','cPosition','cInvCode','cInvName','cInvStd','cComUnitCode','cBatch','iSoType','iSoDid','iQuantity','iNum','iKeepQty','iCanUsedQty','cFree1','cFree2','cFree3','cFree4','cFree5','cFree6','cFree7','cFree8','cFree9','cFree10','cSourType','cCalType','dOpeDate','cHostName']
+      iAutoID?:any
+cVersionNo?:any
+cWhCode?:any
+cPosition?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cComUnitCode?:any
+cBatch?:any
+iSoType?:any
+iSoDid?:any
+iQuantity?:any
+iNum?:any
+iKeepQty?:any
+iCanUsedQty?:any
+cFree1?:any
+cFree2?:any
+cFree3?:any
+cFree4?:any
+cFree5?:any
+cFree6?:any
+cFree7?:any
+cFree8?:any
+cFree9?:any
+cFree10?:any
+cSourType?:any
+cCalType?:any
+dOpeDate?:any
+cHostName?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,47 @@
+export default class t_CostNormalBom {
+      columnArr=['iAutoID','iInterID','iEntryID','cInvCode','cInvName','cSubInvCode','cSubInvName','cSubGrade','cSubComUnitCode','iSeqID','cUtterType','cSubRelate','iParentQty','iSubQty','iQtyPer','iScrapt','iRetPercent','iReqQty','dReqDate','bSelf','bPurchase','bComsume','cItemClsNo','cMaterialType','cMaterial','cMatCode','iInvSCost','iNorMatCost','iNorMatAssCost','iNorLabCost','iNorManuCost','iActMatCost','iActMatAssCost','iActLabCost','iActManuCost','iNorCost','iActCost','iCostDiff','cNote','cBomCode']
+      iAutoID?:any
+iInterID?:any
+iEntryID?:any
+cInvCode?:any
+cInvName?:any
+cSubInvCode?:any
+cSubInvName?:any
+cSubGrade?:any
+cSubComUnitCode?:any
+iSeqID?:any
+cUtterType?:any
+cSubRelate?:any
+iParentQty?:any
+iSubQty?:any
+iQtyPer?:any
+iScrapt?:any
+iRetPercent?:any
+iReqQty?:any
+dReqDate?:any
+bSelf?:any
+bPurchase?:any
+bComsume?:any
+cItemClsNo?:any
+cMaterialType?:any
+cMaterial?:any
+cMatCode?:any
+iInvSCost?:any
+iNorMatCost?:any
+iNorMatAssCost?:any
+iNorLabCost?:any
+iNorManuCost?:any
+iActMatCost?:any
+iActMatAssCost?:any
+iActLabCost?:any
+iActManuCost?:any
+iNorCost?:any
+iActCost?:any
+iCostDiff?:any
+cNote?:any
+cBomCode?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

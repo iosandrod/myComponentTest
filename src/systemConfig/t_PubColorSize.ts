@@ -1,0 +1,53 @@
+export default class t_PubColorSize {
+      columnArr=['iID','cInvCode','cInvName','cInvStd','cComUnitCode','cColor','cSize1','cSize2','cSize3','cSize4','cSize5','cSize6','cSize7','cSize8','cSize9','cSize10','cSize11','cSize12','cSize13','cSize14','cSize15','cSize16','cSize17','cSize18','cSize19','cSize20','cSizeName1','cSizeName2','cSizeName3','cSizeName4','cSizeName5','cSizeName6','cSizeName7','cSizeName8','cSizeName9','cSizeName10','cSizeName11','cSizeName12','cSizeName13','cSizeName14','cSizeName15','cSizeName16','cSizeName17','cSizeName18','cSizeName19','cSizeName20']
+      iID?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cComUnitCode?:any
+cColor?:any
+cSize1?:any
+cSize2?:any
+cSize3?:any
+cSize4?:any
+cSize5?:any
+cSize6?:any
+cSize7?:any
+cSize8?:any
+cSize9?:any
+cSize10?:any
+cSize11?:any
+cSize12?:any
+cSize13?:any
+cSize14?:any
+cSize15?:any
+cSize16?:any
+cSize17?:any
+cSize18?:any
+cSize19?:any
+cSize20?:any
+cSizeName1?:any
+cSizeName2?:any
+cSizeName3?:any
+cSizeName4?:any
+cSizeName5?:any
+cSizeName6?:any
+cSizeName7?:any
+cSizeName8?:any
+cSizeName9?:any
+cSizeName10?:any
+cSizeName11?:any
+cSizeName12?:any
+cSizeName13?:any
+cSizeName14?:any
+cSizeName15?:any
+cSizeName16?:any
+cSizeName17?:any
+cSizeName18?:any
+cSizeName19?:any
+cSizeName20?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

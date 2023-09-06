@@ -1,0 +1,31 @@
+export default class Sys_WorkFlowStep {
+      columnArr=['WorkStepFlow_Id','WorkFlow_Id','StepId','StepName','StepType','StepValue','OrderId','Remark','CreateDate','CreateID','Creator','Enable','Modifier','ModifyDate','ModifyID','NextStepIds','ParentId','AuditRefuse','AuditBack','AuditMethod','SendMail','Filters','StepAttrType','Weight']
+      WorkStepFlow_Id?:any
+WorkFlow_Id?:any
+StepId?:any
+StepName?:any
+StepType?:any
+StepValue?:any
+OrderId?:any
+Remark?:any
+CreateDate?:any
+CreateID?:any
+Creator?:any
+Enable?:any
+Modifier?:any
+ModifyDate?:any
+ModifyID?:any
+NextStepIds?:any
+ParentId?:any
+AuditRefuse?:any
+AuditBack?:any
+AuditMethod?:any
+SendMail?:any
+Filters?:any
+StepAttrType?:any
+Weight?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

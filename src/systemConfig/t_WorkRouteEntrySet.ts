@@ -1,0 +1,29 @@
+export default class t_WorkRouteEntrySet {
+      columnArr=['iInterID','iProcessID','cCode','iWoSeqID','iNextSeqID','iReSeqID','bNeedScan','bMateriel_Check','bWeight_Check','dWeight_Standard','dWeight_Min','dWeight_Max','bIsEDC_Check','cEDC_Model','cPass_Value','cFial_Value','cStop_Value','cWarring_Value','bShow_EDC_Msg','bPrintLabel','cLabel_ID','bRFID']
+      iInterID?:any
+iProcessID?:any
+cCode?:any
+iWoSeqID?:any
+iNextSeqID?:any
+iReSeqID?:any
+bNeedScan?:any
+bMateriel_Check?:any
+bWeight_Check?:any
+dWeight_Standard?:any
+dWeight_Min?:any
+dWeight_Max?:any
+bIsEDC_Check?:any
+cEDC_Model?:any
+cPass_Value?:any
+cFial_Value?:any
+cStop_Value?:any
+cWarring_Value?:any
+bShow_EDC_Msg?:any
+bPrintLabel?:any
+cLabel_ID?:any
+bRFID?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

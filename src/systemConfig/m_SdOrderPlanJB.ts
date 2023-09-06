@@ -1,0 +1,95 @@
+export default class m_SdOrderPlanJB {
+      columnArr=['iGrossID','cFileName','cVersion','cCustNo','cSdPreOrderNo','iLineID','cHostname','dOpeDate','cInvCode','cInvName','cInvStd','cComunitName','iInvQty','iReqQty','iForeInQty','iEndQty','cInvType','dRptBegDate','dEndDate','dBegDate','cDefine1','cDefine2','cDefine3','cDefine4','Item','cDayType','CW1','CW2','CW3','CW4','CW5','CW6','CW7','CW8','CW9','CW10','CW11','CW12','CW13','CW14','CW15','CW16','CW17','CW18','CW19','CW20','CW21','CW22','CW23','CW24','CW25','CW26','CW27','CW28','CW29','CW30','CW31','CW32','CW33','CW34','CW35','CW36','CW37','CW38','CW39','CW40','CW41','CW42','CW43','CW44','CW45','CW46','CW47','CW48','CW49','CW50','CW51','CW52','CW53','CW54','CW55','CW56','CW57','CW58','CW59','CW60','CW61','CW62']
+      iGrossID?:any
+cFileName?:any
+cVersion?:any
+cCustNo?:any
+cSdPreOrderNo?:any
+iLineID?:any
+cHostname?:any
+dOpeDate?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cComunitName?:any
+iInvQty?:any
+iReqQty?:any
+iForeInQty?:any
+iEndQty?:any
+cInvType?:any
+dRptBegDate?:any
+dEndDate?:any
+dBegDate?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+Item?:any
+cDayType?:any
+CW1?:any
+CW2?:any
+CW3?:any
+CW4?:any
+CW5?:any
+CW6?:any
+CW7?:any
+CW8?:any
+CW9?:any
+CW10?:any
+CW11?:any
+CW12?:any
+CW13?:any
+CW14?:any
+CW15?:any
+CW16?:any
+CW17?:any
+CW18?:any
+CW19?:any
+CW20?:any
+CW21?:any
+CW22?:any
+CW23?:any
+CW24?:any
+CW25?:any
+CW26?:any
+CW27?:any
+CW28?:any
+CW29?:any
+CW30?:any
+CW31?:any
+CW32?:any
+CW33?:any
+CW34?:any
+CW35?:any
+CW36?:any
+CW37?:any
+CW38?:any
+CW39?:any
+CW40?:any
+CW41?:any
+CW42?:any
+CW43?:any
+CW44?:any
+CW45?:any
+CW46?:any
+CW47?:any
+CW48?:any
+CW49?:any
+CW50?:any
+CW51?:any
+CW52?:any
+CW53?:any
+CW54?:any
+CW55?:any
+CW56?:any
+CW57?:any
+CW58?:any
+CW59?:any
+CW60?:any
+CW61?:any
+CW62?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

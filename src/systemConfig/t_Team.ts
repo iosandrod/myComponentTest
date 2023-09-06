@@ -1,0 +1,55 @@
+export default class t_Team {
+      columnArr=['cTeamNo','cTeamName','cDepCode','cRateType','cPrvNo','cWcNo','cNote','cTeamPerson','iTeamID','cResourceNo','cResourceNo2','cResourceNo3','cResourceNo4','cResourceNo5','cResourceNo6','cResourceNo7','cResourceNo8','bInsert1','bInsert2','bInsert3','bInsert4','bInsert5','bInsert6','bInsert7','bInsert8','iBiaozhunTime','fKaoheZhibiao','iShebeiShuliang','iBanciShuliang','cZuBie','cGongyiYuan','cStatus','cTeamDefine1','cTeamDefine2','cTeamDefine3','cTeamDefine4','cTeamDefine5','cTeamDefine6','cTeamDefine7','cTeamDefine8','cTeamDefine9','cTeamDefine10','cTeamDefine11','cTeamDefine12','cTeamDefine13','cTeamDefine14','cTeamDefine15','cTeamDefine16']
+      cTeamNo?:any
+cTeamName?:any
+cDepCode?:any
+cRateType?:any
+cPrvNo?:any
+cWcNo?:any
+cNote?:any
+cTeamPerson?:any
+iTeamID?:any
+cResourceNo?:any
+cResourceNo2?:any
+cResourceNo3?:any
+cResourceNo4?:any
+cResourceNo5?:any
+cResourceNo6?:any
+cResourceNo7?:any
+cResourceNo8?:any
+bInsert1?:any
+bInsert2?:any
+bInsert3?:any
+bInsert4?:any
+bInsert5?:any
+bInsert6?:any
+bInsert7?:any
+bInsert8?:any
+iBiaozhunTime?:any
+fKaoheZhibiao?:any
+iShebeiShuliang?:any
+iBanciShuliang?:any
+cZuBie?:any
+cGongyiYuan?:any
+cStatus?:any
+cTeamDefine1?:any
+cTeamDefine2?:any
+cTeamDefine3?:any
+cTeamDefine4?:any
+cTeamDefine5?:any
+cTeamDefine6?:any
+cTeamDefine7?:any
+cTeamDefine8?:any
+cTeamDefine9?:any
+cTeamDefine10?:any
+cTeamDefine11?:any
+cTeamDefine12?:any
+cTeamDefine13?:any
+cTeamDefine14?:any
+cTeamDefine15?:any
+cTeamDefine16?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

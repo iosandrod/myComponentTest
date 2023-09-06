@@ -166,9 +166,8 @@ export namespace VxeModalPropTypes {
   export type BeforeHideMethod = (params: ModalVisibleParams) => Promise<any>
   export type Slots = ModalSlots
 }
-
 export type VxeModalProps = {
-  size?: VxeModalPropTypes.Size
+  size: VxeModalPropTypes.Size
   modelValue?: VxeModalPropTypes.ModelValue
   id?: VxeModalPropTypes.ID
   type?: VxeModalPropTypes.Type

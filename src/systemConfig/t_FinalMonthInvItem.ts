@@ -1,0 +1,46 @@
+export default class t_FinalMonthInvItem {
+      columnArr=['iInterID','cWhCode','cPosition','cInvCode','ItemId','cBatch','cBarCode','iQCQuantity','iQCNum','iInQuantity','iOutQuantity','iInNum','iOutNum','iQuantity','iNum','cFree1','cFree2','cFree3','cFree5','cFree4','cFree6','cFree7','cFree8','cFree9','cFree10','dDate','iYear','iMonth','cFinalClass','iUnitPrice','iQCMoney','iInMoney','iOutMoney','iMoney','iQCUnitPrice','cInvName','cInvStd','cComUnitCode','cItemClsNo']
+      iInterID?:any
+cWhCode?:any
+cPosition?:any
+cInvCode?:any
+ItemId?:any
+cBatch?:any
+cBarCode?:any
+iQCQuantity?:any
+iQCNum?:any
+iInQuantity?:any
+iOutQuantity?:any
+iInNum?:any
+iOutNum?:any
+iQuantity?:any
+iNum?:any
+cFree1?:any
+cFree2?:any
+cFree3?:any
+cFree5?:any
+cFree4?:any
+cFree6?:any
+cFree7?:any
+cFree8?:any
+cFree9?:any
+cFree10?:any
+dDate?:any
+iYear?:any
+iMonth?:any
+cFinalClass?:any
+iUnitPrice?:any
+iQCMoney?:any
+iInMoney?:any
+iOutMoney?:any
+iMoney?:any
+iQCUnitPrice?:any
+cInvName?:any
+cInvStd?:any
+cComUnitCode?:any
+cItemClsNo?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

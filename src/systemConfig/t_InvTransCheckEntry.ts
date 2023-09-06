@@ -1,0 +1,74 @@
+export default class t_InvTransCheckEntry {
+      columnArr=['AutoID','cTCCode','iInterID','cInvCode','iNum','iQuantity','iTCCNum','iTCCQuantity','iTCCPrice','cTCBatch','cTCReason','cPosition','RdsID','iUnitCost','iPrice','iPUnitCost','iPPrice','cItemCode','cItem_Class','cName','cItemCName','cBarCode','iAdInOutNum','iAdInOutQuantity','iDifQuantity','iDifPrice','iAllowWaste','iActualWaste','cAssUnit','cVenCode','cInVouchCode','cOutVouchCode','dDisDate','dMadeDate','iinvexchrate','cExpirationdate','dExpirationdate','iExpiratDateCalcu','cFree1','cFree2','cFree3','cFree4','cFree5','cFree6','cFree7','cFree8','cFree9','cFree10','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26','cDefine27','cDefine28','cDefine29','cDefine30','cDefine31','cDefine32','cDefine33','cDefine34','cDefine35','cDefine36','cDefine37','cDetailNote','cBatch','iDifNum']
+      AutoID?:any
+cTCCode?:any
+iInterID?:any
+cInvCode?:any
+iNum?:any
+iQuantity?:any
+iTCCNum?:any
+iTCCQuantity?:any
+iTCCPrice?:any
+cTCBatch?:any
+cTCReason?:any
+cPosition?:any
+RdsID?:any
+iUnitCost?:any
+iPrice?:any
+iPUnitCost?:any
+iPPrice?:any
+cItemCode?:any
+cItem_Class?:any
+cName?:any
+cItemCName?:any
+cBarCode?:any
+iAdInOutNum?:any
+iAdInOutQuantity?:any
+iDifQuantity?:any
+iDifPrice?:any
+iAllowWaste?:any
+iActualWaste?:any
+cAssUnit?:any
+cVenCode?:any
+cInVouchCode?:any
+cOutVouchCode?:any
+dDisDate?:any
+dMadeDate?:any
+iinvexchrate?:any
+cExpirationdate?:any
+dExpirationdate?:any
+iExpiratDateCalcu?:any
+cFree1?:any
+cFree2?:any
+cFree3?:any
+cFree4?:any
+cFree5?:any
+cFree6?:any
+cFree7?:any
+cFree8?:any
+cFree9?:any
+cFree10?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any
+cDefine27?:any
+cDefine28?:any
+cDefine29?:any
+cDefine30?:any
+cDefine31?:any
+cDefine32?:any
+cDefine33?:any
+cDefine34?:any
+cDefine35?:any
+cDefine36?:any
+cDefine37?:any
+cDetailNote?:any
+cBatch?:any
+iDifNum?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

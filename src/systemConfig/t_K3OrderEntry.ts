@@ -1,0 +1,30 @@
+export default class t_K3OrderEntry {
+      columnArr=['iInterID','iSdLineID','cSdOrderNo','cRequireType','iItemID','cInvCode','cInvName','cInvStd','cUnitCode','iInvExchRate','iReqQty','iNum','dDeliveryDate','cSchStatus','cMiNo','iTaxRate','iUnitPrice','iTaxUnitPrice','iMoney','iTax','iSum','cNote','dOpeDate']
+      iInterID?:any
+iSdLineID?:any
+cSdOrderNo?:any
+cRequireType?:any
+iItemID?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cUnitCode?:any
+iInvExchRate?:any
+iReqQty?:any
+iNum?:any
+dDeliveryDate?:any
+cSchStatus?:any
+cMiNo?:any
+iTaxRate?:any
+iUnitPrice?:any
+iTaxUnitPrice?:any
+iMoney?:any
+iTax?:any
+iSum?:any
+cNote?:any
+dOpeDate?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,80 @@
+export default class t_WorkOrderOther {
+      columnArr=['iInterID','iLineID','cWoNo','cType','iOrgPlanID','cOrgWoNo','cDeptNo','cRouteNo','iSubQty','cMoldNo','cSubMoldNo','cGroupNo','cPosition','cMaterialNo','cColorNo','cRelateInvCode','cMixInvCode','iMoldGross','iNetWeight','iGapPercent','iNetWeightDiff','cMiNo','cSdOrderNo','iItemID','cInvCode','iReqQty','iReqTime','dPutDate','dBegDate','dEndDate','dRePlanDate','cWhNo','cProductWo','cProductNo','iProductQty','dProductDate','iSdLineID','iSchSdID','cCustNo','cParentWo','cParentNo','iBomLevel','cLevelInfo','cLevelPath','dActBeg','dActEnd','iActQty','iInvQty','iActTime','iLostQty','iItemScrapQty','iWorkScrapQty','cBegWcNo','cNote','cDefine61','cDefine62','cDefine63','cDefine64','cDefine65','bMaster','cPrintColor','cProductSolidSize','cProductPlaneSize','cFree1','cFree2','cFree3','cFree4','cFree5','cFree6','cFree7','cFree8','cFree9','cFree10']
+      iInterID?:any
+iLineID?:any
+cWoNo?:any
+cType?:any
+iOrgPlanID?:any
+cOrgWoNo?:any
+cDeptNo?:any
+cRouteNo?:any
+iSubQty?:any
+cMoldNo?:any
+cSubMoldNo?:any
+cGroupNo?:any
+cPosition?:any
+cMaterialNo?:any
+cColorNo?:any
+cRelateInvCode?:any
+cMixInvCode?:any
+iMoldGross?:any
+iNetWeight?:any
+iGapPercent?:any
+iNetWeightDiff?:any
+cMiNo?:any
+cSdOrderNo?:any
+iItemID?:any
+cInvCode?:any
+iReqQty?:any
+iReqTime?:any
+dPutDate?:any
+dBegDate?:any
+dEndDate?:any
+dRePlanDate?:any
+cWhNo?:any
+cProductWo?:any
+cProductNo?:any
+iProductQty?:any
+dProductDate?:any
+iSdLineID?:any
+iSchSdID?:any
+cCustNo?:any
+cParentWo?:any
+cParentNo?:any
+iBomLevel?:any
+cLevelInfo?:any
+cLevelPath?:any
+dActBeg?:any
+dActEnd?:any
+iActQty?:any
+iInvQty?:any
+iActTime?:any
+iLostQty?:any
+iItemScrapQty?:any
+iWorkScrapQty?:any
+cBegWcNo?:any
+cNote?:any
+cDefine61?:any
+cDefine62?:any
+cDefine63?:any
+cDefine64?:any
+cDefine65?:any
+bMaster?:any
+cPrintColor?:any
+cProductSolidSize?:any
+cProductPlaneSize?:any
+cFree1?:any
+cFree2?:any
+cFree3?:any
+cFree4?:any
+cFree5?:any
+cFree6?:any
+cFree7?:any
+cFree8?:any
+cFree9?:any
+cFree10?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,38 @@
+export default class t_TechInfoEntry {
+      columnArr=['iLineID','cTechNo','cScrapNo','cScrapName','iMinQuantity','iMaxQuantity','iBaseQuantity','cValuationType','iTaxUnitPrice','cComUnitCode','iLowestCost','iScrap','iScrapRatio','cNote','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26','cDefine27','cDefine28','cDefine29','cDefine30','cDefine31','cDefine32','cDefine33','cDefine34','cDefine35','cDefine36','cDefine37','iInterID']
+      iLineID?:any
+cTechNo?:any
+cScrapNo?:any
+cScrapName?:any
+iMinQuantity?:any
+iMaxQuantity?:any
+iBaseQuantity?:any
+cValuationType?:any
+iTaxUnitPrice?:any
+cComUnitCode?:any
+iLowestCost?:any
+iScrap?:any
+iScrapRatio?:any
+cNote?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any
+cDefine27?:any
+cDefine28?:any
+cDefine29?:any
+cDefine30?:any
+cDefine31?:any
+cDefine32?:any
+cDefine33?:any
+cDefine34?:any
+cDefine35?:any
+cDefine36?:any
+cDefine37?:any
+iInterID?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,91 @@
+export default class t_QM105E {
+      columnArr=['AUTOID','CCODE','ISAMPLEQTY','ITYPE','IAC0_010','IRE0_010','IAC0_015','IRE0_015','IAC0_025','IRE0_025','IAC0_040','IRE0_040','IAC0_065','IRE0_065','IAC0_10','IRE0_10','IAC0_15','IRE0_15','IAC0_25','IRE0_25','IAC0_40','IRE0_40','IAC0_65','IRE0_65','IAC1_0','IRE1_0','IAC1_5','IRE1_5','IAC2_5','IRE2_5','IAC4_0','IRE4_0','IAC6_5','IRE6_5','IAC10','IRE10','IAC15','IRE15','IAC25','IRE25','IAC40','IRE40','IAC65','IRE65','IAC100','IRE100','IAC150','IRE150','IAC250','IRE250','IAC400','IRE400','IAC650','IRE650','IAC1000','IRE1000','UFTS','BSYSTEM','IWAY0_010','IWAY0_015','IWAY0_025','IWAY0_040','IWAY0_065','IWAY0_10','IWAY0_15','IWAY0_25','IWAY0_40','IWAY0_65','IWAY1_0','IWAY1_5','IWAY2_5','IWAY4_0','IWAY6_5','IWAY10','IWAY15','IWAY25','IWAY40','IWAY65','IWAY100','IWAY150','IWAY250','IWAY400','IWAY650','IWAY1000']
+      AUTOID?:any
+CCODE?:any
+ISAMPLEQTY?:any
+ITYPE?:any
+IAC0_010?:any
+IRE0_010?:any
+IAC0_015?:any
+IRE0_015?:any
+IAC0_025?:any
+IRE0_025?:any
+IAC0_040?:any
+IRE0_040?:any
+IAC0_065?:any
+IRE0_065?:any
+IAC0_10?:any
+IRE0_10?:any
+IAC0_15?:any
+IRE0_15?:any
+IAC0_25?:any
+IRE0_25?:any
+IAC0_40?:any
+IRE0_40?:any
+IAC0_65?:any
+IRE0_65?:any
+IAC1_0?:any
+IRE1_0?:any
+IAC1_5?:any
+IRE1_5?:any
+IAC2_5?:any
+IRE2_5?:any
+IAC4_0?:any
+IRE4_0?:any
+IAC6_5?:any
+IRE6_5?:any
+IAC10?:any
+IRE10?:any
+IAC15?:any
+IRE15?:any
+IAC25?:any
+IRE25?:any
+IAC40?:any
+IRE40?:any
+IAC65?:any
+IRE65?:any
+IAC100?:any
+IRE100?:any
+IAC150?:any
+IRE150?:any
+IAC250?:any
+IRE250?:any
+IAC400?:any
+IRE400?:any
+IAC650?:any
+IRE650?:any
+IAC1000?:any
+IRE1000?:any
+UFTS?:any
+BSYSTEM?:any
+IWAY0_010?:any
+IWAY0_015?:any
+IWAY0_025?:any
+IWAY0_040?:any
+IWAY0_065?:any
+IWAY0_10?:any
+IWAY0_15?:any
+IWAY0_25?:any
+IWAY0_40?:any
+IWAY0_65?:any
+IWAY1_0?:any
+IWAY1_5?:any
+IWAY2_5?:any
+IWAY4_0?:any
+IWAY6_5?:any
+IWAY10?:any
+IWAY15?:any
+IWAY25?:any
+IWAY40?:any
+IWAY65?:any
+IWAY100?:any
+IWAY150?:any
+IWAY250?:any
+IWAY400?:any
+IWAY650?:any
+IWAY1000?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

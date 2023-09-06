@@ -1,0 +1,37 @@
+export default class t_MrpLowCode {
+      columnArr=['cInvCode','iLowCode','cRootNo','bSelf','bSale','bPurchase','bCommission','cExchangeItem','cMoldNo','cSubMoldItem','cPlanMethod','bMPS','iSafeStock','iCurQty','iGrossReqQty','iForeInQty','iSumPlanQty','cPlaner','cItemType','cHorizonType','cIsGapItem','cIsEcnAlt','cNote','cCalType','iAvailableQty','iPutQty','iDispatchedQty','dForeInDate','iSumNetQty','cHostname']
+      cInvCode?:any
+iLowCode?:any
+cRootNo?:any
+bSelf?:any
+bSale?:any
+bPurchase?:any
+bCommission?:any
+cExchangeItem?:any
+cMoldNo?:any
+cSubMoldItem?:any
+cPlanMethod?:any
+bMPS?:any
+iSafeStock?:any
+iCurQty?:any
+iGrossReqQty?:any
+iForeInQty?:any
+iSumPlanQty?:any
+cPlaner?:any
+cItemType?:any
+cHorizonType?:any
+cIsGapItem?:any
+cIsEcnAlt?:any
+cNote?:any
+cCalType?:any
+iAvailableQty?:any
+iPutQty?:any
+iDispatchedQty?:any
+dForeInDate?:any
+iSumNetQty?:any
+cHostname?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

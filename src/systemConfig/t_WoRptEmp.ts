@@ -1,0 +1,33 @@
+export default class t_WoRptEmp {
+      columnArr=['iInterID','cRptNo','iAutoID','cWoNo','iItemID','cInvCode','cInvName','cInvStd','cComUnitCode','iCompQty','iCompHour','cEmpNo','cTeamNo','iStandardQty','iEfficiency','cRateType','iLaborRate','iAmount','cNote','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26','cDefine27','dStartWorkTime']
+      iInterID?:any
+cRptNo?:any
+iAutoID?:any
+cWoNo?:any
+iItemID?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cComUnitCode?:any
+iCompQty?:any
+iCompHour?:any
+cEmpNo?:any
+cTeamNo?:any
+iStandardQty?:any
+iEfficiency?:any
+cRateType?:any
+iLaborRate?:any
+iAmount?:any
+cNote?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any
+cDefine27?:any
+dStartWorkTime?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

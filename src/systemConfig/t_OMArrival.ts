@@ -1,0 +1,54 @@
+export default class t_OMArrival {
+      columnArr=['iInterID','cCode','cStatus','cOperator','dOpeDate','cChecker','dCheckDate','cModifier','dModifyDate','cNote','cPersonCode','cDepCode','cBillType','nflat','cArrivalplace','cSvencode','iReturncount','cVenPUOMProtocol','cVouchtype','cGeneralordercode','iVTid','cPTCode','dDate','cVenCode','cPayCode','cSCCode','cexch_name','iExchRate','iTaxRate','cBusType','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','bReturnFlag']
+      iInterID?:any
+cCode?:any
+cStatus?:any
+cOperator?:any
+dOpeDate?:any
+cChecker?:any
+dCheckDate?:any
+cModifier?:any
+dModifyDate?:any
+cNote?:any
+cPersonCode?:any
+cDepCode?:any
+cBillType?:any
+nflat?:any
+cArrivalplace?:any
+cSvencode?:any
+iReturncount?:any
+cVenPUOMProtocol?:any
+cVouchtype?:any
+cGeneralordercode?:any
+iVTid?:any
+cPTCode?:any
+dDate?:any
+cVenCode?:any
+cPayCode?:any
+cSCCode?:any
+cexch_name?:any
+iExchRate?:any
+iTaxRate?:any
+cBusType?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+bReturnFlag?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

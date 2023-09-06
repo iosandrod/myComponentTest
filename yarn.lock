@@ -5526,6 +5526,11 @@ wrappy@1:
   resolved "https://registry.npmmirror.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
 
+xe-utils@^3.5.13:
+  version "3.5.13"
+  resolved "https://registry.npmmirror.com/xe-utils/-/xe-utils-3.5.13.tgz#200b49d2e3f1ab8798bccc8e34aa32502b180164"
+  integrity sha512-ORT6ghCRk0mUVavMBxetcPzUPskS6NGfntzpWazJ86e+XU0uK4HwHfDhN/jKATiyInrOH5RwQo9SO/+DB8XeBw==
+
 xgplayer-subtitles@^1.0.19:
   version "1.1.1"
   resolved "https://registry.npmmirror.com/xgplayer-subtitles/-/xgplayer-subtitles-1.1.1.tgz#060814c654d82f90aaec2aa98f84ed73c8dde8da"

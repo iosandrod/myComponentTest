@@ -1,0 +1,40 @@
+export default class t_VenJustPrice {
+      columnArr=['iInterID','cVJPCode','dDate','cStatus','cOperator','cChecker','cModifier','dOpeDate','dCheckDate','dModifyDate','cPersonCode','cDepCode','bTaxCost','cSupplyType','iswfcontrolled','ufts','cNote','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16']
+      iInterID?:any
+cVJPCode?:any
+dDate?:any
+cStatus?:any
+cOperator?:any
+cChecker?:any
+cModifier?:any
+dOpeDate?:any
+dCheckDate?:any
+dModifyDate?:any
+cPersonCode?:any
+cDepCode?:any
+bTaxCost?:any
+cSupplyType?:any
+iswfcontrolled?:any
+ufts?:any
+cNote?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

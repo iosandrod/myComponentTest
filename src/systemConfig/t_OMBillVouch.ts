@@ -1,0 +1,76 @@
+export default class t_OMBillVouch {
+      columnArr=['PBVID','cPBVBillType','cPBVCode','cPTCode','dPBVDate','cStatus','cVenCode','cUnitCode','cDepCode','cPersonCode','cPayCode','cexch_name','cExchRate','iPBVTaxRate','cPBVMemo','cOrderCode','cInCode','cBusType','dSDate','bNegative','bOriginal','bFirst','citem_class','citemcode','cHeadCode','iNetLock','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','bPayment','dVouDate','iVT_ID','iAuditTypeID','qkts','dOpeDate','dCheckDate','dModifyDate','cOperator','cChecker','cmodifier','cAccounter','cSource','bIAFirst','iDiscountTaxType','cVenPUOMProtocol','dCreditStart','iCreditPeriod','dGatheringDate','cModifyDate','cReviser','bCredit','cCloser','dCloseDate','bReturnFlag','iPrintCount','cPZID']
+      PBVID?:any
+cPBVBillType?:any
+cPBVCode?:any
+cPTCode?:any
+dPBVDate?:any
+cStatus?:any
+cVenCode?:any
+cUnitCode?:any
+cDepCode?:any
+cPersonCode?:any
+cPayCode?:any
+cexch_name?:any
+cExchRate?:any
+iPBVTaxRate?:any
+cPBVMemo?:any
+cOrderCode?:any
+cInCode?:any
+cBusType?:any
+dSDate?:any
+bNegative?:any
+bOriginal?:any
+bFirst?:any
+citem_class?:any
+citemcode?:any
+cHeadCode?:any
+iNetLock?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+bPayment?:any
+dVouDate?:any
+iVT_ID?:any
+iAuditTypeID?:any
+qkts?:any
+dOpeDate?:any
+dCheckDate?:any
+dModifyDate?:any
+cOperator?:any
+cChecker?:any
+cmodifier?:any
+cAccounter?:any
+cSource?:any
+bIAFirst?:any
+iDiscountTaxType?:any
+cVenPUOMProtocol?:any
+dCreditStart?:any
+iCreditPeriod?:any
+dGatheringDate?:any
+cModifyDate?:any
+cReviser?:any
+bCredit?:any
+cCloser?:any
+dCloseDate?:any
+bReturnFlag?:any
+iPrintCount?:any
+cPZID?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

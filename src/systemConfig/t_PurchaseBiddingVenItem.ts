@@ -1,0 +1,60 @@
+export default class t_PurchaseBiddingVenItem {
+      columnArr=['iPurBidVenItemID','iInterID','cCode','iPurBidLineID','cInvCode','cInvName','cInvStd','cComUnitCode','iQuantity','dPrice','dReferencePrice','dMaxPrice','cVenNo','cVenName','dTotalPrice','cNote','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26','cDefine27','cDefine28','cDefine29','cDefine30','cDefine31','cDefine32','cDefine33','cDefine34','cDefine35','cDefine36','cDefine37','cFree1','cFree2','cFree3','cFree4','cFree5','cFree6','cFree7','cFree8','cFree9','cFree10','cQtys','cBiddingFlag','cBidReason','iRanking','dBiddingDate','cBiddingPerson','averagePrice','minimumPrice','cDecline','dPriceLevel','iInvCodeLineID']
+      iPurBidVenItemID?:any
+iInterID?:any
+cCode?:any
+iPurBidLineID?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cComUnitCode?:any
+iQuantity?:any
+dPrice?:any
+dReferencePrice?:any
+dMaxPrice?:any
+cVenNo?:any
+cVenName?:any
+dTotalPrice?:any
+cNote?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any
+cDefine27?:any
+cDefine28?:any
+cDefine29?:any
+cDefine30?:any
+cDefine31?:any
+cDefine32?:any
+cDefine33?:any
+cDefine34?:any
+cDefine35?:any
+cDefine36?:any
+cDefine37?:any
+cFree1?:any
+cFree2?:any
+cFree3?:any
+cFree4?:any
+cFree5?:any
+cFree6?:any
+cFree7?:any
+cFree8?:any
+cFree9?:any
+cFree10?:any
+cQtys?:any
+cBiddingFlag?:any
+cBidReason?:any
+iRanking?:any
+dBiddingDate?:any
+cBiddingPerson?:any
+averagePrice?:any
+minimumPrice?:any
+cDecline?:any
+dPriceLevel?:any
+iInvCodeLineID?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,36 @@
+export default class t_ResourceParamConfig {
+      columnArr=['iAutoID','cResourceNo','cResourceName','cResourceParam','cResourceAddr','cParamValue','iParamLength','cResourceParamNo','cSample','cNote','iIndex','cType','cParamConfigDefine1','cParamConfigDefine2','cParamConfigDefine3','cParamConfigDefine4','cParamConfigDefine5','cParamConfigDefine6','cParamConfigDefine7','cParamConfigDefine8','cParamConfigDefine9','cParamConfigDefine10','cParamConfigDefine11','cParamConfigDefine12','cParamConfigDefine13','cParamConfigDefine14','cParamConfigDefine15','cParamConfigDefine16','cResParamClsNo']
+      iAutoID?:any
+cResourceNo?:any
+cResourceName?:any
+cResourceParam?:any
+cResourceAddr?:any
+cParamValue?:any
+iParamLength?:any
+cResourceParamNo?:any
+cSample?:any
+cNote?:any
+iIndex?:any
+cType?:any
+cParamConfigDefine1?:any
+cParamConfigDefine2?:any
+cParamConfigDefine3?:any
+cParamConfigDefine4?:any
+cParamConfigDefine5?:any
+cParamConfigDefine6?:any
+cParamConfigDefine7?:any
+cParamConfigDefine8?:any
+cParamConfigDefine9?:any
+cParamConfigDefine10?:any
+cParamConfigDefine11?:any
+cParamConfigDefine12?:any
+cParamConfigDefine13?:any
+cParamConfigDefine14?:any
+cParamConfigDefine15?:any
+cParamConfigDefine16?:any
+cResParamClsNo?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,83 @@
+export default class t_MrpProcess {
+      columnArr=['cType','cVersionNo','iProcessID','iSchSdID','iGrossID','cMiNo','cProductNo','cSdOrderNo','iSdLineID','cOthBillNo','cInvCode','iQty','dReqDate','dBegDate','cDirection','cPutSelect','dPutDate','cRouteNo','cOrderNo','iMpsQty','cNote','cMoldNo','iMPSID','iLowCode','cRootNo','cCheckStatus','cChecker','iGroupID','cCheckerName','iAuditTypeID','iAuditBatchID','iProductQty','cBegWcNo','fRationHour','iCurInvQty','iPlanQty','iPreKeepQuantity','iNetQty','dSourBegDate','dSourReqDate','cDeleteFlag','cCaculateNo','iSourQty','cVenCode','cPTCode','iUnitPrice','iTax','iAmount','cPlanMode','iLevel','cSTCode','cPurNo','cSubMiNo','iTaxUnitPrice','iTaxRate','cExch_Name','iForeInQty','iGrossQty','iSafeStock','iCompRate','cHostName','cWhCode','cInvPersonCode','cPurPersonCode','cWhKeeper','cPriorityType','cTechNo','cSeqNote','cResourceNo','iWoSeqID','iAvailableQty','iDispatchedQty','cSourType','cSourceCode','iSourceLineID','iReqLineID']
+      cType?:any
+cVersionNo?:any
+iProcessID?:any
+iSchSdID?:any
+iGrossID?:any
+cMiNo?:any
+cProductNo?:any
+cSdOrderNo?:any
+iSdLineID?:any
+cOthBillNo?:any
+cInvCode?:any
+iQty?:any
+dReqDate?:any
+dBegDate?:any
+cDirection?:any
+cPutSelect?:any
+dPutDate?:any
+cRouteNo?:any
+cOrderNo?:any
+iMpsQty?:any
+cNote?:any
+cMoldNo?:any
+iMPSID?:any
+iLowCode?:any
+cRootNo?:any
+cCheckStatus?:any
+cChecker?:any
+iGroupID?:any
+cCheckerName?:any
+iAuditTypeID?:any
+iAuditBatchID?:any
+iProductQty?:any
+cBegWcNo?:any
+fRationHour?:any
+iCurInvQty?:any
+iPlanQty?:any
+iPreKeepQuantity?:any
+iNetQty?:any
+dSourBegDate?:any
+dSourReqDate?:any
+cDeleteFlag?:any
+cCaculateNo?:any
+iSourQty?:any
+cVenCode?:any
+cPTCode?:any
+iUnitPrice?:any
+iTax?:any
+iAmount?:any
+cPlanMode?:any
+iLevel?:any
+cSTCode?:any
+cPurNo?:any
+cSubMiNo?:any
+iTaxUnitPrice?:any
+iTaxRate?:any
+cExch_Name?:any
+iForeInQty?:any
+iGrossQty?:any
+iSafeStock?:any
+iCompRate?:any
+cHostName?:any
+cWhCode?:any
+cInvPersonCode?:any
+cPurPersonCode?:any
+cWhKeeper?:any
+cPriorityType?:any
+cTechNo?:any
+cSeqNote?:any
+cResourceNo?:any
+iWoSeqID?:any
+iAvailableQty?:any
+iDispatchedQty?:any
+cSourType?:any
+cSourceCode?:any
+iSourceLineID?:any
+iReqLineID?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

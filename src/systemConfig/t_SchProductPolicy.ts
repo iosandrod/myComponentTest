@@ -1,0 +1,41 @@
+export default class t_SchProductPolicy {
+      columnArr=['iInterID','iSchSdID','cDeptNo','cTechNo','cSdOrderNo','cAddress1','cAddress2','iResReqQty','iResRationHour','iCapacity','dDeliveryDate','cDeliveryStatus','iPreStock','iCurInvQty','iForeInQty','iSchQty','iProductionCosts','iLogisticsCost','iStockCosts','iCapacityLoad','dResEndDate','dResBegDate','cResourceNo','iResGroupPriority','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10']
+      iInterID?:any
+iSchSdID?:any
+cDeptNo?:any
+cTechNo?:any
+cSdOrderNo?:any
+cAddress1?:any
+cAddress2?:any
+iResReqQty?:any
+iResRationHour?:any
+iCapacity?:any
+dDeliveryDate?:any
+cDeliveryStatus?:any
+iPreStock?:any
+iCurInvQty?:any
+iForeInQty?:any
+iSchQty?:any
+iProductionCosts?:any
+iLogisticsCost?:any
+iStockCosts?:any
+iCapacityLoad?:any
+dResEndDate?:any
+dResBegDate?:any
+cResourceNo?:any
+iResGroupPriority?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

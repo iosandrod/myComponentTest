@@ -1,0 +1,72 @@
+export default class t_VisitRecord {
+      columnArr=['iInterID','cVisitCode','cPerson','dDate','cStatus','cCustNo','cCustName','cLegalPerson','cAddress','cMainProduct','cPersonCode','cPersonName','cPsnMobilePhone','cEnterpriseType','iRegisteredCapital','iLastYearSales','iLastYearCost','iYearSales','iYearCost','cCost','cLabor','cTaxation','cImportExport','cOrderSituation','cFinancing','cGreen','cElectricity','cSite','cNote','cExistingPro','cComSolve','cSuperiorSolve','cBringInto','cApplyNo','cOutPut','cReward','cReserve','cFamousBrand','cPolicy','cOperator','dOpeDate','cChecker','dCheckDate','cModifier','dModifyDate','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','cListed','cHiTech','cCapital','cPatent']
+      iInterID?:any
+cVisitCode?:any
+cPerson?:any
+dDate?:any
+cStatus?:any
+cCustNo?:any
+cCustName?:any
+cLegalPerson?:any
+cAddress?:any
+cMainProduct?:any
+cPersonCode?:any
+cPersonName?:any
+cPsnMobilePhone?:any
+cEnterpriseType?:any
+iRegisteredCapital?:any
+iLastYearSales?:any
+iLastYearCost?:any
+iYearSales?:any
+iYearCost?:any
+cCost?:any
+cLabor?:any
+cTaxation?:any
+cImportExport?:any
+cOrderSituation?:any
+cFinancing?:any
+cGreen?:any
+cElectricity?:any
+cSite?:any
+cNote?:any
+cExistingPro?:any
+cComSolve?:any
+cSuperiorSolve?:any
+cBringInto?:any
+cApplyNo?:any
+cOutPut?:any
+cReward?:any
+cReserve?:any
+cFamousBrand?:any
+cPolicy?:any
+cOperator?:any
+dOpeDate?:any
+cChecker?:any
+dCheckDate?:any
+cModifier?:any
+dModifyDate?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+cListed?:any
+cHiTech?:any
+cCapital?:any
+cPatent?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

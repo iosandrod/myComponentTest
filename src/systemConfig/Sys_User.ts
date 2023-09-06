@@ -1,0 +1,40 @@
+export default class Sys_User {
+      columnArr=['User_Id','Address','AppType','AuditDate','AuditStatus','Auditor','CreateDate','CreateID','Creator','DeptName','Dept_Id','Email','Enable','Gender','HeadImageUrl','IsRegregisterPhone','LastLoginDate','LastModifyPwdDate','Mobile','Modifier','ModifyDate','ModifyID','OrderNo','Role_Id','RoleName','PhoneNo','Remark','Tel','UserName','UserPwd','UserTrueName','Token','cPsn_Num']
+      User_Id?:any
+Address?:any
+AppType?:any
+AuditDate?:any
+AuditStatus?:any
+Auditor?:any
+CreateDate?:any
+CreateID?:any
+Creator?:any
+DeptName?:any
+Dept_Id?:any
+Email?:any
+Enable?:any
+Gender?:any
+HeadImageUrl?:any
+IsRegregisterPhone?:any
+LastLoginDate?:any
+LastModifyPwdDate?:any
+Mobile?:any
+Modifier?:any
+ModifyDate?:any
+ModifyID?:any
+OrderNo?:any
+Role_Id?:any
+RoleName?:any
+PhoneNo?:any
+Remark?:any
+Tel?:any
+UserName?:any
+UserPwd?:any
+UserTrueName?:any
+Token?:any
+cPsn_Num?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

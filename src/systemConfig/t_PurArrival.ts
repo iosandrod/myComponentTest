@@ -1,0 +1,61 @@
+export default class t_PurArrival {
+      columnArr=['iArrID','cArrCode','cPTCode','cBusType','dDate','cVenCode','cDepCode','cPersonCode','cPayCode','cSCCode','cexch_name','nflat','iTaxRate','cStatus','cOperator','dOpeDate','cChecker','dCheckDate','bNegative','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','iDiscountTaxType','iBillType','cvouchtype','cgeneralordercode','carrivalplace','cVenPUOMProtocol','iVT_id','iAuditTypeID','qkts','cNote','cCloser','dCloseDate','bReturnFlag','cPOCode','iPrintCount','cModifier','dModifyDate','cVenName','bNotRt']
+      iArrID?:any
+cArrCode?:any
+cPTCode?:any
+cBusType?:any
+dDate?:any
+cVenCode?:any
+cDepCode?:any
+cPersonCode?:any
+cPayCode?:any
+cSCCode?:any
+cexch_name?:any
+nflat?:any
+iTaxRate?:any
+cStatus?:any
+cOperator?:any
+dOpeDate?:any
+cChecker?:any
+dCheckDate?:any
+bNegative?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+iDiscountTaxType?:any
+iBillType?:any
+cvouchtype?:any
+cgeneralordercode?:any
+carrivalplace?:any
+cVenPUOMProtocol?:any
+iVT_id?:any
+iAuditTypeID?:any
+qkts?:any
+cNote?:any
+cCloser?:any
+dCloseDate?:any
+bReturnFlag?:any
+cPOCode?:any
+iPrintCount?:any
+cModifier?:any
+dModifyDate?:any
+cVenName?:any
+bNotRt?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

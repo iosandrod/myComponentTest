@@ -1,0 +1,67 @@
+export default class t_EqptOperation {
+      columnArr=['iInterID','dDate','cOperator','dOpeDate','cChecker','dCheckDate','cStatus','cCloser','dCloseDate','cModifier','dModifyDate','coperationNo','cPersonCode','cDepCode','cDutyClass','cTeamPerson','cOpeType','dBeginDate','dFinishDate','iOpeTime','cWcNo','cEqptCode','cEqptName','cOpeContent','cNote','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','cResourceNo','cResourceName','cWoNo','cWorkItem','cWorkItemName','iWorkQty','cInvCode','cInvName','iQtyPer','iNormalQty','iQty','iQtySum','cMoldNo','iBatchQty','dProTime','iTaskID','iProTime','cSchStatusNote','cRouteStopType']
+      iInterID?:any
+dDate?:any
+cOperator?:any
+dOpeDate?:any
+cChecker?:any
+dCheckDate?:any
+cStatus?:any
+cCloser?:any
+dCloseDate?:any
+cModifier?:any
+dModifyDate?:any
+coperationNo?:any
+cPersonCode?:any
+cDepCode?:any
+cDutyClass?:any
+cTeamPerson?:any
+cOpeType?:any
+dBeginDate?:any
+dFinishDate?:any
+iOpeTime?:any
+cWcNo?:any
+cEqptCode?:any
+cEqptName?:any
+cOpeContent?:any
+cNote?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+cResourceNo?:any
+cResourceName?:any
+cWoNo?:any
+cWorkItem?:any
+cWorkItemName?:any
+iWorkQty?:any
+cInvCode?:any
+cInvName?:any
+iQtyPer?:any
+iNormalQty?:any
+iQty?:any
+iQtySum?:any
+cMoldNo?:any
+iBatchQty?:any
+dProTime?:any
+iTaskID?:any
+iProTime?:any
+cSchStatusNote?:any
+cRouteStopType?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

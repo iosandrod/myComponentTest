@@ -1,0 +1,60 @@
+export default class t_OMRetOrder {
+      columnArr=['iInterID','cCode','cVouchType','cSTCode','dDate','cDepCode','cPersonCode','cSBVCode','cSOCode','cCusCode','cPayCode','cSCCode','cShipAddress','cexch_name','iExchRate','iTaxRate','bReturnFlag','bSettleAll','cNote','cStatus','cOperator','dOpeDate','cChecker','dCheckDate','cModifier','dModifyDate','iVTid','cBusType','cCloser','dCloserDate','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','dCreditStart','cCusperson','cgatheringplan','bCredit','bARFirst','dGatheringDate','icreditdays']
+      iInterID?:any
+cCode?:any
+cVouchType?:any
+cSTCode?:any
+dDate?:any
+cDepCode?:any
+cPersonCode?:any
+cSBVCode?:any
+cSOCode?:any
+cCusCode?:any
+cPayCode?:any
+cSCCode?:any
+cShipAddress?:any
+cexch_name?:any
+iExchRate?:any
+iTaxRate?:any
+bReturnFlag?:any
+bSettleAll?:any
+cNote?:any
+cStatus?:any
+cOperator?:any
+dOpeDate?:any
+cChecker?:any
+dCheckDate?:any
+cModifier?:any
+dModifyDate?:any
+iVTid?:any
+cBusType?:any
+cCloser?:any
+dCloserDate?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+dCreditStart?:any
+cCusperson?:any
+cgatheringplan?:any
+bCredit?:any
+bARFirst?:any
+dGatheringDate?:any
+icreditdays?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

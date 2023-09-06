@@ -1,0 +1,62 @@
+export default class t_Equip {
+      columnArr=['iEqptID','cEqptClsNo','cEqptCode','cEqptName','cSpeType','cDepCode','cUsage','dPurTime','cPurMode','mEquity','mInitAsset','iNetResRate','cDepMethod','iDepLife','cManufacturer','cSupplier','cPersonCode','cNote','cEqptDefine1','cEqptDefine2','cEqptDefine3','cEqptDefine4','cEqptDefine5','cEqptDefine6','cEqptDefine7','cEqptDefine8','cEqptDefine9','cEqptDefine10','cEqptDefine11','cEqptDefine12','cEqptDefine13','cEqptDefine14','cEqptDefine15','cEqptDefine16','cEqptDefine17','cEqptDefine18','cEqptDefine19','cEqptDefine20','cEqptDefine21','cEqptDefine22','cEqptDefine23','cFactoryCode','cStoPlace','cLineBody','cModifier','dModifyDate','cPower','cUnit','iQty','Fqty','Fprice','Famount','cPicturePatch','cPicturePatch2','cResourceNo']
+      iEqptID?:any
+cEqptClsNo?:any
+cEqptCode?:any
+cEqptName?:any
+cSpeType?:any
+cDepCode?:any
+cUsage?:any
+dPurTime?:any
+cPurMode?:any
+mEquity?:any
+mInitAsset?:any
+iNetResRate?:any
+cDepMethod?:any
+iDepLife?:any
+cManufacturer?:any
+cSupplier?:any
+cPersonCode?:any
+cNote?:any
+cEqptDefine1?:any
+cEqptDefine2?:any
+cEqptDefine3?:any
+cEqptDefine4?:any
+cEqptDefine5?:any
+cEqptDefine6?:any
+cEqptDefine7?:any
+cEqptDefine8?:any
+cEqptDefine9?:any
+cEqptDefine10?:any
+cEqptDefine11?:any
+cEqptDefine12?:any
+cEqptDefine13?:any
+cEqptDefine14?:any
+cEqptDefine15?:any
+cEqptDefine16?:any
+cEqptDefine17?:any
+cEqptDefine18?:any
+cEqptDefine19?:any
+cEqptDefine20?:any
+cEqptDefine21?:any
+cEqptDefine22?:any
+cEqptDefine23?:any
+cFactoryCode?:any
+cStoPlace?:any
+cLineBody?:any
+cModifier?:any
+dModifyDate?:any
+cPower?:any
+cUnit?:any
+iQty?:any
+Fqty?:any
+Fprice?:any
+Famount?:any
+cPicturePatch?:any
+cPicturePatch2?:any
+cResourceNo?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

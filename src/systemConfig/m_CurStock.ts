@@ -1,0 +1,64 @@
+export default class m_CurStock {
+      columnArr=['AutoID','cWhCode','cPosition','cInvCode','ItemId','cBatch','cBarCode','cVMIVenCode','iSoType','iSodid','iQuantity','iNum','cFree1','cFree2','cFree3','cFree4','cFree5','cFree6','cFree7','cFree8','cFree9','cFree10','fOutQuantity','fOutNum','fInQuantity','fInNum','dVDate','bStopFlag','fTransInQuantity','dMdate','fTransInNum','fTransOutQuantity','fTransOutNum','fPlanQuantity','fPlanNum','fDisableQuantity','fDisableNum','fAvaQuantity','fAvaNum','qkts','iMassDate','BGSPSTOP','cMassUnit','fStopQuantity','fStopNum','dLastCheckDate','cCheckState','dLastYearCheckDate','iExpiratDateCalcu','cExpirationdate','dExpirationdate','cVersionNo','cInvName','cInvStd','cComUnitCode','cItemClsNo','cSyncStatus']
+      AutoID?:any
+cWhCode?:any
+cPosition?:any
+cInvCode?:any
+ItemId?:any
+cBatch?:any
+cBarCode?:any
+cVMIVenCode?:any
+iSoType?:any
+iSodid?:any
+iQuantity?:any
+iNum?:any
+cFree1?:any
+cFree2?:any
+cFree3?:any
+cFree4?:any
+cFree5?:any
+cFree6?:any
+cFree7?:any
+cFree8?:any
+cFree9?:any
+cFree10?:any
+fOutQuantity?:any
+fOutNum?:any
+fInQuantity?:any
+fInNum?:any
+dVDate?:any
+bStopFlag?:any
+fTransInQuantity?:any
+dMdate?:any
+fTransInNum?:any
+fTransOutQuantity?:any
+fTransOutNum?:any
+fPlanQuantity?:any
+fPlanNum?:any
+fDisableQuantity?:any
+fDisableNum?:any
+fAvaQuantity?:any
+fAvaNum?:any
+qkts?:any
+iMassDate?:any
+BGSPSTOP?:any
+cMassUnit?:any
+fStopQuantity?:any
+fStopNum?:any
+dLastCheckDate?:any
+cCheckState?:any
+dLastYearCheckDate?:any
+iExpiratDateCalcu?:any
+cExpirationdate?:any
+dExpirationdate?:any
+cVersionNo?:any
+cInvName?:any
+cInvStd?:any
+cComUnitCode?:any
+cItemClsNo?:any
+cSyncStatus?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

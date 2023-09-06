@@ -1,0 +1,52 @@
+export default class t_SrmSgbPkgBoxDtlHistory {
+      columnArr=['F_Id','cType','cPoCode','cInvCode','cBatchNo','dPDate','iQty','cSgbPkgBoxId','F_CreatorTime','F_CreatorUserId','F_LastModifyTime','F_LastModifyUserId','F_DeleteTime','F_DeleteUserId','F_DeleteMark','cSgbCode','invalidDate','remarks','mouldID','proModel','userName','material','srm_guid','cInvStd','cProMaterialNote','iQuantity','cBarCode','cSgbPkgChestID','cInvName','cResourceNo','cWcNo','cTeamNo','cHostIP','cHostPort','cHostName','cSgbID','cBillType','iPoLineID','cCustNo','cSdOrderNo','iSdLineID','dDeliveryDate','cInvTransCode','iInvTransLineID','bScanFlag']
+      F_Id?:any
+cType?:any
+cPoCode?:any
+cInvCode?:any
+cBatchNo?:any
+dPDate?:any
+iQty?:any
+cSgbPkgBoxId?:any
+F_CreatorTime?:any
+F_CreatorUserId?:any
+F_LastModifyTime?:any
+F_LastModifyUserId?:any
+F_DeleteTime?:any
+F_DeleteUserId?:any
+F_DeleteMark?:any
+cSgbCode?:any
+invalidDate?:any
+remarks?:any
+mouldID?:any
+proModel?:any
+userName?:any
+material?:any
+srm_guid?:any
+cInvStd?:any
+cProMaterialNote?:any
+iQuantity?:any
+cBarCode?:any
+cSgbPkgChestID?:any
+cInvName?:any
+cResourceNo?:any
+cWcNo?:any
+cTeamNo?:any
+cHostIP?:any
+cHostPort?:any
+cHostName?:any
+cSgbID?:any
+cBillType?:any
+iPoLineID?:any
+cCustNo?:any
+cSdOrderNo?:any
+iSdLineID?:any
+dDeliveryDate?:any
+cInvTransCode?:any
+iInvTransLineID?:any
+bScanFlag?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,58 @@
+export default class t_MrpGrossReqERP {
+      columnArr=['iGrossID','cVersionNo','cSourType','cBillNo','iLineID','cInvCode','iLowCode','iQty','cMiNo','cProductNo','cSdOrderNo','iMrpID','dDate','cSubInvCode','iSubLowCode','iSubQty','dSubDate','cWhNo','cSubRelate','iRetPercent','cRouteNo','dValidDate','dInvalidDate','iSubMrpID','cNote','cExchangeNo','iGroupID','iProductQty','cPlanMode','cDataType','cSubMiNo','cEnough','cCalType','cDLCode','iDLlineID','cFree1','cFree2','cFree3','cFree4','cFree5','cFree6','cFree7','cFree8','cFree9','cFree10','cProductWo','iSdLineID','cHostname','dOpeDate','iPlanQty','iPlanedQty']
+      iGrossID?:any
+cVersionNo?:any
+cSourType?:any
+cBillNo?:any
+iLineID?:any
+cInvCode?:any
+iLowCode?:any
+iQty?:any
+cMiNo?:any
+cProductNo?:any
+cSdOrderNo?:any
+iMrpID?:any
+dDate?:any
+cSubInvCode?:any
+iSubLowCode?:any
+iSubQty?:any
+dSubDate?:any
+cWhNo?:any
+cSubRelate?:any
+iRetPercent?:any
+cRouteNo?:any
+dValidDate?:any
+dInvalidDate?:any
+iSubMrpID?:any
+cNote?:any
+cExchangeNo?:any
+iGroupID?:any
+iProductQty?:any
+cPlanMode?:any
+cDataType?:any
+cSubMiNo?:any
+cEnough?:any
+cCalType?:any
+cDLCode?:any
+iDLlineID?:any
+cFree1?:any
+cFree2?:any
+cFree3?:any
+cFree4?:any
+cFree5?:any
+cFree6?:any
+cFree7?:any
+cFree8?:any
+cFree9?:any
+cFree10?:any
+cProductWo?:any
+iSdLineID?:any
+cHostname?:any
+dOpeDate?:any
+iPlanQty?:any
+iPlanedQty?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

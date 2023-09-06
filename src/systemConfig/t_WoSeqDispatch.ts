@@ -1,0 +1,53 @@
+export default class t_WoSeqDispatch {
+      columnArr=['iInterID','cDispNo','cDeptNo','cWcNo','cResourceNo','cResourceName','dBegDate','dEndDate','dActBeg','dActEnd','cDutyor','cStatus','iAuditID','cOperator','dOpeDate','cChecker','dCheckDate','cNote','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','iAuditTypeID','iVT_ID','qkts','cModifier','dModifyDate','cProcessingType','cWoNo','cWorkItemNo','iBatchQty','cBatchNo','cCloser','dCloseDate']
+      iInterID?:any
+cDispNo?:any
+cDeptNo?:any
+cWcNo?:any
+cResourceNo?:any
+cResourceName?:any
+dBegDate?:any
+dEndDate?:any
+dActBeg?:any
+dActEnd?:any
+cDutyor?:any
+cStatus?:any
+iAuditID?:any
+cOperator?:any
+dOpeDate?:any
+cChecker?:any
+dCheckDate?:any
+cNote?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+iAuditTypeID?:any
+iVT_ID?:any
+qkts?:any
+cModifier?:any
+dModifyDate?:any
+cProcessingType?:any
+cWoNo?:any
+cWorkItemNo?:any
+iBatchQty?:any
+cBatchNo?:any
+cCloser?:any
+dCloseDate?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

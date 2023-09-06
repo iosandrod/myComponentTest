@@ -1,0 +1,43 @@
+export default class t_SdUpdateDetail {
+      columnArr=['iInterID','cCustNo','cDepCode','cPersonCode','cInvCode','cFree1','cFree2','cFree3','cFree4','cFree5','cFree6','cFree7','cFree8','cFree9','cFree10','iSDAmountQC','iSDAmount_fQC','iSaleAmountQC','iSaleAmount_fQC','iSaleReceiveQC','iSaleReceive_fQC','iSaleCostQC','iSaleCost_fQC','iProfitQC','iProfit_fQC','iSDAmountBQ','iSDAmount_fBQ','iSaleAmountBQ','iSaleAmount_fBQ','iSaleReceiveBQ','iSaleReceive_fBQ','iSaleCostBQ','iSaleCost_fBQ','iProfitBQ','iProfit_fBQ','cUser']
+      iInterID?:any
+cCustNo?:any
+cDepCode?:any
+cPersonCode?:any
+cInvCode?:any
+cFree1?:any
+cFree2?:any
+cFree3?:any
+cFree4?:any
+cFree5?:any
+cFree6?:any
+cFree7?:any
+cFree8?:any
+cFree9?:any
+cFree10?:any
+iSDAmountQC?:any
+iSDAmount_fQC?:any
+iSaleAmountQC?:any
+iSaleAmount_fQC?:any
+iSaleReceiveQC?:any
+iSaleReceive_fQC?:any
+iSaleCostQC?:any
+iSaleCost_fQC?:any
+iProfitQC?:any
+iProfit_fQC?:any
+iSDAmountBQ?:any
+iSDAmount_fBQ?:any
+iSaleAmountBQ?:any
+iSaleAmount_fBQ?:any
+iSaleReceiveBQ?:any
+iSaleReceive_fBQ?:any
+iSaleCostBQ?:any
+iSaleCost_fBQ?:any
+iProfitBQ?:any
+iProfit_fBQ?:any
+cUser?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

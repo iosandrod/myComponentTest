@@ -1,0 +1,50 @@
+export default class m_PurReq {
+      columnArr=['iReqID','cReqCode','dDate','cDepCode','cPersonCode','cPTCode','cBusType','cOperator','dOpeDate','cChecker','dCheckDate','cStatus','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','cMemo','cLocker','ireturncount','iVT_ID','iAuditTypeID','qkts','cCloser','dCloseDate','cPurPose','iPrintCount','cModifier','dModifyDate','cSyncStatus','cErpWriteBack','cApsWriteBack']
+      iReqID?:any
+cReqCode?:any
+dDate?:any
+cDepCode?:any
+cPersonCode?:any
+cPTCode?:any
+cBusType?:any
+cOperator?:any
+dOpeDate?:any
+cChecker?:any
+dCheckDate?:any
+cStatus?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+cMemo?:any
+cLocker?:any
+ireturncount?:any
+iVT_ID?:any
+iAuditTypeID?:any
+qkts?:any
+cCloser?:any
+dCloseDate?:any
+cPurPose?:any
+iPrintCount?:any
+cModifier?:any
+dModifyDate?:any
+cSyncStatus?:any
+cErpWriteBack?:any
+cApsWriteBack?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

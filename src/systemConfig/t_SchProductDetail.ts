@@ -1,0 +1,56 @@
+export default class t_SchProductDetail {
+      columnArr=['iAutoID','iSchSdID','cVersionNo','iInterID','iSdLineID','iSeqID','iModelID','cSdOrderNo','cCustNo','cCustName','cSTCode','cBusType','cPriorityType','cStatus','cPersonCode','cRequireType','iItemID','cInvCode','cInvName','cInvStd','cUnitCode','cProductNo','bModelCompleted','iReqQty','dRequireDate','dDeliveryDate','dEarliestSchDate','cSchStatus','dBegDate','dEndDate','cMiNo','iPriority','cSelected','cWoNo','iPreKeepQuantity','iForeInQty','iSchQty','iNetQty','fOutquantity','cNeedSet','iFHQuantity','iKPQuantity','iSourceLineID','cColor','cNote','cDLCode','iDLlineID','cCusPerson','cDefine27']
+      iAutoID?:any
+iSchSdID?:any
+cVersionNo?:any
+iInterID?:any
+iSdLineID?:any
+iSeqID?:any
+iModelID?:any
+cSdOrderNo?:any
+cCustNo?:any
+cCustName?:any
+cSTCode?:any
+cBusType?:any
+cPriorityType?:any
+cStatus?:any
+cPersonCode?:any
+cRequireType?:any
+iItemID?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cUnitCode?:any
+cProductNo?:any
+bModelCompleted?:any
+iReqQty?:any
+dRequireDate?:any
+dDeliveryDate?:any
+dEarliestSchDate?:any
+cSchStatus?:any
+dBegDate?:any
+dEndDate?:any
+cMiNo?:any
+iPriority?:any
+cSelected?:any
+cWoNo?:any
+iPreKeepQuantity?:any
+iForeInQty?:any
+iSchQty?:any
+iNetQty?:any
+fOutquantity?:any
+cNeedSet?:any
+iFHQuantity?:any
+iKPQuantity?:any
+iSourceLineID?:any
+cColor?:any
+cNote?:any
+cDLCode?:any
+iDLlineID?:any
+cCusPerson?:any
+cDefine27?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

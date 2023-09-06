@@ -1,0 +1,44 @@
+export default class t_MRPInvForeInSum {
+      columnArr=['iGrossID','cInvCode','cInvName','cInvStd','cComUnitCode','cItemClsNo','iInvQty','iKeepQty','iForeInReqQty','iForeInPurQty','iForeInQCQty','iForeInINVQty','iForeInOMQty','iForeInSumQty','iForeOutSDQty','iForeOutDisQty','iForeOutPlanQty','iForeOutWOItemQty','iForeOutOMItemQty','iForeOutSumQty','iNotQty','iAvaQty','iAvaDays','iDiffQty','iSafeStock','iLowSafeStock','iTopSum','iLowSum','cPlanMode','cPlanMethod','cHostName','cSize1','cSize2','cSize3','cSize4','cSize5','cNote']
+      iGrossID?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cComUnitCode?:any
+cItemClsNo?:any
+iInvQty?:any
+iKeepQty?:any
+iForeInReqQty?:any
+iForeInPurQty?:any
+iForeInQCQty?:any
+iForeInINVQty?:any
+iForeInOMQty?:any
+iForeInSumQty?:any
+iForeOutSDQty?:any
+iForeOutDisQty?:any
+iForeOutPlanQty?:any
+iForeOutWOItemQty?:any
+iForeOutOMItemQty?:any
+iForeOutSumQty?:any
+iNotQty?:any
+iAvaQty?:any
+iAvaDays?:any
+iDiffQty?:any
+iSafeStock?:any
+iLowSafeStock?:any
+iTopSum?:any
+iLowSum?:any
+cPlanMode?:any
+cPlanMethod?:any
+cHostName?:any
+cSize1?:any
+cSize2?:any
+cSize3?:any
+cSize4?:any
+cSize5?:any
+cNote?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

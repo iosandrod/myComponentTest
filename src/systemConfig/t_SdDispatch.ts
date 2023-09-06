@@ -1,0 +1,77 @@
+export default class t_SdDispatch {
+      columnArr=['DLID','cDLCode','cVouchType','cSTCode','cBusType','dDate','cRdCode','cDeptNo','cPersonCode','SBVID','cSBVCode','cSdOrderNo','cCustNo','cCustName','cPayCode','cSCCode','cAddCode','cShipAddress','cCusPerson','cExch_name','iExchRate','iTaxRate','bFirst','bReturnFlag','bSettleAll','cMemo','cStatus','cOperator','dOpeDate','cChecker','dCheckDate','iAuditTypeID','qkts','iVTid','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','dCreditStart','iCreditdays','cGatheringplan','dGatheringDate','cAccounter','cCreChpName','cCloser','dCloseDate','iPrintCount','dPrintDate','cModifier','dModifyDate','cFHZC','cMDD','dJSRQ','cDCH','cZGSM','cAddress','cCusPhoneNum','cSdOpterName']
+      DLID?:any
+cDLCode?:any
+cVouchType?:any
+cSTCode?:any
+cBusType?:any
+dDate?:any
+cRdCode?:any
+cDeptNo?:any
+cPersonCode?:any
+SBVID?:any
+cSBVCode?:any
+cSdOrderNo?:any
+cCustNo?:any
+cCustName?:any
+cPayCode?:any
+cSCCode?:any
+cAddCode?:any
+cShipAddress?:any
+cCusPerson?:any
+cExch_name?:any
+iExchRate?:any
+iTaxRate?:any
+bFirst?:any
+bReturnFlag?:any
+bSettleAll?:any
+cMemo?:any
+cStatus?:any
+cOperator?:any
+dOpeDate?:any
+cChecker?:any
+dCheckDate?:any
+iAuditTypeID?:any
+qkts?:any
+iVTid?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+dCreditStart?:any
+iCreditdays?:any
+cGatheringplan?:any
+dGatheringDate?:any
+cAccounter?:any
+cCreChpName?:any
+cCloser?:any
+dCloseDate?:any
+iPrintCount?:any
+dPrintDate?:any
+cModifier?:any
+dModifyDate?:any
+cFHZC?:any
+cMDD?:any
+dJSRQ?:any
+cDCH?:any
+cZGSM?:any
+cAddress?:any
+cCusPhoneNum?:any
+cSdOpterName?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

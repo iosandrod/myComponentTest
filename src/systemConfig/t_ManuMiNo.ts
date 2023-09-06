@@ -1,0 +1,31 @@
+export default class t_ManuMiNo {
+      columnArr=['iInterID','cMiNo','cWeekMiNo','dDate','cWeekSN','iSchBatch','iQuantity','iWoCount','iWoQty','iWoNotCount','iWoNotQty','dBegDate','dEndDate','dFirstBegDate','dFirstEndDate','cStatus','cOperator','dOpeDate','cNote','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5']
+      iInterID?:any
+cMiNo?:any
+cWeekMiNo?:any
+dDate?:any
+cWeekSN?:any
+iSchBatch?:any
+iQuantity?:any
+iWoCount?:any
+iWoQty?:any
+iWoNotCount?:any
+iWoNotQty?:any
+dBegDate?:any
+dEndDate?:any
+dFirstBegDate?:any
+dFirstEndDate?:any
+cStatus?:any
+cOperator?:any
+dOpeDate?:any
+cNote?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

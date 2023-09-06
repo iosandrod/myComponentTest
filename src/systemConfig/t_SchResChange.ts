@@ -1,0 +1,64 @@
+export default class t_SchResChange {
+      columnArr=['ID','cVersionNo','cStatus','cMiNo','cResourceNoOld','cResourceNoNew','dChangeDate','dChangeBegDate','dChangeEndDate','cChangePerson','cNote','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','cOpeType','dOpeDate','cSourceType','cSourceCode','cSourceLineID','cFlag','cWoNo','cInvCode','iPriorityRes','iPriorityResOld','dResBegDate','dResBegDateOld','dCanBegDate','cSdOrderNo','iPriority','iPriorityOld','iSdLineID','cPriorityType','cPriorityTypeOld','cSchSNType','iResReqQty','iResReqQtyOld','iCurDispatchQty','cStatusOld','cSchStatusNote','cResourceNote','iSchSN','iSchSDID','iProcessID','iResProcessID']
+      ID?:any
+cVersionNo?:any
+cStatus?:any
+cMiNo?:any
+cResourceNoOld?:any
+cResourceNoNew?:any
+dChangeDate?:any
+dChangeBegDate?:any
+dChangeEndDate?:any
+cChangePerson?:any
+cNote?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+cOpeType?:any
+dOpeDate?:any
+cSourceType?:any
+cSourceCode?:any
+cSourceLineID?:any
+cFlag?:any
+cWoNo?:any
+cInvCode?:any
+iPriorityRes?:any
+iPriorityResOld?:any
+dResBegDate?:any
+dResBegDateOld?:any
+dCanBegDate?:any
+cSdOrderNo?:any
+iPriority?:any
+iPriorityOld?:any
+iSdLineID?:any
+cPriorityType?:any
+cPriorityTypeOld?:any
+cSchSNType?:any
+iResReqQty?:any
+iResReqQtyOld?:any
+iCurDispatchQty?:any
+cStatusOld?:any
+cSchStatusNote?:any
+cResourceNote?:any
+iSchSN?:any
+iSchSDID?:any
+iProcessID?:any
+iResProcessID?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

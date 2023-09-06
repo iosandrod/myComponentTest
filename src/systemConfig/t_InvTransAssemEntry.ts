@@ -1,0 +1,67 @@
+export default class t_InvTransAssemEntry {
+      columnArr=['AutoID','iInterID','bTAType','cTACode','iItemID','cInvCode','cWhCode','cPosCode','iQuantity','iNum','iUnitCost','iPrice','iPUnitCost','iPPrice','cBatch','cItemCode','cItem_class','cName','cItemCName','cBarCode','cAssUnitCode','cVenCode','cInVouchCode','cOutVouchCode','dDate','iinvexchrate','cExpirationdate','dExpirationdate','iExpiratDateCalcu','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26','cDefine27','cDefine28','cDefine29','cDefine30','cDefine31','cDefine32','cDefine33','cDefine34','cDefine35','cDefine36','cDefine37','cFree1','cFree2','cFree3','cFree4','cFree5','cFree6','cFree7','cFree8','cFree9','cFree10','cDetailNote','cInvName','cInvStd','cComUnitCode','cItemClsNo']
+      AutoID?:any
+iInterID?:any
+bTAType?:any
+cTACode?:any
+iItemID?:any
+cInvCode?:any
+cWhCode?:any
+cPosCode?:any
+iQuantity?:any
+iNum?:any
+iUnitCost?:any
+iPrice?:any
+iPUnitCost?:any
+iPPrice?:any
+cBatch?:any
+cItemCode?:any
+cItem_class?:any
+cName?:any
+cItemCName?:any
+cBarCode?:any
+cAssUnitCode?:any
+cVenCode?:any
+cInVouchCode?:any
+cOutVouchCode?:any
+dDate?:any
+iinvexchrate?:any
+cExpirationdate?:any
+dExpirationdate?:any
+iExpiratDateCalcu?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any
+cDefine27?:any
+cDefine28?:any
+cDefine29?:any
+cDefine30?:any
+cDefine31?:any
+cDefine32?:any
+cDefine33?:any
+cDefine34?:any
+cDefine35?:any
+cDefine36?:any
+cDefine37?:any
+cFree1?:any
+cFree2?:any
+cFree3?:any
+cFree4?:any
+cFree5?:any
+cFree6?:any
+cFree7?:any
+cFree8?:any
+cFree9?:any
+cFree10?:any
+cDetailNote?:any
+cInvName?:any
+cInvStd?:any
+cComUnitCode?:any
+cItemClsNo?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,40 @@
+export default class t_SchProductKPI {
+      columnArr=['ID','cVersionNo','dSchBegDate','dSchEndDate','iSchTime','cUser','iSchOrderSum','iSchOrderLate','iSchOrderLateAve','iSchOrderLateLong','fOnTimeRate','iKeyResCount','fKeyResHours','fKeyResPreTime','fPreRate','dComKeyLastDate','fKeyAveRate','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16']
+      ID?:any
+cVersionNo?:any
+dSchBegDate?:any
+dSchEndDate?:any
+iSchTime?:any
+cUser?:any
+iSchOrderSum?:any
+iSchOrderLate?:any
+iSchOrderLateAve?:any
+iSchOrderLateLong?:any
+fOnTimeRate?:any
+iKeyResCount?:any
+fKeyResHours?:any
+fKeyResPreTime?:any
+fPreRate?:any
+dComKeyLastDate?:any
+fKeyAveRate?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

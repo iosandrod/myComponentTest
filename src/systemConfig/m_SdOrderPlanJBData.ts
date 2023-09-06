@@ -1,0 +1,40 @@
+export default class m_SdOrderPlanJBData {
+      columnArr=['iDetailID','iGrossID','cFileName','cVersion','cCustNo','Item','iLineID','cHostname','dOpeDate','cInvCode','cInvName','cInvStd','cComunitName','iInvQty','iReqQty','iForeInQty','iEndQty','cInvType','dRptBegDate','dEndDate','dBegDate','cDefine1','cDefine2','cDefine3','cDefine4','cDayType','cCW','iCW','cCWReqQty','iCWReqQty','dReqDate','dReEndDate','iReqQtyLast']
+      iDetailID?:any
+iGrossID?:any
+cFileName?:any
+cVersion?:any
+cCustNo?:any
+Item?:any
+iLineID?:any
+cHostname?:any
+dOpeDate?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cComunitName?:any
+iInvQty?:any
+iReqQty?:any
+iForeInQty?:any
+iEndQty?:any
+cInvType?:any
+dRptBegDate?:any
+dEndDate?:any
+dBegDate?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDayType?:any
+cCW?:any
+iCW?:any
+cCWReqQty?:any
+iCWReqQty?:any
+dReqDate?:any
+dReEndDate?:any
+iReqQtyLast?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

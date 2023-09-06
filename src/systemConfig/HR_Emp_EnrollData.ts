@@ -1,0 +1,53 @@
+export default class HR_Emp_EnrollData {
+      columnArr=['Emp_ID','Emp_Name','Sex','BirthDay','Active','Stutas','Company','Dept_ID','InDate','LZDate','DeptName','Car_ID','Car_ID_Orgion','FP0','FP1','FP2','FP3','FP4','FP5','FP6','FP7','FP8','FP9','PassWord','Car','FPBak','Mail_Address','Mail_name','Mail_domain','Mail_Active','Mail_Dir','Mail_PassWord','WorkShop_ID','Shift_ID','MasterWorker','MasterWorkerTwo','MasterWorkerThree','CarID_PW','Emp_Title','Title_Add_Date','Title_Add_By','UpOrDownState','UpOrDownDate','IsAuthorization_InOut','IsCanModifyQty','IsSpilloverPJ']
+      Emp_ID?:any
+Emp_Name?:any
+Sex?:any
+BirthDay?:any
+Active?:any
+Stutas?:any
+Company?:any
+Dept_ID?:any
+InDate?:any
+LZDate?:any
+DeptName?:any
+Car_ID?:any
+Car_ID_Orgion?:any
+FP0?:any
+FP1?:any
+FP2?:any
+FP3?:any
+FP4?:any
+FP5?:any
+FP6?:any
+FP7?:any
+FP8?:any
+FP9?:any
+PassWord?:any
+Car?:any
+FPBak?:any
+Mail_Address?:any
+Mail_name?:any
+Mail_domain?:any
+Mail_Active?:any
+Mail_Dir?:any
+Mail_PassWord?:any
+WorkShop_ID?:any
+Shift_ID?:any
+MasterWorker?:any
+MasterWorkerTwo?:any
+MasterWorkerThree?:any
+CarID_PW?:any
+Emp_Title?:any
+Title_Add_Date?:any
+Title_Add_By?:any
+UpOrDownState?:any
+UpOrDownDate?:any
+IsAuthorization_InOut?:any
+IsCanModifyQty?:any
+IsSpilloverPJ?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

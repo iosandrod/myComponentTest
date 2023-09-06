@@ -1,0 +1,84 @@
+export default class t_WorkRouteImport1 {
+      columnArr=['cInvCode','F2','cTechNo','F4','F5','iWoSeqID','cResourceNo','cResourceName','iCapacity','cDefine35','iBatchQty','cWorkType','iSeqPreTime','iSeqPostTime','iMoveInterTime','cMoveType','cViceResource1No','F18','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26','cDefine27','cResParam1','cResParam2','cResParam3','cResParam4','cResParam5','cResParam6','cResParam7','cResParam8','cResParam9','cResParam10','cResParam11','cResParam12','FResChaValue1ID','FResChaValue1Cyc','FResChaValue4ID','FResChaValue4Cyc','FResChaValue5ID','FResChaValue5Cyc','FResChaValue6ID','FResChaValue6Cyc','iResourceAbilityID','cHostName','cSelected','cRouteNo','cStatus','cVersion','iInterID','iProcessID','cResourceNote','cCode','cViceResource2No','cWcNo','iNextSeqID','iResPreTime','iMoveInterQty','iMoveTime','cComUnitCode','cIsReport','iDevCountPd','iResGroupNo','iResGroupPriority','iBatchInterTime','iResPostTime','iProcessPassRate','iEfficiency','cRouteType','dValidDate','cIsDefault','dInvalidDate','iYieldage','cOperator','dOpeDate','dCheckDate']
+      cInvCode?:any
+F2?:any
+cTechNo?:any
+F4?:any
+F5?:any
+iWoSeqID?:any
+cResourceNo?:any
+cResourceName?:any
+iCapacity?:any
+cDefine35?:any
+iBatchQty?:any
+cWorkType?:any
+iSeqPreTime?:any
+iSeqPostTime?:any
+iMoveInterTime?:any
+cMoveType?:any
+cViceResource1No?:any
+F18?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any
+cDefine27?:any
+cResParam1?:any
+cResParam2?:any
+cResParam3?:any
+cResParam4?:any
+cResParam5?:any
+cResParam6?:any
+cResParam7?:any
+cResParam8?:any
+cResParam9?:any
+cResParam10?:any
+cResParam11?:any
+cResParam12?:any
+FResChaValue1ID?:any
+FResChaValue1Cyc?:any
+FResChaValue4ID?:any
+FResChaValue4Cyc?:any
+FResChaValue5ID?:any
+FResChaValue5Cyc?:any
+FResChaValue6ID?:any
+FResChaValue6Cyc?:any
+iResourceAbilityID?:any
+cHostName?:any
+cSelected?:any
+cRouteNo?:any
+cStatus?:any
+cVersion?:any
+iInterID?:any
+iProcessID?:any
+cResourceNote?:any
+cCode?:any
+cViceResource2No?:any
+cWcNo?:any
+iNextSeqID?:any
+iResPreTime?:any
+iMoveInterQty?:any
+iMoveTime?:any
+cComUnitCode?:any
+cIsReport?:any
+iDevCountPd?:any
+iResGroupNo?:any
+iResGroupPriority?:any
+iBatchInterTime?:any
+iResPostTime?:any
+iProcessPassRate?:any
+iEfficiency?:any
+cRouteType?:any
+dValidDate?:any
+cIsDefault?:any
+dInvalidDate?:any
+iYieldage?:any
+cOperator?:any
+dOpeDate?:any
+dCheckDate?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

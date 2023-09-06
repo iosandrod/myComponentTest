@@ -1,0 +1,45 @@
+export default class t_HrLeaveOffice {
+      columnArr=['iInterID','cCode','cPersonCode','cProductLine','cJobCode','cApplyType','cLeaveDate','dApplyDate','cApplyPerson','cApplyReason','cDepCode','cDepManagerIdea','cManpowerIdea','cDirectorExamine','cGenManagerIdea','cExamineResult','dOpeDate','cOperator','dCheckDate','cChecker','cNote','cStatus','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16']
+      iInterID?:any
+cCode?:any
+cPersonCode?:any
+cProductLine?:any
+cJobCode?:any
+cApplyType?:any
+cLeaveDate?:any
+dApplyDate?:any
+cApplyPerson?:any
+cApplyReason?:any
+cDepCode?:any
+cDepManagerIdea?:any
+cManpowerIdea?:any
+cDirectorExamine?:any
+cGenManagerIdea?:any
+cExamineResult?:any
+dOpeDate?:any
+cOperator?:any
+dCheckDate?:any
+cChecker?:any
+cNote?:any
+cStatus?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

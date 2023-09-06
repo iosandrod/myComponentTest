@@ -2,8 +2,8 @@
 @import './helpers/mixin.scss';
 
 .vxe-modal--wrapper {
-  display: none;
-  position: fixed;
+  display: block;
+  // position: fixed;
   top: 0; //他究竟为什么要这么写呢，难道是方便对象类的形式的写法吗
   left: 0;
   line-height: 1.5;

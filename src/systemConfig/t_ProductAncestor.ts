@@ -1,0 +1,44 @@
+export default class t_ProductAncestor {
+      columnArr=['iAutoID','iBomAutoID','cUser','cSourceType','cCode','iLevelinfo','iSeqID','cInvCode','cInvName','cInvStd','cComUnitCode','cComUnitName','cUseStatus','cInvABC','cItemType','cSubInvCode','cSubInvName','iQty','iAddupQty','cSubQtyInfo','iBomParentQty','iBomSubQty','iLT','dValidFrom','dValidTo','cBomType','bSale','bSelf','bPurchase','bCommission','cIsTopLevel','AutoID','cMoldNo','cNote','cItemClsNo','cItemClsName','cProductNo']
+      iAutoID?:any
+iBomAutoID?:any
+cUser?:any
+cSourceType?:any
+cCode?:any
+iLevelinfo?:any
+iSeqID?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cComUnitCode?:any
+cComUnitName?:any
+cUseStatus?:any
+cInvABC?:any
+cItemType?:any
+cSubInvCode?:any
+cSubInvName?:any
+iQty?:any
+iAddupQty?:any
+cSubQtyInfo?:any
+iBomParentQty?:any
+iBomSubQty?:any
+iLT?:any
+dValidFrom?:any
+dValidTo?:any
+cBomType?:any
+bSale?:any
+bSelf?:any
+bPurchase?:any
+bCommission?:any
+cIsTopLevel?:any
+AutoID?:any
+cMoldNo?:any
+cNote?:any
+cItemClsNo?:any
+cItemClsName?:any
+cProductNo?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

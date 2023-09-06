@@ -1,0 +1,32 @@
+export default class t_PubUser {
+      columnArr=['iUserID','cUser_Id','cUser_Name','cPassword','cPsn_Num','iAdmin','cDept','cBelongGrp','nState','cUserEmail','cUserHand','SaveMailCount','SaveSMSCount','localeid','iErrorCount','dPasswordDate','cSysUserName','cSysUserPassword','bLogined','authenMode','cPassword2','dValidDate','dInValidDate','cUTType','cUTNo']
+      iUserID?:any
+cUser_Id?:any
+cUser_Name?:any
+cPassword?:any
+cPsn_Num?:any
+iAdmin?:any
+cDept?:any
+cBelongGrp?:any
+nState?:any
+cUserEmail?:any
+cUserHand?:any
+SaveMailCount?:any
+SaveSMSCount?:any
+localeid?:any
+iErrorCount?:any
+dPasswordDate?:any
+cSysUserName?:any
+cSysUserPassword?:any
+bLogined?:any
+authenMode?:any
+cPassword2?:any
+dValidDate?:any
+dInValidDate?:any
+cUTType?:any
+cUTNo?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

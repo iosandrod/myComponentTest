@@ -1,0 +1,74 @@
+export default class t_HrRewardSpunish {
+      columnArr=['iInterID','cCode','cPersonCode','cPersonName','cDepCode','cAssess','cFillPerson','dFeedbackDate','cUnDepCode','iWoSeqID','dStopDate','dBeginDate','cDescribe','cSolution','fCheckScore','bCheck','bCompensate','bReward','bFine','iPointsScore','iBonPointsScore','iFineMoney','iRewardMoney','cContent','cAssessmentItem','bApprove','cApprovePerson','bDutyTo','cDutyToPerson','dNotFixedTo','cToPersonCode','bStrikeBalance','cSbPerson','bArbitration','cArbitrationPerson','cSbReason','cArbitrationReason','cTOReason','cVerify','bAgreeRewardMoney','bAgreeStrikeBalance','bDisagreeStrikeBalance','bAgreeTally','bAgreeCredit','cHighestDecisionPerson','dOpeDate','cOperator','dCheckDate','cChecker','cStatus','cNote','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16']
+      iInterID?:any
+cCode?:any
+cPersonCode?:any
+cPersonName?:any
+cDepCode?:any
+cAssess?:any
+cFillPerson?:any
+dFeedbackDate?:any
+cUnDepCode?:any
+iWoSeqID?:any
+dStopDate?:any
+dBeginDate?:any
+cDescribe?:any
+cSolution?:any
+fCheckScore?:any
+bCheck?:any
+bCompensate?:any
+bReward?:any
+bFine?:any
+iPointsScore?:any
+iBonPointsScore?:any
+iFineMoney?:any
+iRewardMoney?:any
+cContent?:any
+cAssessmentItem?:any
+bApprove?:any
+cApprovePerson?:any
+bDutyTo?:any
+cDutyToPerson?:any
+dNotFixedTo?:any
+cToPersonCode?:any
+bStrikeBalance?:any
+cSbPerson?:any
+bArbitration?:any
+cArbitrationPerson?:any
+cSbReason?:any
+cArbitrationReason?:any
+cTOReason?:any
+cVerify?:any
+bAgreeRewardMoney?:any
+bAgreeStrikeBalance?:any
+bDisagreeStrikeBalance?:any
+bAgreeTally?:any
+bAgreeCredit?:any
+cHighestDecisionPerson?:any
+dOpeDate?:any
+cOperator?:any
+dCheckDate?:any
+cChecker?:any
+cStatus?:any
+cNote?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

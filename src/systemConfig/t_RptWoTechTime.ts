@@ -1,0 +1,93 @@
+export default class t_RptWoTechTime {
+      columnArr=['iInterID','cWoNo','cInvCode','dDeliveryDate','iQuantity','cUser','dBegDate1','dEndDate1','dActBegDate1','dActEndDate1','dBegDate2','dEndDate2','dActBegDate2','dActEndDate2','dBegDate3','dEndDate3','dActBegDate3','dActEndDate3','dBegDate4','dEndDate4','dActBegDate4','dActEndDate4','dBegDate5','dEndDate5','dActBegDate5','dActEndDate5','dBegDate6','dEndDate6','dActBegDate6','dActEndDate6','dBegDate7','dEndDate7','dActBegDate7','dActEndDate7','dBegDate8','dEndDate8','dActBegDate8','dActEndDate8','dBegDate9','dEndDate9','dActBegDate9','dActEndDate9','dBegDate10','dEndDate10','dActBegDate10','dActEndDate10','dBegDate11','dEndDate11','dActBegDate11','dActEndDate11','dBegDate12','dEndDate12','dActBegDate12','dActEndDate12','dBegDate13','dEndDate13','dActBegDate13','dActEndDate13','dBegDate14','dEndDate14','dActBegDate14','dActEndDate14','dBegDate15','dEndDate15','dActBegDate15','dActEndDate15','dBegDate16','dEndDate16','dActBegDate16','dActEndDate16','iAvaQty1','iAvaQty2','iAvaQty3','iAvaQty4','iAvaQty5','iAvaQty6','iAvaQty7','iAvaQty8','iAvaQty9','iAvaQty10','iAvaQty11','iAvaQty12','iAvaQty13','iAvaQty14','iAvaQty15','iAvaQty16']
+      iInterID?:any
+cWoNo?:any
+cInvCode?:any
+dDeliveryDate?:any
+iQuantity?:any
+cUser?:any
+dBegDate1?:any
+dEndDate1?:any
+dActBegDate1?:any
+dActEndDate1?:any
+dBegDate2?:any
+dEndDate2?:any
+dActBegDate2?:any
+dActEndDate2?:any
+dBegDate3?:any
+dEndDate3?:any
+dActBegDate3?:any
+dActEndDate3?:any
+dBegDate4?:any
+dEndDate4?:any
+dActBegDate4?:any
+dActEndDate4?:any
+dBegDate5?:any
+dEndDate5?:any
+dActBegDate5?:any
+dActEndDate5?:any
+dBegDate6?:any
+dEndDate6?:any
+dActBegDate6?:any
+dActEndDate6?:any
+dBegDate7?:any
+dEndDate7?:any
+dActBegDate7?:any
+dActEndDate7?:any
+dBegDate8?:any
+dEndDate8?:any
+dActBegDate8?:any
+dActEndDate8?:any
+dBegDate9?:any
+dEndDate9?:any
+dActBegDate9?:any
+dActEndDate9?:any
+dBegDate10?:any
+dEndDate10?:any
+dActBegDate10?:any
+dActEndDate10?:any
+dBegDate11?:any
+dEndDate11?:any
+dActBegDate11?:any
+dActEndDate11?:any
+dBegDate12?:any
+dEndDate12?:any
+dActBegDate12?:any
+dActEndDate12?:any
+dBegDate13?:any
+dEndDate13?:any
+dActBegDate13?:any
+dActEndDate13?:any
+dBegDate14?:any
+dEndDate14?:any
+dActBegDate14?:any
+dActEndDate14?:any
+dBegDate15?:any
+dEndDate15?:any
+dActBegDate15?:any
+dActEndDate15?:any
+dBegDate16?:any
+dEndDate16?:any
+dActBegDate16?:any
+dActEndDate16?:any
+iAvaQty1?:any
+iAvaQty2?:any
+iAvaQty3?:any
+iAvaQty4?:any
+iAvaQty5?:any
+iAvaQty6?:any
+iAvaQty7?:any
+iAvaQty8?:any
+iAvaQty9?:any
+iAvaQty10?:any
+iAvaQty11?:any
+iAvaQty12?:any
+iAvaQty13?:any
+iAvaQty14?:any
+iAvaQty15?:any
+iAvaQty16?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

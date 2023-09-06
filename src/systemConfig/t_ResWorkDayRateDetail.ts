@@ -1,0 +1,34 @@
+export default class t_ResWorkDayRateDetail {
+      columnArr=['iAutoID','cResourceNo','cWoNo','cInvCode','cWcNo','cDeptNo','iResReqQty','iCompQty','dBegDate','dEndDate','dDate','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26','cDefine27','cDefine28','cDefine29','cDefine30','cDefine31','cDefine32','cDefine33','cDefine34','cDefine35','cDefine36','cDefine37']
+      iAutoID?:any
+cResourceNo?:any
+cWoNo?:any
+cInvCode?:any
+cWcNo?:any
+cDeptNo?:any
+iResReqQty?:any
+iCompQty?:any
+dBegDate?:any
+dEndDate?:any
+dDate?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any
+cDefine27?:any
+cDefine28?:any
+cDefine29?:any
+cDefine30?:any
+cDefine31?:any
+cDefine32?:any
+cDefine33?:any
+cDefine34?:any
+cDefine35?:any
+cDefine36?:any
+cDefine37?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

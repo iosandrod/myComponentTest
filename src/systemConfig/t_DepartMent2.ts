@@ -1,0 +1,35 @@
+export default class t_DepartMent2 {
+      columnArr=['cDepCode','bDepEnd','cDepName','iDepGrade','cDepPerson','cDepProp','cDepPhone','cDepAddress','cDepMemo','iCreLine','cCreGrade','iCreDate','cOfferGrade','iOfferRate','pubufts','bShop','cDepGUID','dDepBeginDate','dDepEndDate','vAuthorizeDoc','vAuthorizeUnit','cDepFax','cDepPostCode','cDepEmail','cDepType','cParentClsNo','cPrvNo','iDeptID']
+      cDepCode?:any
+bDepEnd?:any
+cDepName?:any
+iDepGrade?:any
+cDepPerson?:any
+cDepProp?:any
+cDepPhone?:any
+cDepAddress?:any
+cDepMemo?:any
+iCreLine?:any
+cCreGrade?:any
+iCreDate?:any
+cOfferGrade?:any
+iOfferRate?:any
+pubufts?:any
+bShop?:any
+cDepGUID?:any
+dDepBeginDate?:any
+dDepEndDate?:any
+vAuthorizeDoc?:any
+vAuthorizeUnit?:any
+cDepFax?:any
+cDepPostCode?:any
+cDepEmail?:any
+cDepType?:any
+cParentClsNo?:any
+cPrvNo?:any
+iDeptID?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

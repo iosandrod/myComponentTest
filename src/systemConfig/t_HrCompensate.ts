@@ -1,0 +1,45 @@
+export default class t_HrCompensate {
+      columnArr=['iInterID','cCode','cPersonCode','cJobCode','cDepCode','cStopDepCode','cStopProductLine','cClasses','cDutyclass','dStopDate','dBeginDate','cDescribe','iCompensateMoney','iPersonNum','cCompensateNorm','fAddTime','dOpeDate','cOperator','dCheckDate','cChecker','cStatus','cNote','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16']
+      iInterID?:any
+cCode?:any
+cPersonCode?:any
+cJobCode?:any
+cDepCode?:any
+cStopDepCode?:any
+cStopProductLine?:any
+cClasses?:any
+cDutyclass?:any
+dStopDate?:any
+dBeginDate?:any
+cDescribe?:any
+iCompensateMoney?:any
+iPersonNum?:any
+cCompensateNorm?:any
+fAddTime?:any
+dOpeDate?:any
+cOperator?:any
+dCheckDate?:any
+cChecker?:any
+cStatus?:any
+cNote?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

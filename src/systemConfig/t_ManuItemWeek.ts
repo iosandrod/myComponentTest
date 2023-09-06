@@ -1,0 +1,64 @@
+export default class t_ManuItemWeek {
+      columnArr=['iInterID','cInvCode','iWeekQty1','iWeekQty2','iWeekQty3','iWeekQty4','iWeekQty5','iWeekQty6','iWeekQty7','iWeekQty8','iWeekQty9','iWeekQty10','iWeekQty11','iWeekQty12','iWeekQty13','iWeekQty14','iWeekQty15','iWeekQty16','iWeekQty17','iWeekQty18','iWeekQty19','iWeekQty20','iWeekQty21','iWeekQty22','iWeekQty23','iWeekQty24','iWeekQty25','iWeekQty26','iWeekQty27','iWeekQty28','iWeekQty29','iWeekQty30','iWeekQty31','iWeekQty32','iWeekQty33','iWeekQty34','iWeekQty35','iWeekQty36','iWeekQty37','iWeekQty38','iWeekQty39','iWeekQty40','iWeekQty41','iWeekQty42','iWeekQty43','iWeekQty44','iWeekQty45','iWeekQty46','iWeekQty47','iWeekQty48','iWeekQty49','iWeekQty50','iWeekQty51','iWeekQty52','iWeekQty53','iWeekQty54','iWeekQty55']
+      iInterID?:any
+cInvCode?:any
+iWeekQty1?:any
+iWeekQty2?:any
+iWeekQty3?:any
+iWeekQty4?:any
+iWeekQty5?:any
+iWeekQty6?:any
+iWeekQty7?:any
+iWeekQty8?:any
+iWeekQty9?:any
+iWeekQty10?:any
+iWeekQty11?:any
+iWeekQty12?:any
+iWeekQty13?:any
+iWeekQty14?:any
+iWeekQty15?:any
+iWeekQty16?:any
+iWeekQty17?:any
+iWeekQty18?:any
+iWeekQty19?:any
+iWeekQty20?:any
+iWeekQty21?:any
+iWeekQty22?:any
+iWeekQty23?:any
+iWeekQty24?:any
+iWeekQty25?:any
+iWeekQty26?:any
+iWeekQty27?:any
+iWeekQty28?:any
+iWeekQty29?:any
+iWeekQty30?:any
+iWeekQty31?:any
+iWeekQty32?:any
+iWeekQty33?:any
+iWeekQty34?:any
+iWeekQty35?:any
+iWeekQty36?:any
+iWeekQty37?:any
+iWeekQty38?:any
+iWeekQty39?:any
+iWeekQty40?:any
+iWeekQty41?:any
+iWeekQty42?:any
+iWeekQty43?:any
+iWeekQty44?:any
+iWeekQty45?:any
+iWeekQty46?:any
+iWeekQty47?:any
+iWeekQty48?:any
+iWeekQty49?:any
+iWeekQty50?:any
+iWeekQty51?:any
+iWeekQty52?:any
+iWeekQty53?:any
+iWeekQty54?:any
+iWeekQty55?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

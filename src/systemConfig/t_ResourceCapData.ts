@@ -1,0 +1,75 @@
+export default class t_ResourceCapData {
+      columnArr=['cUser','cVersionNo','iSchSdID','iModelID','iTaskID','iTaskIDold','cWoNo','cWorkItemNo','cWorkItemName','iProcessID','iWoSeqID','cTechNo','cSeqNote','iNextSeqID','cPreProcessItem','cPostProcessItem','iReqQty','iLaborTime','dBegDate','dEndDate','dActBegDate','dActEndDate','iResProcessID','cResourceNo','cResourceName','iResReqQty','iActResReqQty','dResBegDate','dResEndDate','dActResBegDate','dActResEndDate','iResRationHour','cWorkType','iCapacity','cCapacityExp','iBatchQty','iBatchWorkTime','iBatchInterTime','iResPreTime','iResPostTime','iProcessPassRate','iEfficiency','iSdLineID','cProductNo','cProductName','cSdOrderNo','cColor','cCustNo','cCustName','dRequireDate','dDeliveryDate','cResClsNo','cWcNo','cDeptNo','cIsKey','iKeySchSN','FResChaValue1ID','FResChaValue2ID','FResChaValue3ID','FResChaValue4ID','FResChaValue5ID','FResChaValue6ID','FResChaValue7ID','FResChaValue8ID','FResChaValue9ID','FResChaValue10ID','FResChaValue11ID','FResChaValue12ID']
+      cUser?:any
+cVersionNo?:any
+iSchSdID?:any
+iModelID?:any
+iTaskID?:any
+iTaskIDold?:any
+cWoNo?:any
+cWorkItemNo?:any
+cWorkItemName?:any
+iProcessID?:any
+iWoSeqID?:any
+cTechNo?:any
+cSeqNote?:any
+iNextSeqID?:any
+cPreProcessItem?:any
+cPostProcessItem?:any
+iReqQty?:any
+iLaborTime?:any
+dBegDate?:any
+dEndDate?:any
+dActBegDate?:any
+dActEndDate?:any
+iResProcessID?:any
+cResourceNo?:any
+cResourceName?:any
+iResReqQty?:any
+iActResReqQty?:any
+dResBegDate?:any
+dResEndDate?:any
+dActResBegDate?:any
+dActResEndDate?:any
+iResRationHour?:any
+cWorkType?:any
+iCapacity?:any
+cCapacityExp?:any
+iBatchQty?:any
+iBatchWorkTime?:any
+iBatchInterTime?:any
+iResPreTime?:any
+iResPostTime?:any
+iProcessPassRate?:any
+iEfficiency?:any
+iSdLineID?:any
+cProductNo?:any
+cProductName?:any
+cSdOrderNo?:any
+cColor?:any
+cCustNo?:any
+cCustName?:any
+dRequireDate?:any
+dDeliveryDate?:any
+cResClsNo?:any
+cWcNo?:any
+cDeptNo?:any
+cIsKey?:any
+iKeySchSN?:any
+FResChaValue1ID?:any
+FResChaValue2ID?:any
+FResChaValue3ID?:any
+FResChaValue4ID?:any
+FResChaValue5ID?:any
+FResChaValue6ID?:any
+FResChaValue7ID?:any
+FResChaValue8ID?:any
+FResChaValue9ID?:any
+FResChaValue10ID?:any
+FResChaValue11ID?:any
+FResChaValue12ID?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

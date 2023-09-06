@@ -1,0 +1,87 @@
+export default class t_SdShipping {
+      columnArr=['DLID','cDLCode','cVouchType','cSTCode','cBusType','dDate','cRdCode','cDeptNo','cPersonCode','SBVID','cSBVCode','cSdOrderNo','cCustNo','cCustName','cPayCode','cSCCode','cAddCode','cShipAddress','cCusPerson','cExch_name','iExchRate','iTaxRate','bFirst','bReturnFlag','bSettleAll','cMemo','cStatus','cOperator','dOpeDate','cChecker','dCheckDate','iAuditTypeID','qkts','iVTid','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','dCreditStart','iCreditdays','cGatheringplan','dGatheringDate','cAccounter','cCreChpName','cCloser','dCloseDate','cTranNum','cPlateNum','iCubeNum','dEndDate','bCubeOrDate','iPrintCount','fShipVersion','fBHVersion','fFirstReqVolume','fFirstBHVolume','fFirstZCVolume','fSecondReqVolume','fSecondBHVolume','fSecendZCVolume','fThirdReqVolume','fThirdBHVolume','fThirdZCVolume','fFourthReqVolume','fFourthBHVolume','fFourthZCVolume','cModifier','dModifyDate']
+      DLID?:any
+cDLCode?:any
+cVouchType?:any
+cSTCode?:any
+cBusType?:any
+dDate?:any
+cRdCode?:any
+cDeptNo?:any
+cPersonCode?:any
+SBVID?:any
+cSBVCode?:any
+cSdOrderNo?:any
+cCustNo?:any
+cCustName?:any
+cPayCode?:any
+cSCCode?:any
+cAddCode?:any
+cShipAddress?:any
+cCusPerson?:any
+cExch_name?:any
+iExchRate?:any
+iTaxRate?:any
+bFirst?:any
+bReturnFlag?:any
+bSettleAll?:any
+cMemo?:any
+cStatus?:any
+cOperator?:any
+dOpeDate?:any
+cChecker?:any
+dCheckDate?:any
+iAuditTypeID?:any
+qkts?:any
+iVTid?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+dCreditStart?:any
+iCreditdays?:any
+cGatheringplan?:any
+dGatheringDate?:any
+cAccounter?:any
+cCreChpName?:any
+cCloser?:any
+dCloseDate?:any
+cTranNum?:any
+cPlateNum?:any
+iCubeNum?:any
+dEndDate?:any
+bCubeOrDate?:any
+iPrintCount?:any
+fShipVersion?:any
+fBHVersion?:any
+fFirstReqVolume?:any
+fFirstBHVolume?:any
+fFirstZCVolume?:any
+fSecondReqVolume?:any
+fSecondBHVolume?:any
+fSecendZCVolume?:any
+fThirdReqVolume?:any
+fThirdBHVolume?:any
+fThirdZCVolume?:any
+fFourthReqVolume?:any
+fFourthBHVolume?:any
+fFourthZCVolume?:any
+cModifier?:any
+dModifyDate?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

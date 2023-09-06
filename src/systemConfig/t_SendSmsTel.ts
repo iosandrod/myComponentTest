@@ -1,0 +1,39 @@
+export default class t_SendSmsTel {
+      columnArr=['iInterID','cTelCode','cModifier','dModifyDate','cOperator','rSex','cPsnMobilePhone','cDepCode','dDatetime','cContent','cContentType','dOpeDate','cChecker','dCheckDate','cStatus','cNote','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16']
+      iInterID?:any
+cTelCode?:any
+cModifier?:any
+dModifyDate?:any
+cOperator?:any
+rSex?:any
+cPsnMobilePhone?:any
+cDepCode?:any
+dDatetime?:any
+cContent?:any
+cContentType?:any
+dOpeDate?:any
+cChecker?:any
+dCheckDate?:any
+cStatus?:any
+cNote?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

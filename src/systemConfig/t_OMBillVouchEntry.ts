@@ -1,0 +1,93 @@
+export default class t_OMBillVouchEntry {
+      columnArr=['ID','PBVID','cPBVCode','cInvCode','bExBill','dInDate','iPBVQuantity','iNum','iOriCost','iOriMoney','iOriTaxPrice','iOriSum','iCost','iMoney','iTaxPrice','iSum','iExMoney','iLostQuan','iNLostQuan','iNLostMoney','iOriTotal','iTotal','cDebitHead','cTaxHead','cClue','dSignDate','cCorInvCode','cFree1','cFree2','iTaxRate','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26','cDefine27','cDefine28','cDefine29','cDefine30','cDefine31','cDefine32','cDefine33','cDefine34','cDefine35','cDefine36','cDefine37','iPOsID','cItemCode','cItem_class','cNLostType','mNLostTax','cItemName','cFree3','cFree4','cFree5','cFree6','cFree7','cFree8','cFree9','cFree10','dSDate','cUnitID','iSBsID','RdsId','ContractRowGUID','iOriTaxCost','UpSoType','cBAccounter','bCosting','iInvMPCost','ContractCode','ContractRowNo','copcode','cdescription','bTaxCost','chyordercode','ihyorderdid','iTax','iInvExchRate','opseq','cPOCode','iPOLineID','cArrCode','iArrLineID','cLineCloser','cbCloseDate']
+      ID?:any
+PBVID?:any
+cPBVCode?:any
+cInvCode?:any
+bExBill?:any
+dInDate?:any
+iPBVQuantity?:any
+iNum?:any
+iOriCost?:any
+iOriMoney?:any
+iOriTaxPrice?:any
+iOriSum?:any
+iCost?:any
+iMoney?:any
+iTaxPrice?:any
+iSum?:any
+iExMoney?:any
+iLostQuan?:any
+iNLostQuan?:any
+iNLostMoney?:any
+iOriTotal?:any
+iTotal?:any
+cDebitHead?:any
+cTaxHead?:any
+cClue?:any
+dSignDate?:any
+cCorInvCode?:any
+cFree1?:any
+cFree2?:any
+iTaxRate?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any
+cDefine27?:any
+cDefine28?:any
+cDefine29?:any
+cDefine30?:any
+cDefine31?:any
+cDefine32?:any
+cDefine33?:any
+cDefine34?:any
+cDefine35?:any
+cDefine36?:any
+cDefine37?:any
+iPOsID?:any
+cItemCode?:any
+cItem_class?:any
+cNLostType?:any
+mNLostTax?:any
+cItemName?:any
+cFree3?:any
+cFree4?:any
+cFree5?:any
+cFree6?:any
+cFree7?:any
+cFree8?:any
+cFree9?:any
+cFree10?:any
+dSDate?:any
+cUnitID?:any
+iSBsID?:any
+RdsId?:any
+ContractRowGUID?:any
+iOriTaxCost?:any
+UpSoType?:any
+cBAccounter?:any
+bCosting?:any
+iInvMPCost?:any
+ContractCode?:any
+ContractRowNo?:any
+copcode?:any
+cdescription?:any
+bTaxCost?:any
+chyordercode?:any
+ihyorderdid?:any
+iTax?:any
+iInvExchRate?:any
+opseq?:any
+cPOCode?:any
+iPOLineID?:any
+cArrCode?:any
+iArrLineID?:any
+cLineCloser?:any
+cbCloseDate?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

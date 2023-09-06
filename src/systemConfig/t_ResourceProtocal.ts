@@ -1,0 +1,59 @@
+export default class t_ResourceProtocal {
+      columnArr=['iAutoID','cResourceNo','cResourceName','cIPAddress','iPort','iStationNo','bStartFromZero','cProtocalType','cBraudrate','cSerialPort','iStopFlag','iDataFlag','cParityFlag','iOverTime','cNote','iInterval','iConnectOverTime','bStringTurn','bStartFromOne','cDataFormat','iInternetNo','bBinary','iPLCUnitNo','iPLCNodeNo','iPCNodeNo','cPLCType','cRequestAddr','cResProClsNo','iRequestLength','iRequestInterval','dCreateTime','dInstallTime','cDeviceIdentifyId','bPlusCheck','cProtocalDefine1','cProtocalDefine2','cProtocalDefine3','cProtocalDefine4','cProtocalDefine5','cProtocalDefine6','cProtocalDefine7','cProtocalDefine8','cProtocalDefine9','cProtocalDefine10','cProtocalDefine11','cProtocalDefine12','cProtocalDefine13','cProtocalDefine14','cProtocalDefine15','cProtocalDefine16','cResSupplier','iRefreshInterval']
+      iAutoID?:any
+cResourceNo?:any
+cResourceName?:any
+cIPAddress?:any
+iPort?:any
+iStationNo?:any
+bStartFromZero?:any
+cProtocalType?:any
+cBraudrate?:any
+cSerialPort?:any
+iStopFlag?:any
+iDataFlag?:any
+cParityFlag?:any
+iOverTime?:any
+cNote?:any
+iInterval?:any
+iConnectOverTime?:any
+bStringTurn?:any
+bStartFromOne?:any
+cDataFormat?:any
+iInternetNo?:any
+bBinary?:any
+iPLCUnitNo?:any
+iPLCNodeNo?:any
+iPCNodeNo?:any
+cPLCType?:any
+cRequestAddr?:any
+cResProClsNo?:any
+iRequestLength?:any
+iRequestInterval?:any
+dCreateTime?:any
+dInstallTime?:any
+cDeviceIdentifyId?:any
+bPlusCheck?:any
+cProtocalDefine1?:any
+cProtocalDefine2?:any
+cProtocalDefine3?:any
+cProtocalDefine4?:any
+cProtocalDefine5?:any
+cProtocalDefine6?:any
+cProtocalDefine7?:any
+cProtocalDefine8?:any
+cProtocalDefine9?:any
+cProtocalDefine10?:any
+cProtocalDefine11?:any
+cProtocalDefine12?:any
+cProtocalDefine13?:any
+cProtocalDefine14?:any
+cProtocalDefine15?:any
+cProtocalDefine16?:any
+cResSupplier?:any
+iRefreshInterval?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

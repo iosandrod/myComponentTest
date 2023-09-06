@@ -1,0 +1,68 @@
+export default class t_HrPerLaborContract {
+      columnArr=['iInterID','cPersonCode','cHtState','dTryEndDate','cEnder','bCompFlag','cWorkUnitName','iUnitPaid','cMonthWageExplain','iSickLeaveWage','cUnitLegalName','cTaskExplain','dPayDay','cHtCtrtType','dEndDate','iMonthWage','cWorkAddress','cWaitWageExplain','cJobType','cUnitName','iAlimony','cAffixExplain','dUpdateDate','cUnitPostCode','iTryWages','cOtherThing','cSigner','cWorkHours','iPersonPaid','bSignDate','cBookNO','cCompTerm','cSignState','cUpdater','cLimit','cWorkContent','cWorkStandard','dDispatchBeginDate','cManhourType','cWageType','cRestAssign','bChanged','cConTimes','cWelfare','cWorkProtectItem','iWageStandard','dEndDate2','cOtherWageAssumpsit','cUnitAddress','iRecordID','cHtCode','cTermtype','dBegindate','dSigndate','iPromonth','iPersonalPay','iUnitPay','cCancelReason','dCancelDate','cCancelDocNo','iNote']
+      iInterID?:any
+cPersonCode?:any
+cHtState?:any
+dTryEndDate?:any
+cEnder?:any
+bCompFlag?:any
+cWorkUnitName?:any
+iUnitPaid?:any
+cMonthWageExplain?:any
+iSickLeaveWage?:any
+cUnitLegalName?:any
+cTaskExplain?:any
+dPayDay?:any
+cHtCtrtType?:any
+dEndDate?:any
+iMonthWage?:any
+cWorkAddress?:any
+cWaitWageExplain?:any
+cJobType?:any
+cUnitName?:any
+iAlimony?:any
+cAffixExplain?:any
+dUpdateDate?:any
+cUnitPostCode?:any
+iTryWages?:any
+cOtherThing?:any
+cSigner?:any
+cWorkHours?:any
+iPersonPaid?:any
+bSignDate?:any
+cBookNO?:any
+cCompTerm?:any
+cSignState?:any
+cUpdater?:any
+cLimit?:any
+cWorkContent?:any
+cWorkStandard?:any
+dDispatchBeginDate?:any
+cManhourType?:any
+cWageType?:any
+cRestAssign?:any
+bChanged?:any
+cConTimes?:any
+cWelfare?:any
+cWorkProtectItem?:any
+iWageStandard?:any
+dEndDate2?:any
+cOtherWageAssumpsit?:any
+cUnitAddress?:any
+iRecordID?:any
+cHtCode?:any
+cTermtype?:any
+dBegindate?:any
+dSigndate?:any
+iPromonth?:any
+iPersonalPay?:any
+iUnitPay?:any
+cCancelReason?:any
+dCancelDate?:any
+cCancelDocNo?:any
+iNote?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

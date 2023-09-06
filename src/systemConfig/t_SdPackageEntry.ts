@@ -1,0 +1,37 @@
+export default class t_SdPackageEntry {
+      columnArr=['iInterID','cInvCode','cZCNum','iEntryID','cSubInvCode','iParentQty','iSubQty','iPerQty','iParentBZQty','iNeedQty','iSubCurQty','iSubOccQty','cSubMiNo','dSubDate','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26','cDefine27','cDefine28','cDefine29','cDefine30','cDefine31','cDefine32','cDefine33','cDefine34','cDefine35','cDefine36','cDefine37']
+      iInterID?:any
+cInvCode?:any
+cZCNum?:any
+iEntryID?:any
+cSubInvCode?:any
+iParentQty?:any
+iSubQty?:any
+iPerQty?:any
+iParentBZQty?:any
+iNeedQty?:any
+iSubCurQty?:any
+iSubOccQty?:any
+cSubMiNo?:any
+dSubDate?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any
+cDefine27?:any
+cDefine28?:any
+cDefine29?:any
+cDefine30?:any
+cDefine31?:any
+cDefine32?:any
+cDefine33?:any
+cDefine34?:any
+cDefine35?:any
+cDefine36?:any
+cDefine37?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

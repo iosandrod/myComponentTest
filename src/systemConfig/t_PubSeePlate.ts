@@ -1,0 +1,71 @@
+export default class t_PubSeePlate {
+      columnArr=['iInterID','cCode','cStatus','cUser','cSeeName','cParam1','cParamValue1','cParam2','cParamValue2','cParam3','cParamValue3','cParam4','cParamValue4','cParam5','cParamValue5','cParam6','cParamValue6','cParam7','cParamValue7','cParam8','cParamValue8','cParam9','cParamValue9','cParam10','cParamValue10','cDeptNo','cNote','cOperator','dOpeDate','cChecker','dCheckDate','cModifier','dModifyDate','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','img1','img2','cProduct','iHeadWidth','iHeadHeight','iPlate1Width','iPlate1Height','iPlate2Width','iPlate2Height','iPlate3Width','iPlate3Height','iRefreshTime','iPageSize','iPageCurrent','iPageSum']
+      iInterID?:any
+cCode?:any
+cStatus?:any
+cUser?:any
+cSeeName?:any
+cParam1?:any
+cParamValue1?:any
+cParam2?:any
+cParamValue2?:any
+cParam3?:any
+cParamValue3?:any
+cParam4?:any
+cParamValue4?:any
+cParam5?:any
+cParamValue5?:any
+cParam6?:any
+cParamValue6?:any
+cParam7?:any
+cParamValue7?:any
+cParam8?:any
+cParamValue8?:any
+cParam9?:any
+cParamValue9?:any
+cParam10?:any
+cParamValue10?:any
+cDeptNo?:any
+cNote?:any
+cOperator?:any
+dOpeDate?:any
+cChecker?:any
+dCheckDate?:any
+cModifier?:any
+dModifyDate?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+img1?:any
+img2?:any
+cProduct?:any
+iHeadWidth?:any
+iHeadHeight?:any
+iPlate1Width?:any
+iPlate1Height?:any
+iPlate2Width?:any
+iPlate2Height?:any
+iPlate3Width?:any
+iPlate3Height?:any
+iRefreshTime?:any
+iPageSize?:any
+iPageCurrent?:any
+iPageSum?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

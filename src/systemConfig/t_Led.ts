@@ -1,0 +1,39 @@
+export default class t_Led {
+      columnArr=['cLedNo','cClsNo','cLedName','cAddress','IP','cNotifyMode','iSpeed','iLedWidth','iLedHeight','iLocPort','iInterVal','iInterValPlan','iInterValNote','iInterValWages','iInterValQP','cLedDefine1','cLedDefine2','cLedDefine3','cLedDefine4','cLedDefine5','cLedDefine6','cLedDefine7','cLedDefine8','cLedDefine9','cLedDefine10','cLedDefine11','cLedDefine12','cLedDefine13','cLedDefine14','cLedDefine15','cLedDefine16','bUsed']
+      cLedNo?:any
+cClsNo?:any
+cLedName?:any
+cAddress?:any
+IP?:any
+cNotifyMode?:any
+iSpeed?:any
+iLedWidth?:any
+iLedHeight?:any
+iLocPort?:any
+iInterVal?:any
+iInterValPlan?:any
+iInterValNote?:any
+iInterValWages?:any
+iInterValQP?:any
+cLedDefine1?:any
+cLedDefine2?:any
+cLedDefine3?:any
+cLedDefine4?:any
+cLedDefine5?:any
+cLedDefine6?:any
+cLedDefine7?:any
+cLedDefine8?:any
+cLedDefine9?:any
+cLedDefine10?:any
+cLedDefine11?:any
+cLedDefine12?:any
+cLedDefine13?:any
+cLedDefine14?:any
+cLedDefine15?:any
+cLedDefine16?:any
+bUsed?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

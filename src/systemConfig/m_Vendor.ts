@@ -1,0 +1,91 @@
+export default class m_Vendor {
+      columnArr=['cVenNo','cVenName','cVenAbbName','cClsNo','cDCCode','cTrade','cGrade','cVenAddress','cVenPostCode','cVenRegCode','cVenBank','cVenAccount','dVenDevDate','cVenLPerson','cVenPhone','cVenFax','cVenEmail','cVenPerson','cVenBP','cVenHand','cVenPPerson','iVenDisRate','iVenCreGrade','iVenCreLine','iVenCreDate','cVenPayCond','cVenIAddress','cVenIType','cVenHeadCode','cVenWhCode','cVenDepart','iAPMoney','dLastDate','iLastMoney','dLRDate','iLRMoney','dEndDate','iFrequency','bVenTax','cCreatePerson','cModifyPerson','dModifyDate','cRelCustomer','cBarCode','cVenDefine1','cVenDefine2','cVenDefine3','cVenDefine4','cVenDefine5','cVenDefine6','cVenDefine7','cVenDefine8','cVenDefine9','cVenDefine10','cVenDefine11','cVenDefine12','cVenDefine13','cVenDefine14','cVenDefine15','cVenDefine16','fRegistFund','iEmployeeNum','iRegCapital','iGradeABC','cNote','cVenTradeCCode','cVenBankCode','bPassGMP','bVenCargo','bProxyForeign','bVenService','cVenPUOMProtocol','cVenOtherProtocol','bVenAccPeriodMng','cPrvNo','cVenSSCode','cVenExch_name','cVenBusType','cVenPTCode','iPurLeadTime','cSyncStatus','iVendorID','cHostName','dImportDate']
+      cVenNo?:any
+cVenName?:any
+cVenAbbName?:any
+cClsNo?:any
+cDCCode?:any
+cTrade?:any
+cGrade?:any
+cVenAddress?:any
+cVenPostCode?:any
+cVenRegCode?:any
+cVenBank?:any
+cVenAccount?:any
+dVenDevDate?:any
+cVenLPerson?:any
+cVenPhone?:any
+cVenFax?:any
+cVenEmail?:any
+cVenPerson?:any
+cVenBP?:any
+cVenHand?:any
+cVenPPerson?:any
+iVenDisRate?:any
+iVenCreGrade?:any
+iVenCreLine?:any
+iVenCreDate?:any
+cVenPayCond?:any
+cVenIAddress?:any
+cVenIType?:any
+cVenHeadCode?:any
+cVenWhCode?:any
+cVenDepart?:any
+iAPMoney?:any
+dLastDate?:any
+iLastMoney?:any
+dLRDate?:any
+iLRMoney?:any
+dEndDate?:any
+iFrequency?:any
+bVenTax?:any
+cCreatePerson?:any
+cModifyPerson?:any
+dModifyDate?:any
+cRelCustomer?:any
+cBarCode?:any
+cVenDefine1?:any
+cVenDefine2?:any
+cVenDefine3?:any
+cVenDefine4?:any
+cVenDefine5?:any
+cVenDefine6?:any
+cVenDefine7?:any
+cVenDefine8?:any
+cVenDefine9?:any
+cVenDefine10?:any
+cVenDefine11?:any
+cVenDefine12?:any
+cVenDefine13?:any
+cVenDefine14?:any
+cVenDefine15?:any
+cVenDefine16?:any
+fRegistFund?:any
+iEmployeeNum?:any
+iRegCapital?:any
+iGradeABC?:any
+cNote?:any
+cVenTradeCCode?:any
+cVenBankCode?:any
+bPassGMP?:any
+bVenCargo?:any
+bProxyForeign?:any
+bVenService?:any
+cVenPUOMProtocol?:any
+cVenOtherProtocol?:any
+bVenAccPeriodMng?:any
+cPrvNo?:any
+cVenSSCode?:any
+cVenExch_name?:any
+cVenBusType?:any
+cVenPTCode?:any
+iPurLeadTime?:any
+cSyncStatus?:any
+iVendorID?:any
+cHostName?:any
+dImportDate?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

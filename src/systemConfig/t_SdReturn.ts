@@ -1,0 +1,34 @@
+export default class t_SdReturn {
+      columnArr=['FAutoID','FType','FSelected','FInterID','FBillNo','FDate','FCustItemID','FCustNumber','FCustName','FStatus','FNote','FEntryID','FItemID','FNumber','FName','FModel','FQty','FStockQty','FUnitNumber','FUnitName','FTranLeadTime','FPrice','FAmount','FReqDate','FDetailNote','FPlanID','FPlanNo']
+      FAutoID?:any
+FType?:any
+FSelected?:any
+FInterID?:any
+FBillNo?:any
+FDate?:any
+FCustItemID?:any
+FCustNumber?:any
+FCustName?:any
+FStatus?:any
+FNote?:any
+FEntryID?:any
+FItemID?:any
+FNumber?:any
+FName?:any
+FModel?:any
+FQty?:any
+FStockQty?:any
+FUnitNumber?:any
+FUnitName?:any
+FTranLeadTime?:any
+FPrice?:any
+FAmount?:any
+FReqDate?:any
+FDetailNote?:any
+FPlanID?:any
+FPlanNo?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

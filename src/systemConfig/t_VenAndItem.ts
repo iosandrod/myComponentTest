@@ -1,0 +1,63 @@
+export default class t_VenAndItem {
+      columnArr=['iInterID','cVenCode','cInvCode','iUintPrice','iTaxUintPrice','iTaxRate','iTopPrice','cExch_Name','cDepCode','cPersonCode','cNote','cSupplyType','cTermCode','cQuantity','pubufts','cTestStyle','cDTStyle','cQTMethod','cDTMethod','fDTRate','fDTQuantity','AQL','cDTLevel','cDTUnit','fMaxSuppNum','fMinSuppNum','fQuota','iAdvDate','fTatolQuota','cRuleCode','fSupplyBatch','fFinishRateUp','iDTUCounter','iDTDCounter','iBatchCounter','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','cInvCodeVen','bActive','dActiveDate','cBarCode_Prefix','cBarCode_Suffix']
+      iInterID?:any
+cVenCode?:any
+cInvCode?:any
+iUintPrice?:any
+iTaxUintPrice?:any
+iTaxRate?:any
+iTopPrice?:any
+cExch_Name?:any
+cDepCode?:any
+cPersonCode?:any
+cNote?:any
+cSupplyType?:any
+cTermCode?:any
+cQuantity?:any
+pubufts?:any
+cTestStyle?:any
+cDTStyle?:any
+cQTMethod?:any
+cDTMethod?:any
+fDTRate?:any
+fDTQuantity?:any
+AQL?:any
+cDTLevel?:any
+cDTUnit?:any
+fMaxSuppNum?:any
+fMinSuppNum?:any
+fQuota?:any
+iAdvDate?:any
+fTatolQuota?:any
+cRuleCode?:any
+fSupplyBatch?:any
+fFinishRateUp?:any
+iDTUCounter?:any
+iDTDCounter?:any
+iBatchCounter?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+cInvCodeVen?:any
+bActive?:any
+dActiveDate?:any
+cBarCode_Prefix?:any
+cBarCode_Suffix?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

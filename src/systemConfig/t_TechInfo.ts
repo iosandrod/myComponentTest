@@ -1,0 +1,66 @@
+export default class t_TechInfo {
+      columnArr=['iInterID','cTechNo','cTechName','cResClsNo','cWcNo','cDeptNo','cResourceNo','cTechReq','cNote','cTechDefine1','cTechDefine2','cTechDefine3','cTechDefine4','cTechDefine5','cTechDefine6','cTechDefine7','cTechDefine8','cTechDefine9','cTechDefine10','cTechDefine11','cTechDefine12','cTechDefine13','cTechDefine14','cTechDefine15','cTechDefine16','cFormula','cFormula2','cAttributeName1','cAttributeName2','cAttributeName3','cAttributeName4','cAttributeName5','cAttributeName6','cAttributeName7','cAttributeName8','cAttributeName9','cAttributeName10','cAttributeValue1','cAttributeValue2','cAttributeValue3','cAttributeValue4','cAttributeValue5','cAttributeValue6','cAttributeValue7','cAttributeValue8','cAttributeValue9','cAttributeValue10','iTechValue','iOrder','iSeqPreTime','iSeqPostTime','cVenNo','bIsKey','cTechLevel','cTechSchType','iTechDifficulty','iResCapacity','cTeamNo','cHostName']
+      iInterID?:any
+cTechNo?:any
+cTechName?:any
+cResClsNo?:any
+cWcNo?:any
+cDeptNo?:any
+cResourceNo?:any
+cTechReq?:any
+cNote?:any
+cTechDefine1?:any
+cTechDefine2?:any
+cTechDefine3?:any
+cTechDefine4?:any
+cTechDefine5?:any
+cTechDefine6?:any
+cTechDefine7?:any
+cTechDefine8?:any
+cTechDefine9?:any
+cTechDefine10?:any
+cTechDefine11?:any
+cTechDefine12?:any
+cTechDefine13?:any
+cTechDefine14?:any
+cTechDefine15?:any
+cTechDefine16?:any
+cFormula?:any
+cFormula2?:any
+cAttributeName1?:any
+cAttributeName2?:any
+cAttributeName3?:any
+cAttributeName4?:any
+cAttributeName5?:any
+cAttributeName6?:any
+cAttributeName7?:any
+cAttributeName8?:any
+cAttributeName9?:any
+cAttributeName10?:any
+cAttributeValue1?:any
+cAttributeValue2?:any
+cAttributeValue3?:any
+cAttributeValue4?:any
+cAttributeValue5?:any
+cAttributeValue6?:any
+cAttributeValue7?:any
+cAttributeValue8?:any
+cAttributeValue9?:any
+cAttributeValue10?:any
+iTechValue?:any
+iOrder?:any
+iSeqPreTime?:any
+iSeqPostTime?:any
+cVenNo?:any
+bIsKey?:any
+cTechLevel?:any
+cTechSchType?:any
+iTechDifficulty?:any
+iResCapacity?:any
+cTeamNo?:any
+cHostName?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

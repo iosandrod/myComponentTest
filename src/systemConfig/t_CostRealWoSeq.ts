@@ -1,0 +1,85 @@
+export default class t_CostRealWoSeq {
+      columnArr=['iRealCOID','iBaseCOID','iYear','iMonth','cType','iInterID','cWoNo','cDeptCode','cDepName','bIsWCID','Version','IdentCode','iBomType','iLevel','cMiNo','iProcessID','iPartID','dDate','cInvCode','cInvName','cInvStd','cUnitCode','iWoSeqID','cSeqNote','cTechNo','cWcNo','cWcName','Free1','Free2','Free3','Free4','Free5','Free6','Free7','Free8','Free9','Free10','cResourceNo','iWorkQty','iInvQty','iReqQty','iActQty','iLaborTime','iLeadTime','iActLaborHour','iNorMatCost','iNorMatAssCost','iNorLabCost','iNorManuCost','iActMatCost','iActMatAssCost','iActLabCost','iActManuCost','iNorCost','iActCost','iManuRate','iLabRate','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','cNote','iPeriodQty','iCompPercent','iLastSeqID','bEndReport']
+      iRealCOID?:any
+iBaseCOID?:any
+iYear?:any
+iMonth?:any
+cType?:any
+iInterID?:any
+cWoNo?:any
+cDeptCode?:any
+cDepName?:any
+bIsWCID?:any
+Version?:any
+IdentCode?:any
+iBomType?:any
+iLevel?:any
+cMiNo?:any
+iProcessID?:any
+iPartID?:any
+dDate?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cUnitCode?:any
+iWoSeqID?:any
+cSeqNote?:any
+cTechNo?:any
+cWcNo?:any
+cWcName?:any
+Free1?:any
+Free2?:any
+Free3?:any
+Free4?:any
+Free5?:any
+Free6?:any
+Free7?:any
+Free8?:any
+Free9?:any
+Free10?:any
+cResourceNo?:any
+iWorkQty?:any
+iInvQty?:any
+iReqQty?:any
+iActQty?:any
+iLaborTime?:any
+iLeadTime?:any
+iActLaborHour?:any
+iNorMatCost?:any
+iNorMatAssCost?:any
+iNorLabCost?:any
+iNorManuCost?:any
+iActMatCost?:any
+iActMatAssCost?:any
+iActLabCost?:any
+iActManuCost?:any
+iNorCost?:any
+iActCost?:any
+iManuRate?:any
+iLabRate?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+cNote?:any
+iPeriodQty?:any
+iCompPercent?:any
+iLastSeqID?:any
+bEndReport?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

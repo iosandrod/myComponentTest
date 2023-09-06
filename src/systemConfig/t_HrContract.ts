@@ -1,0 +1,70 @@
+export default class t_HrContract {
+      columnArr=['iInterID','cPersonCode','cCode','dBeginDate','iNoticeDate','dEndDate','dCheckDate','cChecker','cOperator','dOpeDate','cNote','cStatus','cJobCode','cProductLine','bNoticeStatus','cPlantType','cWorkStatus','iTryPromonth','dTryEndDate','bCompFlag','iUnitPaid','cMonthWageExplain','iSickLeaveWage','cUnitLegalName','cTaskExplain','dPayDay','cNoticeType','dNoticeEndDate','iMonthWage','cWorkAddress','cWaitWageExplain','iLiveCostStandard','dUpdateDate','cUnitPostCode','iProWage','cOtherThing','cSigner','fWorkHours','iPersonPaid','dSignDate','cBookNO','iCompTerm','cSignStatus','cUpdater','cWorkConten','cWorkStandard','dDispatchBeginDate','cManhourType','cWageType','cRestAssign','bChanged','iConTimes','iWelfare','cWorkProtectItem','iWageStandard','dSignEndDate','iOtherWageAssumpsit','cUnitAddress','cNoticeNum','cNoticeDatetype','cRemoveNoticeReason','cRemoveNoticeDate','cRemoveNoticeNo']
+      iInterID?:any
+cPersonCode?:any
+cCode?:any
+dBeginDate?:any
+iNoticeDate?:any
+dEndDate?:any
+dCheckDate?:any
+cChecker?:any
+cOperator?:any
+dOpeDate?:any
+cNote?:any
+cStatus?:any
+cJobCode?:any
+cProductLine?:any
+bNoticeStatus?:any
+cPlantType?:any
+cWorkStatus?:any
+iTryPromonth?:any
+dTryEndDate?:any
+bCompFlag?:any
+iUnitPaid?:any
+cMonthWageExplain?:any
+iSickLeaveWage?:any
+cUnitLegalName?:any
+cTaskExplain?:any
+dPayDay?:any
+cNoticeType?:any
+dNoticeEndDate?:any
+iMonthWage?:any
+cWorkAddress?:any
+cWaitWageExplain?:any
+iLiveCostStandard?:any
+dUpdateDate?:any
+cUnitPostCode?:any
+iProWage?:any
+cOtherThing?:any
+cSigner?:any
+fWorkHours?:any
+iPersonPaid?:any
+dSignDate?:any
+cBookNO?:any
+iCompTerm?:any
+cSignStatus?:any
+cUpdater?:any
+cWorkConten?:any
+cWorkStandard?:any
+dDispatchBeginDate?:any
+cManhourType?:any
+cWageType?:any
+cRestAssign?:any
+bChanged?:any
+iConTimes?:any
+iWelfare?:any
+cWorkProtectItem?:any
+iWageStandard?:any
+dSignEndDate?:any
+iOtherWageAssumpsit?:any
+cUnitAddress?:any
+cNoticeNum?:any
+cNoticeDatetype?:any
+cRemoveNoticeReason?:any
+cRemoveNoticeDate?:any
+cRemoveNoticeNo?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

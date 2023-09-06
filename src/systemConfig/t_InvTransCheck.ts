@@ -1,0 +1,52 @@
+export default class t_InvTransCheck {
+      columnArr=['iInterID','cTCCode','cVouchType','cTCType','cTCPeriod','dDate','cDepCode','cPersonCode','cWhCode','cTCBatch','cPosition','cIRdCode','cORdCode','cStatus','cOperator','dOpeDate','cChecker','dCheckDate','cModifier','dModifyDate','cNote','qkts','bTransFlag','cVersion','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','cSource','iReturnCount','iswfcontrolled','iverifystate','iPrintCount']
+      iInterID?:any
+cTCCode?:any
+cVouchType?:any
+cTCType?:any
+cTCPeriod?:any
+dDate?:any
+cDepCode?:any
+cPersonCode?:any
+cWhCode?:any
+cTCBatch?:any
+cPosition?:any
+cIRdCode?:any
+cORdCode?:any
+cStatus?:any
+cOperator?:any
+dOpeDate?:any
+cChecker?:any
+dCheckDate?:any
+cModifier?:any
+dModifyDate?:any
+cNote?:any
+qkts?:any
+bTransFlag?:any
+cVersion?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+cSource?:any
+iReturnCount?:any
+iswfcontrolled?:any
+iverifystate?:any
+iPrintCount?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,40 @@
+export default class t_HrPerPenInsure {
+      columnArr=['iInterID','cPersonCode','iRecordID','cSwitchOutUnit','cDepcode','cPersonType','iFactmon','dKeepDate','cPerClass','bSwitchFlag','cAddCause','dEndDate','iCorpSCale','iInviScale','cReduCause','dSwitchOutDate','dStartDate','iCorpPullScale','cPersonName','cDocuYear','dOpenDate','iCustBase','cdDcuMonth','cAccountFlag','dAccountDate','cEnsureCode','iRegardMon','cPerAccount','cComputercode','cStartPayDate','dSwitchInDate','dDestroyDate','cSwitchInUnit']
+      iInterID?:any
+cPersonCode?:any
+iRecordID?:any
+cSwitchOutUnit?:any
+cDepcode?:any
+cPersonType?:any
+iFactmon?:any
+dKeepDate?:any
+cPerClass?:any
+bSwitchFlag?:any
+cAddCause?:any
+dEndDate?:any
+iCorpSCale?:any
+iInviScale?:any
+cReduCause?:any
+dSwitchOutDate?:any
+dStartDate?:any
+iCorpPullScale?:any
+cPersonName?:any
+cDocuYear?:any
+dOpenDate?:any
+iCustBase?:any
+cdDcuMonth?:any
+cAccountFlag?:any
+dAccountDate?:any
+cEnsureCode?:any
+iRegardMon?:any
+cPerAccount?:any
+cComputercode?:any
+cStartPayDate?:any
+dSwitchInDate?:any
+dDestroyDate?:any
+cSwitchInUnit?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

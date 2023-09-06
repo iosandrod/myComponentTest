@@ -1,0 +1,69 @@
+export default class t_PubPrint {
+      columnArr=['ID','cCode','cSdOrderNo','cWoNo','cRptNo','iInterID','iLineID','iDetailID','cCustNo','cVenNo','cInvCode','cInvName','cInvStd','dDate','iQuantity','cResourceNo','cDeptNo','cPersonCode','cWcNo','cTeamNo','cBarCode','dProDate','dMissDate','cBatchNo','iMaxID','cParaNo1','cParaNo2','cParaNo3','cParaNo4','cParaNo5','cParaNo6','cParaNo7','cParaNo8','cParaNo9','cParaNo10','cOperator','dOpeDate','cStatus','cChecker','cCloser','dCheckDate','dCloseDate','cModifier','dModifyDate','cNote','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','iPrintQty']
+      ID?:any
+cCode?:any
+cSdOrderNo?:any
+cWoNo?:any
+cRptNo?:any
+iInterID?:any
+iLineID?:any
+iDetailID?:any
+cCustNo?:any
+cVenNo?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+dDate?:any
+iQuantity?:any
+cResourceNo?:any
+cDeptNo?:any
+cPersonCode?:any
+cWcNo?:any
+cTeamNo?:any
+cBarCode?:any
+dProDate?:any
+dMissDate?:any
+cBatchNo?:any
+iMaxID?:any
+cParaNo1?:any
+cParaNo2?:any
+cParaNo3?:any
+cParaNo4?:any
+cParaNo5?:any
+cParaNo6?:any
+cParaNo7?:any
+cParaNo8?:any
+cParaNo9?:any
+cParaNo10?:any
+cOperator?:any
+dOpeDate?:any
+cStatus?:any
+cChecker?:any
+cCloser?:any
+dCheckDate?:any
+dCloseDate?:any
+cModifier?:any
+dModifyDate?:any
+cNote?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+iPrintQty?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

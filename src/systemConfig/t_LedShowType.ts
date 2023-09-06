@@ -1,0 +1,36 @@
+export default class t_LedShowType {
+      columnArr=['iLineID','cLedNo','cLedName','cShowType','cResourceNo','cWcNo','cDeptNo','cNote','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26','cDefine27','cDefine28','cDefine29','cDefine30','cDefine31','cDefine32','cDefine33','cDefine34','cDefine35','cDefine36','cDefine37','cTitle','cColWidth','cColField','ColMask','iDays']
+      iLineID?:any
+cLedNo?:any
+cLedName?:any
+cShowType?:any
+cResourceNo?:any
+cWcNo?:any
+cDeptNo?:any
+cNote?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any
+cDefine27?:any
+cDefine28?:any
+cDefine29?:any
+cDefine30?:any
+cDefine31?:any
+cDefine32?:any
+cDefine33?:any
+cDefine34?:any
+cDefine35?:any
+cDefine36?:any
+cDefine37?:any
+cTitle?:any
+cColWidth?:any
+cColField?:any
+ColMask?:any
+iDays?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

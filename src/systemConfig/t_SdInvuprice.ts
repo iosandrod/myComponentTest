@@ -1,0 +1,50 @@
+export default class t_SdInvuprice {
+      columnArr=['AutoID','cInvCode','cFree1','cFree2','cFree3','cFree4','cFree5','cFree6','cFree7','cFree8','cFree9','cFree10','iUPrice1','iUPrice2','iUPrice3','iInvSCost','iInvSaleCost','cMemo','dStartDate','dEndDate','ISalePrice1','ISalePrice2','ISalePrice3','IUPrice4','ISalePrice4','IUPrice5','ISalePrice5','IUPrice6','ISalePrice6','IUPrice7','ISalePrice7','IUPrice8','ISalePrice8','IUPrice9','ISalePrice9','IUPrice10','ISalePrice10','cDesc','iinvjustautoid','fminquantity','binvalid','bsales','cexch_name']
+      AutoID?:any
+cInvCode?:any
+cFree1?:any
+cFree2?:any
+cFree3?:any
+cFree4?:any
+cFree5?:any
+cFree6?:any
+cFree7?:any
+cFree8?:any
+cFree9?:any
+cFree10?:any
+iUPrice1?:any
+iUPrice2?:any
+iUPrice3?:any
+iInvSCost?:any
+iInvSaleCost?:any
+cMemo?:any
+dStartDate?:any
+dEndDate?:any
+ISalePrice1?:any
+ISalePrice2?:any
+ISalePrice3?:any
+IUPrice4?:any
+ISalePrice4?:any
+IUPrice5?:any
+ISalePrice5?:any
+IUPrice6?:any
+ISalePrice6?:any
+IUPrice7?:any
+ISalePrice7?:any
+IUPrice8?:any
+ISalePrice8?:any
+IUPrice9?:any
+ISalePrice9?:any
+IUPrice10?:any
+ISalePrice10?:any
+cDesc?:any
+iinvjustautoid?:any
+fminquantity?:any
+binvalid?:any
+bsales?:any
+cexch_name?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

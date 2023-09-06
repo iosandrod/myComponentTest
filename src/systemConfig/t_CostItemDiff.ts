@@ -1,0 +1,44 @@
+export default class t_CostItemDiff {
+      columnArr=['iAutoID','iYear','iMonth','cType','cWoNo','dDate','cWcNo','cCode','cCode2','cCode3','cInvCode','cInvName','cInvStd','cComUnitCode','cItemClsNo','iNormalQty','iActQty','iDiffQty','iNormalAmount','iActAmount','iDiffAmount','iNormalPrice','iActPrice','dBegDate','dEndDate','cWorkItemNo','iQtyPer','cNote','cUser','cMiNo','cStatus','iWoInterID','iWipInvQty','iDiffWipQty','cWhNo','hSelect','cResourceNo']
+      iAutoID?:any
+iYear?:any
+iMonth?:any
+cType?:any
+cWoNo?:any
+dDate?:any
+cWcNo?:any
+cCode?:any
+cCode2?:any
+cCode3?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cComUnitCode?:any
+cItemClsNo?:any
+iNormalQty?:any
+iActQty?:any
+iDiffQty?:any
+iNormalAmount?:any
+iActAmount?:any
+iDiffAmount?:any
+iNormalPrice?:any
+iActPrice?:any
+dBegDate?:any
+dEndDate?:any
+cWorkItemNo?:any
+iQtyPer?:any
+cNote?:any
+cUser?:any
+cMiNo?:any
+cStatus?:any
+iWoInterID?:any
+iWipInvQty?:any
+iDiffWipQty?:any
+cWhNo?:any
+hSelect?:any
+cResourceNo?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

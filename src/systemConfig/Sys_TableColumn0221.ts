@@ -1,0 +1,83 @@
+export default class Sys_TableColumn0221 {
+      columnArr=['ColumnId','OrderNo','ColumnCnName','ColumnName','ColumnType','ColumnWidth','Columnformat','CreateDate','CreateID','Creator','DropNo','EditType','EditTitle','EditOrderNo','EditColNo','EditRowNo','EditColSize','IsEditable','IsEditWrite','EditTabId','EditTabName','BaseInfoTableName','BaseInfoTableWhere','BaseInfoTreeWhere','BaseInfoData','GetColumnNameSQL','Enable','IsColumnData','IsRequired','IsSummaryCol','IsDisplay','IsImage','IsKey','IsNull','IsReadDataset','Maxlength','Modifier','ModifyDate','ModifyID','Script','SearchColNo','SearchRowNo','SearchOrderNo','SearchColSize','SearchTitle','SearchType','SearchDropNo','SearchScope','SMultiple','SBaseInfoTableName','SBaseInfoTableWhere','SBaseInfoTreeWhere','SBaseInfoData','SGetColumnNameSQL','SBindField','SOperator','SCustomSql','Sortable','TableName','Table_Id','Pagination','PaginationNo','cRelateColumn','cDefaultValue','cCheckRules','NormalColor','CellStyleType','ReportType','RenderFun','ApiInPut','ApiIsNull','ApiOutPut','EditDropNo','Align','cFixed','cSort']
+      ColumnId?:any
+OrderNo?:any
+ColumnCnName?:any
+ColumnName?:any
+ColumnType?:any
+ColumnWidth?:any
+Columnformat?:any
+CreateDate?:any
+CreateID?:any
+Creator?:any
+DropNo?:any
+EditType?:any
+EditTitle?:any
+EditOrderNo?:any
+EditColNo?:any
+EditRowNo?:any
+EditColSize?:any
+IsEditable?:any
+IsEditWrite?:any
+EditTabId?:any
+EditTabName?:any
+BaseInfoTableName?:any
+BaseInfoTableWhere?:any
+BaseInfoTreeWhere?:any
+BaseInfoData?:any
+GetColumnNameSQL?:any
+Enable?:any
+IsColumnData?:any
+IsRequired?:any
+IsSummaryCol?:any
+IsDisplay?:any
+IsImage?:any
+IsKey?:any
+IsNull?:any
+IsReadDataset?:any
+Maxlength?:any
+Modifier?:any
+ModifyDate?:any
+ModifyID?:any
+Script?:any
+SearchColNo?:any
+SearchRowNo?:any
+SearchOrderNo?:any
+SearchColSize?:any
+SearchTitle?:any
+SearchType?:any
+SearchDropNo?:any
+SearchScope?:any
+SMultiple?:any
+SBaseInfoTableName?:any
+SBaseInfoTableWhere?:any
+SBaseInfoTreeWhere?:any
+SBaseInfoData?:any
+SGetColumnNameSQL?:any
+SBindField?:any
+SOperator?:any
+SCustomSql?:any
+Sortable?:any
+TableName?:any
+Table_Id?:any
+Pagination?:any
+PaginationNo?:any
+cRelateColumn?:any
+cDefaultValue?:any
+cCheckRules?:any
+NormalColor?:any
+CellStyleType?:any
+ReportType?:any
+RenderFun?:any
+ApiInPut?:any
+ApiIsNull?:any
+ApiOutPut?:any
+EditDropNo?:any
+Align?:any
+cFixed?:any
+cSort?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

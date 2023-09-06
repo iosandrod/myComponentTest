@@ -1,0 +1,47 @@
+export default class t_PurSettleVouchEntry {
+      columnArr=['ID','PSVID','cPIVCode','iRdsID','cInvCode','cBillCode','iBsID','iSVQuantity','iSVNum','iSVCost','iSVPrice','iSVExpense','iSVACost','iSVAPrice','iTax','iSum','bAccount','cFree1','cFree2','bIsPurAcc','cWhCode','cItem_Class','cItemCode','cItemName','MaterialFee','ProcessFee','guids','cordercode','iorderrowno','cfree3','cfree4','cfree5','cfree6','cfree7','cfree8','cfree9','cfree10','cbvcvencode','crdcvencode','cUpSoType']
+      ID?:any
+PSVID?:any
+cPIVCode?:any
+iRdsID?:any
+cInvCode?:any
+cBillCode?:any
+iBsID?:any
+iSVQuantity?:any
+iSVNum?:any
+iSVCost?:any
+iSVPrice?:any
+iSVExpense?:any
+iSVACost?:any
+iSVAPrice?:any
+iTax?:any
+iSum?:any
+bAccount?:any
+cFree1?:any
+cFree2?:any
+bIsPurAcc?:any
+cWhCode?:any
+cItem_Class?:any
+cItemCode?:any
+cItemName?:any
+MaterialFee?:any
+ProcessFee?:any
+guids?:any
+cordercode?:any
+iorderrowno?:any
+cfree3?:any
+cfree4?:any
+cfree5?:any
+cfree6?:any
+cfree7?:any
+cfree8?:any
+cfree9?:any
+cfree10?:any
+cbvcvencode?:any
+crdcvencode?:any
+cUpSoType?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,58 @@
+export default class t_QMInspectVouch {
+      columnArr=['iInterID','cInspectCode','cVouchType','cRejectCode','cSourceCode','iRejectID','cSourceID','cPoCode','dArrivalDate','dInspectDate','cVenCode','cSource','cSdOrderNo','cSdOerderAutoID','cCustNo','cWoNoID','cWoNo','cWoNoEntryID','cWcNo','iProcessID','cCheckTypeCode','cDepCode','cPersonCode','cInspectDepCode','cSysBarCode','cStatus','cOperator','cChecker','cModifier','dOpeDate','dDate','dCheckDate','dModifyDate','cNote','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','cBusType']
+      iInterID?:any
+cInspectCode?:any
+cVouchType?:any
+cRejectCode?:any
+cSourceCode?:any
+iRejectID?:any
+cSourceID?:any
+cPoCode?:any
+dArrivalDate?:any
+dInspectDate?:any
+cVenCode?:any
+cSource?:any
+cSdOrderNo?:any
+cSdOerderAutoID?:any
+cCustNo?:any
+cWoNoID?:any
+cWoNo?:any
+cWoNoEntryID?:any
+cWcNo?:any
+iProcessID?:any
+cCheckTypeCode?:any
+cDepCode?:any
+cPersonCode?:any
+cInspectDepCode?:any
+cSysBarCode?:any
+cStatus?:any
+cOperator?:any
+cChecker?:any
+cModifier?:any
+dOpeDate?:any
+dDate?:any
+dCheckDate?:any
+dModifyDate?:any
+cNote?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+cBusType?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,34 @@
+export default class t_ApCancel {
+      columnArr=['iAutoID','cFlag','cVouchType','cVouchID','dVouchDate','dRegDate','cCoVouchType','cCoVouchID','iBVID','cDwCode','cExch_name','iExchRate','iAmount','iAmount_f','iRAmount','iRAmount_f','iCancelAmount','iCancelAmount_f','cCancelMan','cDigest','dOpeDate','bPro','iRedCancelAmount','iRedCancelAmount_f','bRed','bMain','bDetail']
+      iAutoID?:any
+cFlag?:any
+cVouchType?:any
+cVouchID?:any
+dVouchDate?:any
+dRegDate?:any
+cCoVouchType?:any
+cCoVouchID?:any
+iBVID?:any
+cDwCode?:any
+cExch_name?:any
+iExchRate?:any
+iAmount?:any
+iAmount_f?:any
+iRAmount?:any
+iRAmount_f?:any
+iCancelAmount?:any
+iCancelAmount_f?:any
+cCancelMan?:any
+cDigest?:any
+dOpeDate?:any
+bPro?:any
+iRedCancelAmount?:any
+iRedCancelAmount_f?:any
+bRed?:any
+bMain?:any
+bDetail?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

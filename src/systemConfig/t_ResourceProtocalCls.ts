@@ -1,0 +1,29 @@
+export default class t_ResourceProtocalCls {
+      columnArr=['cResProClsNo','cParentClsNo','cResProClsName','bEnd','cNote','cChildClsNo','cProtocalClsDefine1','cProtocalClsDefine2','cProtocalClsDefine3','cProtocalClsDefine4','cProtocalClsDefine5','cProtocalClsDefine6','cProtocalClsDefine7','cProtocalClsDefine8','cProtocalClsDefine9','cProtocalClsDefine10','cProtocalClsDefine11','cProtocalClsDefine12','cProtocalClsDefine13','cProtocalClsDefine14','cProtocalClsDefine15','cProtocalClsDefine16']
+      cResProClsNo?:any
+cParentClsNo?:any
+cResProClsName?:any
+bEnd?:any
+cNote?:any
+cChildClsNo?:any
+cProtocalClsDefine1?:any
+cProtocalClsDefine2?:any
+cProtocalClsDefine3?:any
+cProtocalClsDefine4?:any
+cProtocalClsDefine5?:any
+cProtocalClsDefine6?:any
+cProtocalClsDefine7?:any
+cProtocalClsDefine8?:any
+cProtocalClsDefine9?:any
+cProtocalClsDefine10?:any
+cProtocalClsDefine11?:any
+cProtocalClsDefine12?:any
+cProtocalClsDefine13?:any
+cProtocalClsDefine14?:any
+cProtocalClsDefine15?:any
+cProtocalClsDefine16?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,77 @@
+export default class t_SysBillList {
+      columnArr=['FUsed','FentityNo','FBillID','FBillName','FPrefix','FPostfix','FStartID','Fcont','FBillLen','Ffillwith','FTableName','FField','FaddWhere','FhandInput','FModifyOperator','FNeedAudit','FpreLen','FSysno','FWinName','FManageWin','FQueryWin','FDataSet','FViewName','FAuditProp','FmsgType','FMinAuditMoney','FMinCtrl','FLenLimit','ForigSys','FsysNeedaudit','FsysNeedCoderule','fModifyDate','FsendMail','Fwebshow','FFileName','FEnglishName','FModule','FLangCode','FrefTable','FNeedauditHistory','FsysAuditPrint','FNeedSaveHistory','fNeedAuditCreator','FVerCol','fstatuscol','FSysSaveHistory','FVisibleCtrl','FisBill','fbillstatuscolor','FPrefix1','FPrefix1Len','FPrefix1Rule','FPrefix2','FPrefix2Len','FPrefix2Rule','FPrefix3','FPrefix3Len','FPrefix3Rule','FGlide','FGlideLen','FGlideRule','bLookByUser','bModifyByUser','bPrintByAudit','bCheckAfterSave','bUseAttachment','bUseSubmit','biPrintCount','cPreCode','iMaxID']
+      FUsed?:any
+FentityNo?:any
+FBillID?:any
+FBillName?:any
+FPrefix?:any
+FPostfix?:any
+FStartID?:any
+Fcont?:any
+FBillLen?:any
+Ffillwith?:any
+FTableName?:any
+FField?:any
+FaddWhere?:any
+FhandInput?:any
+FModifyOperator?:any
+FNeedAudit?:any
+FpreLen?:any
+FSysno?:any
+FWinName?:any
+FManageWin?:any
+FQueryWin?:any
+FDataSet?:any
+FViewName?:any
+FAuditProp?:any
+FmsgType?:any
+FMinAuditMoney?:any
+FMinCtrl?:any
+FLenLimit?:any
+ForigSys?:any
+FsysNeedaudit?:any
+FsysNeedCoderule?:any
+fModifyDate?:any
+FsendMail?:any
+Fwebshow?:any
+FFileName?:any
+FEnglishName?:any
+FModule?:any
+FLangCode?:any
+FrefTable?:any
+FNeedauditHistory?:any
+FsysAuditPrint?:any
+FNeedSaveHistory?:any
+fNeedAuditCreator?:any
+FVerCol?:any
+fstatuscol?:any
+FSysSaveHistory?:any
+FVisibleCtrl?:any
+FisBill?:any
+fbillstatuscolor?:any
+FPrefix1?:any
+FPrefix1Len?:any
+FPrefix1Rule?:any
+FPrefix2?:any
+FPrefix2Len?:any
+FPrefix2Rule?:any
+FPrefix3?:any
+FPrefix3Len?:any
+FPrefix3Rule?:any
+FGlide?:any
+FGlideLen?:any
+FGlideRule?:any
+bLookByUser?:any
+bModifyByUser?:any
+bPrintByAudit?:any
+bCheckAfterSave?:any
+bUseAttachment?:any
+bUseSubmit?:any
+biPrintCount?:any
+cPreCode?:any
+iMaxID?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

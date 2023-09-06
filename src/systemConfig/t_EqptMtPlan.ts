@@ -1,0 +1,54 @@
+export default class t_EqptMtPlan {
+      columnArr=['iInterID','dDate','cOperator','dOpeDate','cChecker','dCheckDate','cStatus','cCloser','dCloseDate','cModifier','dModifyDate','cNote','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','cMtPlanNo','cMtPlanner','cMtCharge','cEqptCode','cEqptName','cSpeType','cDepCode','cPlanType','cMtLevel','cCycleMode','iMtPeriod','cMtPerType','dLastDate','dNextDate','cMtUnit','cMtProject','cMtStandard','cWorkContent','cReplacePart']
+      iInterID?:any
+dDate?:any
+cOperator?:any
+dOpeDate?:any
+cChecker?:any
+dCheckDate?:any
+cStatus?:any
+cCloser?:any
+dCloseDate?:any
+cModifier?:any
+dModifyDate?:any
+cNote?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+cMtPlanNo?:any
+cMtPlanner?:any
+cMtCharge?:any
+cEqptCode?:any
+cEqptName?:any
+cSpeType?:any
+cDepCode?:any
+cPlanType?:any
+cMtLevel?:any
+cCycleMode?:any
+iMtPeriod?:any
+cMtPerType?:any
+dLastDate?:any
+dNextDate?:any
+cMtUnit?:any
+cMtProject?:any
+cMtStandard?:any
+cWorkContent?:any
+cReplacePart?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

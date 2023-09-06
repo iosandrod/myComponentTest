@@ -1,0 +1,91 @@
+export default class t_SdSaleInvWork {
+      columnArr=['iInterID','cInvCode','cClsNo','cXilie','cXianBie','iQCQty','iQty1','iQty2','iQty3','iQty4','iQty5','iQty6','iQty7','iQty8','iQty9','iQty10','iQty11','iQty12','iQty13','iQty14','iQty15','iQty16','iQty17','iQty18','iQty19','iQty20','iQty21','iQty22','iQty23','iQty24','iQty25','iQty26','iQty27','iQty28','iQty29','iQty30','iQty31','iQty32','iQty33','iQty34','iQty35','iQty36','iQty37','iQty38','iQty39','iQty40','iQty41','iQty42','iQty43','iQty44','iQty45','iQty46','iQty47','iQty48','iQty49','iQty50','iQty51','iQty52','iQty53','iQty54','iQty55','iQty56','iQty57','iQty58','iQty59','iQty60','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','iLevelNo','cUser']
+      iInterID?:any
+cInvCode?:any
+cClsNo?:any
+cXilie?:any
+cXianBie?:any
+iQCQty?:any
+iQty1?:any
+iQty2?:any
+iQty3?:any
+iQty4?:any
+iQty5?:any
+iQty6?:any
+iQty7?:any
+iQty8?:any
+iQty9?:any
+iQty10?:any
+iQty11?:any
+iQty12?:any
+iQty13?:any
+iQty14?:any
+iQty15?:any
+iQty16?:any
+iQty17?:any
+iQty18?:any
+iQty19?:any
+iQty20?:any
+iQty21?:any
+iQty22?:any
+iQty23?:any
+iQty24?:any
+iQty25?:any
+iQty26?:any
+iQty27?:any
+iQty28?:any
+iQty29?:any
+iQty30?:any
+iQty31?:any
+iQty32?:any
+iQty33?:any
+iQty34?:any
+iQty35?:any
+iQty36?:any
+iQty37?:any
+iQty38?:any
+iQty39?:any
+iQty40?:any
+iQty41?:any
+iQty42?:any
+iQty43?:any
+iQty44?:any
+iQty45?:any
+iQty46?:any
+iQty47?:any
+iQty48?:any
+iQty49?:any
+iQty50?:any
+iQty51?:any
+iQty52?:any
+iQty53?:any
+iQty54?:any
+iQty55?:any
+iQty56?:any
+iQty57?:any
+iQty58?:any
+iQty59?:any
+iQty60?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+iLevelNo?:any
+cUser?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

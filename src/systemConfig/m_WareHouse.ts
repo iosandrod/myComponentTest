@@ -1,0 +1,46 @@
+export default class m_WareHouse {
+      columnArr=['cWhNo','cWHName','cShortName','cForeignName','cProperty','cIsMrp','cContactor','cTel','cFax','cAddress','cStart','dStartDate','cSAStart','dSAStartDate','iYear','iMonth','iSaYear','iSaMonth','cSetSeat','iCurYear','iCurMonth','cContactorName','cDeptNo','cDeptName','cMrpSeled','cMrpProed','cEmail','cWhStatus','cNote','cParentClsNo','cPrvNo','cWhValueStyle','bInCost','bCheckToVen','cOperator','cVenCode','bInvQtyRed','bInvNumRed','cSyncStatus']
+      cWhNo?:any
+cWHName?:any
+cShortName?:any
+cForeignName?:any
+cProperty?:any
+cIsMrp?:any
+cContactor?:any
+cTel?:any
+cFax?:any
+cAddress?:any
+cStart?:any
+dStartDate?:any
+cSAStart?:any
+dSAStartDate?:any
+iYear?:any
+iMonth?:any
+iSaYear?:any
+iSaMonth?:any
+cSetSeat?:any
+iCurYear?:any
+iCurMonth?:any
+cContactorName?:any
+cDeptNo?:any
+cDeptName?:any
+cMrpSeled?:any
+cMrpProed?:any
+cEmail?:any
+cWhStatus?:any
+cNote?:any
+cParentClsNo?:any
+cPrvNo?:any
+cWhValueStyle?:any
+bInCost?:any
+bCheckToVen?:any
+cOperator?:any
+cVenCode?:any
+bInvQtyRed?:any
+bInvNumRed?:any
+cSyncStatus?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

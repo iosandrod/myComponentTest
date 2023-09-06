@@ -1,0 +1,75 @@
+export default class t_ApVouch {
+      columnArr=['iVouchID','cLink','cVouchType','cVouchID','dVouchDate','cStatus','cDwCode','cDeptCode','cPerson','cItem_Class','cItemCode','cDigest','cCode','cexch_name','iExchRate','bd_c','iAmount','iAmount_f','iRAmount','iRAmount_f','cPayCode','cOperator','cChecker','cCoVouchType','cDestNo','cSrcNo','bStartFlag','cPZid','cFlag','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','iAmount_s','iRAmount_s','iVT_ID','qkts','iClosesID','iCoClosesID','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','cItemName','cGatheringPlan','dCreditStart','iCreditPeriod','dGatheringDate','dOpeDate','dCheckDate','dModifyDate','cmodifier','iAuditTypeID','cNote','cWhKeeper','cBank','cBankAccount','cBankVenName','iMoney','iTax']
+      iVouchID?:any
+cLink?:any
+cVouchType?:any
+cVouchID?:any
+dVouchDate?:any
+cStatus?:any
+cDwCode?:any
+cDeptCode?:any
+cPerson?:any
+cItem_Class?:any
+cItemCode?:any
+cDigest?:any
+cCode?:any
+cexch_name?:any
+iExchRate?:any
+bd_c?:any
+iAmount?:any
+iAmount_f?:any
+iRAmount?:any
+iRAmount_f?:any
+cPayCode?:any
+cOperator?:any
+cChecker?:any
+cCoVouchType?:any
+cDestNo?:any
+cSrcNo?:any
+bStartFlag?:any
+cPZid?:any
+cFlag?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+iAmount_s?:any
+iRAmount_s?:any
+iVT_ID?:any
+qkts?:any
+iClosesID?:any
+iCoClosesID?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+cItemName?:any
+cGatheringPlan?:any
+dCreditStart?:any
+iCreditPeriod?:any
+dGatheringDate?:any
+dOpeDate?:any
+dCheckDate?:any
+dModifyDate?:any
+cmodifier?:any
+iAuditTypeID?:any
+cNote?:any
+cWhKeeper?:any
+cBank?:any
+cBankAccount?:any
+cBankVenName?:any
+iMoney?:any
+iTax?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

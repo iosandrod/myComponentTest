@@ -1,0 +1,51 @@
+export default class t_TechLearnCurves {
+      columnArr=['iInterID','cLearnCurvesNo','cLearnCurvesName','cTechNo','iDayDis1','iDayDis2','iDayDis3','iDayDis4','iDayDis5','iDayDis6','iDayDis7','iDayDis8','iDayDis9','iDayDis10','iDayDis11','iDayDis12','iDayDis13','iDayDis14','iDayDis15','iDayDis16','iDayDis17','iDayDis18','iDayDis19','iDayDis20','iDayDis21','iDayDis22','iDayDis23','iDayDis24','iDayDis25','iDayDis26','iDayDis27','iDayDis28','iDayDis29','iDayDis30','iDayDis31','iDiffCoe','iCapacity','iResPreTime','cNote','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26']
+      iInterID?:any
+cLearnCurvesNo?:any
+cLearnCurvesName?:any
+cTechNo?:any
+iDayDis1?:any
+iDayDis2?:any
+iDayDis3?:any
+iDayDis4?:any
+iDayDis5?:any
+iDayDis6?:any
+iDayDis7?:any
+iDayDis8?:any
+iDayDis9?:any
+iDayDis10?:any
+iDayDis11?:any
+iDayDis12?:any
+iDayDis13?:any
+iDayDis14?:any
+iDayDis15?:any
+iDayDis16?:any
+iDayDis17?:any
+iDayDis18?:any
+iDayDis19?:any
+iDayDis20?:any
+iDayDis21?:any
+iDayDis22?:any
+iDayDis23?:any
+iDayDis24?:any
+iDayDis25?:any
+iDayDis26?:any
+iDayDis27?:any
+iDayDis28?:any
+iDayDis29?:any
+iDayDis30?:any
+iDayDis31?:any
+iDiffCoe?:any
+iCapacity?:any
+iResPreTime?:any
+cNote?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

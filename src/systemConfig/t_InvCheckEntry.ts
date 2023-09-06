@@ -1,0 +1,85 @@
+export default class t_InvCheckEntry {
+      columnArr=['cCVCode','cInvCode','RdsID','iCVNum','iCVQuantity','iCVCNum','iCVCQuantity','cCVBatch','cFree1','cFree2','cCVReason','dDisDate','iJhdj','iJhJe','iSjDJ','iSjJe','cPosition','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26','cDefine27','cItemCode','cItem_class','cName','cItemCName','autoID','ID','cBarCode','iAdInQuantity','iAdInNum','iAdOutQuantity','iAdOutNum','iAllowWaste','iActualWaste','cFree3','cFree4','cFree5','cFree6','cFree7','cFree8','cFree9','cFree10','cDefine28','cDefine29','cDefine30','cDefine31','cDefine32','cDefine33','cDefine34','cDefine35','cDefine36','cDefine37','cAssUnit','cBVencode','cInVouchCode','iMassDate','dMadeDate','cMassUnit','iSoType','iSodid','cvmivencode','iinvexchrate','iExpiratDateCalcu','cExpirationdate','dExpirationdate','cBatchProperty1','cBatchProperty2','cBatchProperty3','cBatchProperty4','cBatchProperty5','cBatchProperty6','cBatchProperty7','cBatchProperty8','cBatchProperty9','cBatchProperty10','cciqbookcode']
+      cCVCode?:any
+cInvCode?:any
+RdsID?:any
+iCVNum?:any
+iCVQuantity?:any
+iCVCNum?:any
+iCVCQuantity?:any
+cCVBatch?:any
+cFree1?:any
+cFree2?:any
+cCVReason?:any
+dDisDate?:any
+iJhdj?:any
+iJhJe?:any
+iSjDJ?:any
+iSjJe?:any
+cPosition?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any
+cDefine27?:any
+cItemCode?:any
+cItem_class?:any
+cName?:any
+cItemCName?:any
+autoID?:any
+ID?:any
+cBarCode?:any
+iAdInQuantity?:any
+iAdInNum?:any
+iAdOutQuantity?:any
+iAdOutNum?:any
+iAllowWaste?:any
+iActualWaste?:any
+cFree3?:any
+cFree4?:any
+cFree5?:any
+cFree6?:any
+cFree7?:any
+cFree8?:any
+cFree9?:any
+cFree10?:any
+cDefine28?:any
+cDefine29?:any
+cDefine30?:any
+cDefine31?:any
+cDefine32?:any
+cDefine33?:any
+cDefine34?:any
+cDefine35?:any
+cDefine36?:any
+cDefine37?:any
+cAssUnit?:any
+cBVencode?:any
+cInVouchCode?:any
+iMassDate?:any
+dMadeDate?:any
+cMassUnit?:any
+iSoType?:any
+iSodid?:any
+cvmivencode?:any
+iinvexchrate?:any
+iExpiratDateCalcu?:any
+cExpirationdate?:any
+dExpirationdate?:any
+cBatchProperty1?:any
+cBatchProperty2?:any
+cBatchProperty3?:any
+cBatchProperty4?:any
+cBatchProperty5?:any
+cBatchProperty6?:any
+cBatchProperty7?:any
+cBatchProperty8?:any
+cBatchProperty9?:any
+cBatchProperty10?:any
+cciqbookcode?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

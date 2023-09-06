@@ -1,0 +1,76 @@
+export default class t_QMCheckProjectEntry {
+      columnArr=['ID','iAutoID','cCHKItemCode','cCHKGuideCode','cGuideUnit','bGuideType','cStandard','iUpperlimit','iLowerLImit','cInPortGrade','cCHKAppCode','cInvCode','cCHKPlaceCode','cCHKDrawCode','cCHKTempCode','cPersonCode','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26','cDefine27','cDefine28','cDefine29','cDefine30','cDefine31','cDefine32','cDefine33','cDefine34','cDefine35','cDefine36','cDefine37','cNote','cCHKEnvCode','cINSLevel','fAQL','cBugGrade','cRamistype','cISDevCostType','fISDevfee','cISMAType','fISMAUnitPrice','fISMARate','fISMAFee','cISMANNRATETYPE','fISMANFEE','bShowProof','cCHKGuidType','cDTMethod','fDTRate','fDTQuantity','cRuleCode','fUpperWarp','fLowerWarp','bRecordDetails','cGroupCode','cGComUnitCode','bBreakCheck','bMustBreak','cRounded','bRounded','BROHS','BRANDORPROJECTB','CCHKSTANDARDPROVISION','BATCHPROPERTYB','BMustCheck','IVOUCHROWNO','cProjectCode','cCHKItemName']
+      ID?:any
+iAutoID?:any
+cCHKItemCode?:any
+cCHKGuideCode?:any
+cGuideUnit?:any
+bGuideType?:any
+cStandard?:any
+iUpperlimit?:any
+iLowerLImit?:any
+cInPortGrade?:any
+cCHKAppCode?:any
+cInvCode?:any
+cCHKPlaceCode?:any
+cCHKDrawCode?:any
+cCHKTempCode?:any
+cPersonCode?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any
+cDefine27?:any
+cDefine28?:any
+cDefine29?:any
+cDefine30?:any
+cDefine31?:any
+cDefine32?:any
+cDefine33?:any
+cDefine34?:any
+cDefine35?:any
+cDefine36?:any
+cDefine37?:any
+cNote?:any
+cCHKEnvCode?:any
+cINSLevel?:any
+fAQL?:any
+cBugGrade?:any
+cRamistype?:any
+cISDevCostType?:any
+fISDevfee?:any
+cISMAType?:any
+fISMAUnitPrice?:any
+fISMARate?:any
+fISMAFee?:any
+cISMANNRATETYPE?:any
+fISMANFEE?:any
+bShowProof?:any
+cCHKGuidType?:any
+cDTMethod?:any
+fDTRate?:any
+fDTQuantity?:any
+cRuleCode?:any
+fUpperWarp?:any
+fLowerWarp?:any
+bRecordDetails?:any
+cGroupCode?:any
+cGComUnitCode?:any
+bBreakCheck?:any
+bMustBreak?:any
+cRounded?:any
+bRounded?:any
+BROHS?:any
+BRANDORPROJECTB?:any
+CCHKSTANDARDPROVISION?:any
+BATCHPROPERTYB?:any
+BMustCheck?:any
+IVOUCHROWNO?:any
+cProjectCode?:any
+cCHKItemName?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

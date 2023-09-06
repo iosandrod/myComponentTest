@@ -1,0 +1,48 @@
+export default class t_SdWkcStatus {
+      columnArr=['iInterID','cOperator','cProductWo','cWoNo','cDeptNo','cMiNo','cSdOrderNo','cItemClsNo','cInvCode','cInvName','cInvStd','cComUnitCode','iReqQty','headdBegDate','headdEndDate','dRePlanDate','dProductDate','cCustNo','cNote','SdiReqQty','dDeliveryDate','iNum','dBegDate','RoIReqQty','iActQty','ROcInvCode','iModelID','iProcessProductID','iWoSeqID','cTechNo','cSeqNote','cParellelType','iBatchQty','cStatus','iResRationHour','cResourceNo','cResourceName','dResActBegDate','dResActEndDate','cWorkType','iResGroupNo']
+      iInterID?:any
+cOperator?:any
+cProductWo?:any
+cWoNo?:any
+cDeptNo?:any
+cMiNo?:any
+cSdOrderNo?:any
+cItemClsNo?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cComUnitCode?:any
+iReqQty?:any
+headdBegDate?:any
+headdEndDate?:any
+dRePlanDate?:any
+dProductDate?:any
+cCustNo?:any
+cNote?:any
+SdiReqQty?:any
+dDeliveryDate?:any
+iNum?:any
+dBegDate?:any
+RoIReqQty?:any
+iActQty?:any
+ROcInvCode?:any
+iModelID?:any
+iProcessProductID?:any
+iWoSeqID?:any
+cTechNo?:any
+cSeqNote?:any
+cParellelType?:any
+iBatchQty?:any
+cStatus?:any
+iResRationHour?:any
+cResourceNo?:any
+cResourceName?:any
+dResActBegDate?:any
+dResActEndDate?:any
+cWorkType?:any
+iResGroupNo?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

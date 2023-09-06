@@ -1,0 +1,50 @@
+export default class t_WoRouteResDayShift {
+      columnArr=['iAutoID','cWoNo','iProcessID','iResProcessID','cResourceNo','cResourceName','iPeriodTimeID','cCalculateNo','dResBegDate','dResEndDate','iResReqQtySum','iActResReqQtySum','iResRationHour','iActResRationHour','cSimulateVer','cNote','iResRealRationHour','dOpeDate','dPeriodDay','iShiftType1A','iShiftType1B','iShiftType1C','iShiftType1D','iShiftType1E','iShiftType1F','iShiftType1G','iShiftType1H','iShiftType2A','iShiftType2B','iShiftType2C','iShiftType2D','iShiftType2E','iShiftType2F','iShiftType2G','iShiftType2H','iShiftType3A','iShiftType3B','iShiftType3C','iShiftType3D','iShiftType3E','iShiftType3F','iShiftType3G','iShiftType3H']
+      iAutoID?:any
+cWoNo?:any
+iProcessID?:any
+iResProcessID?:any
+cResourceNo?:any
+cResourceName?:any
+iPeriodTimeID?:any
+cCalculateNo?:any
+dResBegDate?:any
+dResEndDate?:any
+iResReqQtySum?:any
+iActResReqQtySum?:any
+iResRationHour?:any
+iActResRationHour?:any
+cSimulateVer?:any
+cNote?:any
+iResRealRationHour?:any
+dOpeDate?:any
+dPeriodDay?:any
+iShiftType1A?:any
+iShiftType1B?:any
+iShiftType1C?:any
+iShiftType1D?:any
+iShiftType1E?:any
+iShiftType1F?:any
+iShiftType1G?:any
+iShiftType1H?:any
+iShiftType2A?:any
+iShiftType2B?:any
+iShiftType2C?:any
+iShiftType2D?:any
+iShiftType2E?:any
+iShiftType2F?:any
+iShiftType2G?:any
+iShiftType2H?:any
+iShiftType3A?:any
+iShiftType3B?:any
+iShiftType3C?:any
+iShiftType3D?:any
+iShiftType3E?:any
+iShiftType3F?:any
+iShiftType3G?:any
+iShiftType3H?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

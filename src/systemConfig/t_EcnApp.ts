@@ -1,0 +1,52 @@
+export default class t_EcnApp {
+      columnArr=['ID','cCode','dDate','dIssueDate','cProdInvCode','cProdUnitID','cECNLevelCode','cECNReasonCode','cLevelNote','cReasonNote','cDepCode','cPersonCode','cNote','cPeriod','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','cLocker','iDiscountTaxType','ireturncount','cStatus','cOperator','dOpeDate','cChecker','dCheckDate','cVenPUOMProtocol','iVT_ID','iAuditTypeID','qkts','cCloser','dCloseDate','iPrintCount']
+      ID?:any
+cCode?:any
+dDate?:any
+dIssueDate?:any
+cProdInvCode?:any
+cProdUnitID?:any
+cECNLevelCode?:any
+cECNReasonCode?:any
+cLevelNote?:any
+cReasonNote?:any
+cDepCode?:any
+cPersonCode?:any
+cNote?:any
+cPeriod?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+cLocker?:any
+iDiscountTaxType?:any
+ireturncount?:any
+cStatus?:any
+cOperator?:any
+dOpeDate?:any
+cChecker?:any
+dCheckDate?:any
+cVenPUOMProtocol?:any
+iVT_ID?:any
+iAuditTypeID?:any
+qkts?:any
+cCloser?:any
+dCloseDate?:any
+iPrintCount?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,30 @@
+export default class t_SysBillPrint {
+      columnArr=['iLineID','FBillID','FBillName','cBusiness','FPrintModel','FModelName','FParth','FIsDefault','FSysNo','FDataSet','FViewName','FNote','FRptFileName','FWinName','FWinFullName','FRptFileData','cDetailAddWhere','cDetail2AddWhere','cDetail3AddWhere','cTableName','cPrintCol','cPrintEntryID','cQuantity']
+      iLineID?:any
+FBillID?:any
+FBillName?:any
+cBusiness?:any
+FPrintModel?:any
+FModelName?:any
+FParth?:any
+FIsDefault?:any
+FSysNo?:any
+FDataSet?:any
+FViewName?:any
+FNote?:any
+FRptFileName?:any
+FWinName?:any
+FWinFullName?:any
+FRptFileData?:any
+cDetailAddWhere?:any
+cDetail2AddWhere?:any
+cDetail3AddWhere?:any
+cTableName?:any
+cPrintCol?:any
+cPrintEntryID?:any
+cQuantity?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

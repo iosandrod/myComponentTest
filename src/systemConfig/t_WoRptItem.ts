@@ -1,0 +1,40 @@
+export default class t_WoRptItem {
+      columnArr=['iInterID','cRptNo','iAutoID','cWoNo','cInvCode','iRptQty','dDate','iItemID','iSeqID','cUtterType','cSubRelate','iParentQty','iSubQty','iQtyPer','iScrapt','cSubInvCode','iReqQty','iProQty','cBatchNo','cBarCode','cNote','cDefine37','cDefine38','cDefine39','cDefine40','cDefine41','cDefine42','cDefine43','cDefine44','cDefine45','cResourceNo','dProductDate','iPutInNum']
+      iInterID?:any
+cRptNo?:any
+iAutoID?:any
+cWoNo?:any
+cInvCode?:any
+iRptQty?:any
+dDate?:any
+iItemID?:any
+iSeqID?:any
+cUtterType?:any
+cSubRelate?:any
+iParentQty?:any
+iSubQty?:any
+iQtyPer?:any
+iScrapt?:any
+cSubInvCode?:any
+iReqQty?:any
+iProQty?:any
+cBatchNo?:any
+cBarCode?:any
+cNote?:any
+cDefine37?:any
+cDefine38?:any
+cDefine39?:any
+cDefine40?:any
+cDefine41?:any
+cDefine42?:any
+cDefine43?:any
+cDefine44?:any
+cDefine45?:any
+cResourceNo?:any
+dProductDate?:any
+iPutInNum?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

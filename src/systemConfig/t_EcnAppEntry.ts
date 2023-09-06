@@ -1,0 +1,34 @@
+export default class t_EcnAppEntry {
+      columnArr=['iLineID','ID','cCode','cInvCode','cSubInvCodePre','cSubInvCodePro','iParentQty','iSubQty','iScrapt','iSeqID','cSubRelate','cSupplyMode','cWhCode','cDeductType','cGetItemType','cbCloseDate','cLineCloser','cDNote','dqkts','cDefine22','cDefine23','cDefine24','cDefine32','cDefine33','cDefine36','cECNObject','cECNType']
+      iLineID?:any
+ID?:any
+cCode?:any
+cInvCode?:any
+cSubInvCodePre?:any
+cSubInvCodePro?:any
+iParentQty?:any
+iSubQty?:any
+iScrapt?:any
+iSeqID?:any
+cSubRelate?:any
+cSupplyMode?:any
+cWhCode?:any
+cDeductType?:any
+cGetItemType?:any
+cbCloseDate?:any
+cLineCloser?:any
+cDNote?:any
+dqkts?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine32?:any
+cDefine33?:any
+cDefine36?:any
+cECNObject?:any
+cECNType?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

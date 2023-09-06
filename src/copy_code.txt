@@ -1,0 +1,123 @@
+//设计xfModal
+
+import { GlobalConfig } from '..'
+import { PropType, Teleport, Component } from 'vue'
+import modalHeader from './modalHeader'
+import modalFooter from './modalFooter'
+import XEUtils from 'xe-utils'
+import {
+  VxeModalConstructor, //constructor的作用是什么呢
+  VxeModalPropTypes, //传入的外部数据,是这个组件的外部属性
+  ModalReactData, //
+  VxeModalEmits, //
+  ModalEventTypes, //模态框的事件类型
+  //   VxeButtonInstance,
+  ModalMethods, //模态框的方法
+  ModalPrivateRef, //
+  VxeModalMethods,
+  VxeModalProps,
+  ModalType, //模态框的方法
+} from '@/type/all'
+import { useSize } from '../hook/size'
+import { VNodeStyle } from '@/type/component'
+import { getModalWrapClass, getModalWrapStyle } from './modalcss'
+import modalProp from './modalProp'
+export default defineComponent({
+  name: 'XfModal',
+  props: modalProp,
+  setup(props, context) {
+    //需求分析能力
+    //定结构
+    //定数据
+
+    //定结构:Teleport为最外层，把这个弹框放到body，方便设定宽和高
+    //渲染函数->拿数据 ->一般不做数据更改
+    const reactData = reactive<ModalReactData>({
+      inited: false,
+      visible: false,
+      contentVisible: false,
+      modalTop: 0,
+      modalZindex: 0,
+      zoomLocat: null,
+      firstOpen: true,
+    }) //初始化ReactData
+    //这个数据是模态框顶层的warp的数据
+    const modalWrapClass = getModalWrapClass(props as VxeModalProps, reactData)
+    const modalWrapStyle = getModalWrapStyle(props as VxeModalProps, reactData)
+    const modalWrapClickFn = (e: MouseEvent) => {
+      //处理点击函数
+      console.log('点击了遮罩层')
+    }
+    const xID = XEUtils.uniqueId()
+    const $xemodal = {
+      xID,
+      props,
+      context,
+      reactData,
+      getRefMaps: () => refMaps,
+    } as unknown as VxeModalConstructor & VxeModalMethods
+    const refElem = ref()
+    const modalRef = ref()
+    const refMaps: ModalPrivateRef = {
+      refElem,
+    }
+    const boxMouseDown = (e: MouseEvent) => {}
+    const modelTypeRender = {
+      message: () => {
+        return <div>message</div>
+      },
+      alter: () => {
+        return <div>alter</div>
+      },
+      confirm: () => {
+        return <div>confirm</div>
+      },
+    }
+    const headerOns: any = {
+      onMousedown: () => {},
+      onDblclick: () => {},
+    }
+    const renderHeader = () => {
+      let { slots: propSlot, status, message, draggable } = props //
+      // const isMsg
+      //不显示header则不返回
+      if (props.showHeader === false) {
+        return
+      }
+      const headerSlotVN = propSlot?.header && propSlot.header({ $modal: $xemodal })
+      //如果外部传进来header的slot则使用header
+      return (
+        <div
+          class={[
+            'vxe-modal--header',
+            {
+              'is--draggable': draggable,
+              // 'is--ellipsis': !isMsg && props.showTitleOverflow,
+            },
+          ]}
+          {...headerOns}>
+          {headerSlotVN}
+        </div>
+      )
+    }
+    const renderBody = () => {
+      let { slots: propBodySlot, status, message, content } = props
+      return <div></div>
+    }
+    const renderVN = () => {
+      const { transfer } = props //transfer是指放到body节点的数据
+      return (
+        <Teleport to={'body'} disabled={transfer}>
+          <div ref={refElem} class={modalWrapClass.value} style={modalWrapStyle.value} onClick={modalWrapClickFn}>
+            <div ref={modalRef} class={['vxe-modal--box']} onMousedown={boxMouseDown}></div>
+          </div>
+        </Teleport>
+      )
+    }
+
+    const modalType = computed(() => props.type)
+    return () => {
+      return renderVN()
+    }
+  },
+})

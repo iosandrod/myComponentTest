@@ -1,0 +1,41 @@
+export default class t_SdOrderDayWorkQty {
+      columnArr=['cRdCode','cSize','cUnitCode','iDayAct1','iDayAct2','iDayAct3','iDayAct4','iDayAct5','iDayAct6','iDayAct7','iDayAct8','iDayAct9','iDayAct10','iDayAct11','iDayAct12','iDayAct13','iDayAct14','iDayAct15','iDayAct16','iDayAct17','iDayAct18','iDayAct19','iDayAct20','iDayAct21','iDayAct22','iDayAct23','iDayAct24','iDayAct25','iDayAct26','iDayAct27','iDayAct28','iDayAct29','iDayAct30','iDayAct31']
+      cRdCode?:any
+cSize?:any
+cUnitCode?:any
+iDayAct1?:any
+iDayAct2?:any
+iDayAct3?:any
+iDayAct4?:any
+iDayAct5?:any
+iDayAct6?:any
+iDayAct7?:any
+iDayAct8?:any
+iDayAct9?:any
+iDayAct10?:any
+iDayAct11?:any
+iDayAct12?:any
+iDayAct13?:any
+iDayAct14?:any
+iDayAct15?:any
+iDayAct16?:any
+iDayAct17?:any
+iDayAct18?:any
+iDayAct19?:any
+iDayAct20?:any
+iDayAct21?:any
+iDayAct22?:any
+iDayAct23?:any
+iDayAct24?:any
+iDayAct25?:any
+iDayAct26?:any
+iDayAct27?:any
+iDayAct28?:any
+iDayAct29?:any
+iDayAct30?:any
+iDayAct31?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,68 @@
+export default class t_HrPersonReserve {
+      columnArr=['cPsn_Num','cPsn_Name','cDepCode','rPersonType','rSex','dBirthDate','rNativePlace','rNational','rhealthStatus','rMarriStatus','iDesiredSalary','cSchool','dGraduationDate','cInviteChannel','vIDNo','MPicture','rPerResidence','vAliaName','dJoinworkDate','dEnterDate','bPsnPerson','cPsnMobilePhone','cPsnFPhone','cPsnOPhone','cPsnInPhone','cPsnEmail','cPsnPostAddr','cPsnPostCode','cPsnFAddr','cPsnQQCode','cPsnURL','dEnterUnitDate','cPsnProperty','bProbation','bTakeTM','rIDType','rCountry','dLeaveDate','rFigure','rWorkStatus','EmploymentForm','rPersonParameters','cJobCode','cEnglishName','cEducation','cPsnDefine1','cPsnDefine2','cPsnDefine3','cPsnDefine4','cPsnDefine5','cPsnDefine6','cPsnDefine7','cPsnDefine8','cPsnDefine9','cPsnDefine10','cPsnDefine11','cPsnDefine12','cPsnDefine13','cPsnDefine14','cPsnDefine15','cPsnDefine16']
+      cPsn_Num?:any
+cPsn_Name?:any
+cDepCode?:any
+rPersonType?:any
+rSex?:any
+dBirthDate?:any
+rNativePlace?:any
+rNational?:any
+rhealthStatus?:any
+rMarriStatus?:any
+iDesiredSalary?:any
+cSchool?:any
+dGraduationDate?:any
+cInviteChannel?:any
+vIDNo?:any
+MPicture?:any
+rPerResidence?:any
+vAliaName?:any
+dJoinworkDate?:any
+dEnterDate?:any
+bPsnPerson?:any
+cPsnMobilePhone?:any
+cPsnFPhone?:any
+cPsnOPhone?:any
+cPsnInPhone?:any
+cPsnEmail?:any
+cPsnPostAddr?:any
+cPsnPostCode?:any
+cPsnFAddr?:any
+cPsnQQCode?:any
+cPsnURL?:any
+dEnterUnitDate?:any
+cPsnProperty?:any
+bProbation?:any
+bTakeTM?:any
+rIDType?:any
+rCountry?:any
+dLeaveDate?:any
+rFigure?:any
+rWorkStatus?:any
+EmploymentForm?:any
+rPersonParameters?:any
+cJobCode?:any
+cEnglishName?:any
+cEducation?:any
+cPsnDefine1?:any
+cPsnDefine2?:any
+cPsnDefine3?:any
+cPsnDefine4?:any
+cPsnDefine5?:any
+cPsnDefine6?:any
+cPsnDefine7?:any
+cPsnDefine8?:any
+cPsnDefine9?:any
+cPsnDefine10?:any
+cPsnDefine11?:any
+cPsnDefine12?:any
+cPsnDefine13?:any
+cPsnDefine14?:any
+cPsnDefine15?:any
+cPsnDefine16?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

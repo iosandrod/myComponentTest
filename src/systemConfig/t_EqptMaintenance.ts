@@ -1,0 +1,59 @@
+export default class t_EqptMaintenance {
+      columnArr=['iInterID','dDate','cOperator','dOpeDate','cChecker','dCheckDate','cStatus','cCloser','dCloseDate','cModifier','dModifyDate','cNote','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','cMtNo','cMtPlanner','cMtCharge','cEqptCode','cEqptName','cSpeType','cDepCode','cMtType','cUrgency','dSendDate','dBeginDate','dFinishDate','iMtTime','cFaultDes','mMtCost','iDownTime','cMtLevel','cMtUnit','cFaultType','cFaultHandle','cReplacePart','cEqptNum','cEqptPart','bDowntime']
+      iInterID?:any
+dDate?:any
+cOperator?:any
+dOpeDate?:any
+cChecker?:any
+dCheckDate?:any
+cStatus?:any
+cCloser?:any
+dCloseDate?:any
+cModifier?:any
+dModifyDate?:any
+cNote?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+cMtNo?:any
+cMtPlanner?:any
+cMtCharge?:any
+cEqptCode?:any
+cEqptName?:any
+cSpeType?:any
+cDepCode?:any
+cMtType?:any
+cUrgency?:any
+dSendDate?:any
+dBeginDate?:any
+dFinishDate?:any
+iMtTime?:any
+cFaultDes?:any
+mMtCost?:any
+iDownTime?:any
+cMtLevel?:any
+cMtUnit?:any
+cFaultType?:any
+cFaultHandle?:any
+cReplacePart?:any
+cEqptNum?:any
+cEqptPart?:any
+bDowntime?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,30 @@
+export default class t_SalaryOther {
+      columnArr=['iInterID','cCode','dDate','cPersonCode','cDepCode','cJobCode','cProductLine','cOperator','dOpeDate','cChecker','dCheckDate','cStatus','cNote','rWorkStatus','cTiaozhengType','fTiaozhengJine','iYonggongTime','fGongziBiaozhun','cPersonName','dShuaKa1','dShuaKa2','dShuaKa3','cChuQin']
+      iInterID?:any
+cCode?:any
+dDate?:any
+cPersonCode?:any
+cDepCode?:any
+cJobCode?:any
+cProductLine?:any
+cOperator?:any
+dOpeDate?:any
+cChecker?:any
+dCheckDate?:any
+cStatus?:any
+cNote?:any
+rWorkStatus?:any
+cTiaozhengType?:any
+fTiaozhengJine?:any
+iYonggongTime?:any
+fGongziBiaozhun?:any
+cPersonName?:any
+dShuaKa1?:any
+dShuaKa2?:any
+dShuaKa3?:any
+cChuQin?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

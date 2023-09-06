@@ -1,0 +1,55 @@
+export default class m_Mold {
+      columnArr=['cMoldNo','cMoldName','cMoldStd','cMoldClsNo','cMoldType','iMoldGross','iMoldNet','iGapPercent','iMoldCount','iPreTime','iProTime','cNote','iChgMoldTime','iHeatMoldTime','cResClsNo','cResourceNo','cWcNo','iWorkers','cWhKeeper','cDefWhNo','cMoldBox','cInvCode','cMaterial','cColor','cMoldDefine1','cMoldDefine2','cMoldDefine3','cMoldDefine4','cMoldDefine5','cMoldDefine6','cMoldDefine7','cMoldDefine8','cMoldDefine9','cMoldDefine10','cMoldDefine11','cMoldDefine12','cMoldDefine13','cMoldDefine14','cMoldDefine15','cMoldDefine16','iSharpenCount','iSharpenedCount','dBeginDate','bCancel','cMoldStatus','cMoldSource','cMoldUnitCost','cSyncStatus']
+      cMoldNo?:any
+cMoldName?:any
+cMoldStd?:any
+cMoldClsNo?:any
+cMoldType?:any
+iMoldGross?:any
+iMoldNet?:any
+iGapPercent?:any
+iMoldCount?:any
+iPreTime?:any
+iProTime?:any
+cNote?:any
+iChgMoldTime?:any
+iHeatMoldTime?:any
+cResClsNo?:any
+cResourceNo?:any
+cWcNo?:any
+iWorkers?:any
+cWhKeeper?:any
+cDefWhNo?:any
+cMoldBox?:any
+cInvCode?:any
+cMaterial?:any
+cColor?:any
+cMoldDefine1?:any
+cMoldDefine2?:any
+cMoldDefine3?:any
+cMoldDefine4?:any
+cMoldDefine5?:any
+cMoldDefine6?:any
+cMoldDefine7?:any
+cMoldDefine8?:any
+cMoldDefine9?:any
+cMoldDefine10?:any
+cMoldDefine11?:any
+cMoldDefine12?:any
+cMoldDefine13?:any
+cMoldDefine14?:any
+cMoldDefine15?:any
+cMoldDefine16?:any
+iSharpenCount?:any
+iSharpenedCount?:any
+dBeginDate?:any
+bCancel?:any
+cMoldStatus?:any
+cMoldSource?:any
+cMoldUnitCost?:any
+cSyncStatus?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

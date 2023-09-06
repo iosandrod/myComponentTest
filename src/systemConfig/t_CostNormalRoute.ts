@@ -1,0 +1,43 @@
+export default class t_CostNormalRoute {
+      columnArr=['iDetailID','iAutoID','iInterID','cRouteCode','iProcessID','iResourceAbilityID','cInvCode','cInvName','cInvStd','cComUnitCode','iWoSeqID','cSeqNote','cTechNo','cWcNo','cWcName','cResourceNo','iWorkQty','iInvQty','iCapacity','iResPreTime','iResPostTime','FResChaValueTime','cWorkType','iBatchQty','iBatchInterTime','iBatchWorkTime','iResourcePreTime','iChangeTime','iPower','iPowerRate','iLabRate','iOtherRate','iLaborTime','iNorLabCost','iNorManuCost','cNote']
+      iDetailID?:any
+iAutoID?:any
+iInterID?:any
+cRouteCode?:any
+iProcessID?:any
+iResourceAbilityID?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cComUnitCode?:any
+iWoSeqID?:any
+cSeqNote?:any
+cTechNo?:any
+cWcNo?:any
+cWcName?:any
+cResourceNo?:any
+iWorkQty?:any
+iInvQty?:any
+iCapacity?:any
+iResPreTime?:any
+iResPostTime?:any
+FResChaValueTime?:any
+cWorkType?:any
+iBatchQty?:any
+iBatchInterTime?:any
+iBatchWorkTime?:any
+iResourcePreTime?:any
+iChangeTime?:any
+iPower?:any
+iPowerRate?:any
+iLabRate?:any
+iOtherRate?:any
+iLaborTime?:any
+iNorLabCost?:any
+iNorManuCost?:any
+cNote?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,33 @@
+export default class t_WipInv {
+      columnArr=['AutoID','cWoNo','cResourceNo','cWcNo','cInvCode','ItemId','cBatch','iQuantity','iNum','cFree1','cFree2','cFree3','cFree4','cFree5','cFree6','cFree7','cFree8','cFree9','cFree10','cVersionNo','cInvName','cInvStd','cComUnitCode','cItemClsNo','iAdjQty','iActQty']
+      AutoID?:any
+cWoNo?:any
+cResourceNo?:any
+cWcNo?:any
+cInvCode?:any
+ItemId?:any
+cBatch?:any
+iQuantity?:any
+iNum?:any
+cFree1?:any
+cFree2?:any
+cFree3?:any
+cFree4?:any
+cFree5?:any
+cFree6?:any
+cFree7?:any
+cFree8?:any
+cFree9?:any
+cFree10?:any
+cVersionNo?:any
+cInvName?:any
+cInvStd?:any
+cComUnitCode?:any
+cItemClsNo?:any
+iAdjQty?:any
+iActQty?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

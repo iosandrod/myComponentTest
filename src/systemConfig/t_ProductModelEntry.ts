@@ -1,0 +1,71 @@
+export default class t_ProductModelEntry {
+      columnArr=['iModelID','cCode','iProcessProductID','iBomNum','iItemID','cInvCode','iWorkItemID','cWorkItemNo','cWorkItemNoFull','cWorkItemName','iProcessID','iWoSeqID','cTechNo','cSeqNote','cWcNo','iNextSeqID','cNextSeqNote','cPreProcessID','cPostProcessID','cPreProcessItem','cPostProcessItem','X','Y','iBomAutoID','cLevelInfo','cLevelPath','iLevel','iParentItemID','cParentItemNo','cParentItemNoFull','cParentItemName','iRouteInterID','iProcessSumQty','iQtyPer','iParentQty','cSourceCode','iSourceInterID','iSourceEntryID','cEasID','cColor','cResourceNo','cResourceName','iCapacity','iResPreTime','iResPostTime','cWcName','cDepName','iScrapt','cScraptExp','cDevCountPdExp','iScraptSum','iScraptBaseQuantity','iScraptBaseQuantitySum','iScraptLevelQty','iScraptSeq','cNextWcNo','iBatchQty','cWorkType','iScraptLevelQtyBatch','cSeqReq','iScraptQtySum','iScraptQty','cWorkRouteType','iProcessSumQtyScrapt']
+      iModelID?:any
+cCode?:any
+iProcessProductID?:any
+iBomNum?:any
+iItemID?:any
+cInvCode?:any
+iWorkItemID?:any
+cWorkItemNo?:any
+cWorkItemNoFull?:any
+cWorkItemName?:any
+iProcessID?:any
+iWoSeqID?:any
+cTechNo?:any
+cSeqNote?:any
+cWcNo?:any
+iNextSeqID?:any
+cNextSeqNote?:any
+cPreProcessID?:any
+cPostProcessID?:any
+cPreProcessItem?:any
+cPostProcessItem?:any
+X?:any
+Y?:any
+iBomAutoID?:any
+cLevelInfo?:any
+cLevelPath?:any
+iLevel?:any
+iParentItemID?:any
+cParentItemNo?:any
+cParentItemNoFull?:any
+cParentItemName?:any
+iRouteInterID?:any
+iProcessSumQty?:any
+iQtyPer?:any
+iParentQty?:any
+cSourceCode?:any
+iSourceInterID?:any
+iSourceEntryID?:any
+cEasID?:any
+cColor?:any
+cResourceNo?:any
+cResourceName?:any
+iCapacity?:any
+iResPreTime?:any
+iResPostTime?:any
+cWcName?:any
+cDepName?:any
+iScrapt?:any
+cScraptExp?:any
+cDevCountPdExp?:any
+iScraptSum?:any
+iScraptBaseQuantity?:any
+iScraptBaseQuantitySum?:any
+iScraptLevelQty?:any
+iScraptSeq?:any
+cNextWcNo?:any
+iBatchQty?:any
+cWorkType?:any
+iScraptLevelQtyBatch?:any
+cSeqReq?:any
+iScraptQtySum?:any
+iScraptQty?:any
+cWorkRouteType?:any
+iProcessSumQtyScrapt?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

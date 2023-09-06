@@ -1,0 +1,56 @@
+export default class t_ManuControlDetail {
+      columnArr=['iInterID','cStatus','cWarnNo','cResourceNo','cWoNo','iWoInterID','iProcessID','iScanResourceID','iWoSeqID','cWcNo','cTechNo','iNextSeqID','cNextSeqNote','cInvCode','iResReqQty','dResBegDate','dResEndDate','iResRationHour','iCompQty','cPLCNo','cNote','rNo','cErrorNo','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','iRouteFS','iRouteQZFS','iDeliveryDateFS','iDeliveryDateQZFS','iResFS','iResQZFS','iQuantityFS','iQuantityQZFS','iQZALL','iRouteWait']
+      iInterID?:any
+cStatus?:any
+cWarnNo?:any
+cResourceNo?:any
+cWoNo?:any
+iWoInterID?:any
+iProcessID?:any
+iScanResourceID?:any
+iWoSeqID?:any
+cWcNo?:any
+cTechNo?:any
+iNextSeqID?:any
+cNextSeqNote?:any
+cInvCode?:any
+iResReqQty?:any
+dResBegDate?:any
+dResEndDate?:any
+iResRationHour?:any
+iCompQty?:any
+cPLCNo?:any
+cNote?:any
+rNo?:any
+cErrorNo?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+iRouteFS?:any
+iRouteQZFS?:any
+iDeliveryDateFS?:any
+iDeliveryDateQZFS?:any
+iResFS?:any
+iResQZFS?:any
+iQuantityFS?:any
+iQuantityQZFS?:any
+iQZALL?:any
+iRouteWait?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

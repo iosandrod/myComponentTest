@@ -1,0 +1,53 @@
+export default class t_OMMOMaterial {
+      columnArr=['iMOID','iMOMaterialID','cMOMaterialCode','cMoCode','cPersonCode','cDepCode','dDate','cBusType','cOperator','dOpeDate','cInvCode','cInvName','cInvStd','cItemClsNo','cComUnitCode','cVenCode','cVenName','cUnitID','cChecker','dCheckDate','cCloser','dCloseDate','iQuantity','cStatus','cNote','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','cProductNo','cHTH','cPrNo','cPONo','iMOLineID']
+      iMOID?:any
+iMOMaterialID?:any
+cMOMaterialCode?:any
+cMoCode?:any
+cPersonCode?:any
+cDepCode?:any
+dDate?:any
+cBusType?:any
+cOperator?:any
+dOpeDate?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cItemClsNo?:any
+cComUnitCode?:any
+cVenCode?:any
+cVenName?:any
+cUnitID?:any
+cChecker?:any
+dCheckDate?:any
+cCloser?:any
+dCloseDate?:any
+iQuantity?:any
+cStatus?:any
+cNote?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+cProductNo?:any
+cHTH?:any
+cPrNo?:any
+cPONo?:any
+iMOLineID?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

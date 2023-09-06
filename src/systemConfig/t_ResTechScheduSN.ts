@@ -1,0 +1,48 @@
+export default class t_ResTechScheduSN {
+      columnArr=['iInterID','cInvCode','cResourceNo','cTechNo','FResChaValue1ID','FResChaValue2ID','FResChaValue3ID','FResChaValue4ID','FResChaValue5ID','FResChaValue6ID','FResChaValue7ID','FResChaValue8ID','FResChaValue9ID','FResChaValue10ID','FResChaValue11ID','FResChaValue12ID','FResChaValue1IDTime','FResChaValue2IDTime','FResChaValue3IDTime','FResChaValue4IDTime','FResChaValue5IDTime','FResChaValue6IDTime','FResChaValue7IDTime','FResChaValue8IDTime','FResChaValue9IDTime','FResChaValue10IDTime','FResChaValue11IDTime','FResChaValue12IDTime','iSchSN','iResCapacity','iBatchQty','iResBatchWorkTime','cSubInvCode','iMaterialRate','iDiffCoe','cNote','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26']
+      iInterID?:any
+cInvCode?:any
+cResourceNo?:any
+cTechNo?:any
+FResChaValue1ID?:any
+FResChaValue2ID?:any
+FResChaValue3ID?:any
+FResChaValue4ID?:any
+FResChaValue5ID?:any
+FResChaValue6ID?:any
+FResChaValue7ID?:any
+FResChaValue8ID?:any
+FResChaValue9ID?:any
+FResChaValue10ID?:any
+FResChaValue11ID?:any
+FResChaValue12ID?:any
+FResChaValue1IDTime?:any
+FResChaValue2IDTime?:any
+FResChaValue3IDTime?:any
+FResChaValue4IDTime?:any
+FResChaValue5IDTime?:any
+FResChaValue6IDTime?:any
+FResChaValue7IDTime?:any
+FResChaValue8IDTime?:any
+FResChaValue9IDTime?:any
+FResChaValue10IDTime?:any
+FResChaValue11IDTime?:any
+FResChaValue12IDTime?:any
+iSchSN?:any
+iResCapacity?:any
+iBatchQty?:any
+iResBatchWorkTime?:any
+cSubInvCode?:any
+iMaterialRate?:any
+iDiffCoe?:any
+cNote?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

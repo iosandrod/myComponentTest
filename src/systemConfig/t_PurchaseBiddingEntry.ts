@@ -1,0 +1,54 @@
+export default class t_PurchaseBiddingEntry {
+      columnArr=['iInterID','cCode','iPurBidLineID','cItemCode','cVenNo','cVenName','dDeliveryDate','dPrice','cInstration','cBiddingPerson','dBiddingDate','cBiddingFlag','cLineCloser','cbCloseDate','dOpeDate','cNote','cDefine22','cDefine23','cDefine24','cDefine25','cDefine26','cDefine27','cDefine28','cDefine29','cDefine30','cDefine31','cDefine32','cDefine33','cDefine34','cDefine35','cDefine36','cDefine37','cFree1','cFree2','cFree3','cFree4','cFree5','cFree6','cFree7','cFree8','cFree9','cFree10','iRanking','cBidReason','cQtys','cLoginIP','cLoginIPName']
+      iInterID?:any
+cCode?:any
+iPurBidLineID?:any
+cItemCode?:any
+cVenNo?:any
+cVenName?:any
+dDeliveryDate?:any
+dPrice?:any
+cInstration?:any
+cBiddingPerson?:any
+dBiddingDate?:any
+cBiddingFlag?:any
+cLineCloser?:any
+cbCloseDate?:any
+dOpeDate?:any
+cNote?:any
+cDefine22?:any
+cDefine23?:any
+cDefine24?:any
+cDefine25?:any
+cDefine26?:any
+cDefine27?:any
+cDefine28?:any
+cDefine29?:any
+cDefine30?:any
+cDefine31?:any
+cDefine32?:any
+cDefine33?:any
+cDefine34?:any
+cDefine35?:any
+cDefine36?:any
+cDefine37?:any
+cFree1?:any
+cFree2?:any
+cFree3?:any
+cFree4?:any
+cFree5?:any
+cFree6?:any
+cFree7?:any
+cFree8?:any
+cFree9?:any
+cFree10?:any
+iRanking?:any
+cBidReason?:any
+cQtys?:any
+cLoginIP?:any
+cLoginIPName?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

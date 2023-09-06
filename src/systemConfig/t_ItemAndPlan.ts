@@ -1,0 +1,61 @@
+export default class t_ItemAndPlan {
+      columnArr=['iInterID','cInvCode','cPlanClsNo','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','cEnterprise','cInvName','cInvStd','iLowLot','iTopSum','iSafeStock','cKeyResourceNo','cKeyResourceName','cNextResource','iCapacity','iPreTime','cWcNo','cWcName','cSchNo','iResGroupPriority','cWorkType','iHDTime','iWoSeqID','iNextSeqID','iResGroupNo','iManuWeek','iBeginWeek','cPlanMethod','cPlanMode','FResChaValue1ID','FResChaValue2ID','FResChaValue3ID','FResChaValue4ID','FResChaValue5ID','FResChaValue6ID','FResChaValue7ID','FResChaValue8ID','cItemClsNo','cComUnitCode','cNextResourceName']
+      iInterID?:any
+cInvCode?:any
+cPlanClsNo?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+cEnterprise?:any
+cInvName?:any
+cInvStd?:any
+iLowLot?:any
+iTopSum?:any
+iSafeStock?:any
+cKeyResourceNo?:any
+cKeyResourceName?:any
+cNextResource?:any
+iCapacity?:any
+iPreTime?:any
+cWcNo?:any
+cWcName?:any
+cSchNo?:any
+iResGroupPriority?:any
+cWorkType?:any
+iHDTime?:any
+iWoSeqID?:any
+iNextSeqID?:any
+iResGroupNo?:any
+iManuWeek?:any
+iBeginWeek?:any
+cPlanMethod?:any
+cPlanMode?:any
+FResChaValue1ID?:any
+FResChaValue2ID?:any
+FResChaValue3ID?:any
+FResChaValue4ID?:any
+FResChaValue5ID?:any
+FResChaValue6ID?:any
+FResChaValue7ID?:any
+FResChaValue8ID?:any
+cItemClsNo?:any
+cComUnitCode?:any
+cNextResourceName?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

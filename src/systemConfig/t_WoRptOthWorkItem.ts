@@ -1,0 +1,39 @@
+export default class t_WoRptOthWorkItem {
+      columnArr=['iInterID','cRptNo','iAutoID','cWoNo','dDate','iItemID','cInvCode','iCompQty','iInvQty','cBatchNo','cBarCode','cNote','cFree1','cFree2','cFree3','cFree4','cFree5','cDefine28','cDefine29','cDefine30','cDefine31','cDefine32','cDefine33','cDefine34','cDefine35','cDefine36','iYield','dRptDate','iScadaQty','iAdjustQty','iBadQty','iResActHour']
+      iInterID?:any
+cRptNo?:any
+iAutoID?:any
+cWoNo?:any
+dDate?:any
+iItemID?:any
+cInvCode?:any
+iCompQty?:any
+iInvQty?:any
+cBatchNo?:any
+cBarCode?:any
+cNote?:any
+cFree1?:any
+cFree2?:any
+cFree3?:any
+cFree4?:any
+cFree5?:any
+cDefine28?:any
+cDefine29?:any
+cDefine30?:any
+cDefine31?:any
+cDefine32?:any
+cDefine33?:any
+cDefine34?:any
+cDefine35?:any
+cDefine36?:any
+iYield?:any
+dRptDate?:any
+iScadaQty?:any
+iAdjustQty?:any
+iBadQty?:any
+iResActHour?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

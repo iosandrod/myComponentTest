@@ -1,0 +1,85 @@
+export default class t_PurDispatchDayPlan {
+      columnArr=['iGrossID','cInvCode','cInvName','cInvStd','cComunitName','iInvQty','iReqQty','iForeInQty','iEndQty','cInvType','dRptBegDate','dEndDate','dBegDate','cDayType','iDayQty1','iDayQty2','iDayQty3','iDayQty4','iDayQty5','iDayQty6','iDayQty7','iDayQty8','iDayQty9','iDayQty10','iDayQty11','iDayQty12','iDayQty13','iDayQty14','iDayQty15','iDayQty16','iDayQty17','iDayQty18','iDayQty19','iDayQty20','iDayQty21','iDayQty22','iDayQty23','iDayQty24','iDayQty25','iDayQty26','iDayQty27','iDayQty28','iDayQty29','iDayQty30','iDayQty31','iDayQty32','iDayQty33','iDayQty34','iDayQty35','iDayQty36','iDayQty37','iDayQty38','iDayQty39','iDayQty40','iDayQty41','iDayQty42','iDayQty43','iDayQty44','iDayQty45','iDayQty46','iDayQty47','iDayQty48','iDayQty49','iDayQty50','iDayQty51','iDayQty52','iDayQty53','iDayQty54','iDayQty55','iDayQty56','iDayQty57','iDayQty58','iDayQty59','iDayQty60','iDayQty61','iDayQty62','cHostname','dOpeDate']
+      iGrossID?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cComunitName?:any
+iInvQty?:any
+iReqQty?:any
+iForeInQty?:any
+iEndQty?:any
+cInvType?:any
+dRptBegDate?:any
+dEndDate?:any
+dBegDate?:any
+cDayType?:any
+iDayQty1?:any
+iDayQty2?:any
+iDayQty3?:any
+iDayQty4?:any
+iDayQty5?:any
+iDayQty6?:any
+iDayQty7?:any
+iDayQty8?:any
+iDayQty9?:any
+iDayQty10?:any
+iDayQty11?:any
+iDayQty12?:any
+iDayQty13?:any
+iDayQty14?:any
+iDayQty15?:any
+iDayQty16?:any
+iDayQty17?:any
+iDayQty18?:any
+iDayQty19?:any
+iDayQty20?:any
+iDayQty21?:any
+iDayQty22?:any
+iDayQty23?:any
+iDayQty24?:any
+iDayQty25?:any
+iDayQty26?:any
+iDayQty27?:any
+iDayQty28?:any
+iDayQty29?:any
+iDayQty30?:any
+iDayQty31?:any
+iDayQty32?:any
+iDayQty33?:any
+iDayQty34?:any
+iDayQty35?:any
+iDayQty36?:any
+iDayQty37?:any
+iDayQty38?:any
+iDayQty39?:any
+iDayQty40?:any
+iDayQty41?:any
+iDayQty42?:any
+iDayQty43?:any
+iDayQty44?:any
+iDayQty45?:any
+iDayQty46?:any
+iDayQty47?:any
+iDayQty48?:any
+iDayQty49?:any
+iDayQty50?:any
+iDayQty51?:any
+iDayQty52?:any
+iDayQty53?:any
+iDayQty54?:any
+iDayQty55?:any
+iDayQty56?:any
+iDayQty57?:any
+iDayQty58?:any
+iDayQty59?:any
+iDayQty60?:any
+iDayQty61?:any
+iDayQty62?:any
+cHostname?:any
+dOpeDate?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

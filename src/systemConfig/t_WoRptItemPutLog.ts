@@ -1,0 +1,39 @@
+export default class t_WoRptItemPutLog {
+      columnArr=['iInterID','cRptNo','iAutoID','cWoNo','iSeqID','cInvCode','cSubInvCode','iReqQty','iPutSumQty','iPutQty','cBatchNo','cNote','cDefine1','cDefine2','cDefine3','dPutDate','cInvName','cInvStd','cComUnit','cStatus','cErrText','iBadQty','cBadNote','cOperator','cDeptNo','iNstructionsCode','cReplaceItem','cBillNo','dStartDate','dEndDate','cComNo','cBarCode']
+      iInterID?:any
+cRptNo?:any
+iAutoID?:any
+cWoNo?:any
+iSeqID?:any
+cInvCode?:any
+cSubInvCode?:any
+iReqQty?:any
+iPutSumQty?:any
+iPutQty?:any
+cBatchNo?:any
+cNote?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+dPutDate?:any
+cInvName?:any
+cInvStd?:any
+cComUnit?:any
+cStatus?:any
+cErrText?:any
+iBadQty?:any
+cBadNote?:any
+cOperator?:any
+cDeptNo?:any
+iNstructionsCode?:any
+cReplaceItem?:any
+cBillNo?:any
+dStartDate?:any
+dEndDate?:any
+cComNo?:any
+cBarCode?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

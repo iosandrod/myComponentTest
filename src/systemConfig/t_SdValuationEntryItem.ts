@@ -1,0 +1,57 @@
+export default class t_SdValuationEntryItem {
+      columnArr=['iInterID','iLineID','iDetailID','cValuationCode','cWorkItemNo','cWorkItemName','cInvCode','cInvName','cInvStd','cMaterial','cColor','cComUnitCode','cPaperType','iQtyPer','iBaseQuantity','iScrap','fAttribute1','fAttribute2','fAttribute3','fAttribute4','fAttribute5','fAttribute6','fAttribute7','fAttribute8','fAttribute9','fAttribute10','iMaterialprice','iProFilmprice','iMatProprice','iMatFreightMoney','cFormula','cFormula2','cDefine45','cDefine46','cDefine47','cDefine48','cDefine49','cDefine50','cDefine51','cDefine52','cDefine53','cDefine54','cDefine55','cDefine56','cDefine57','cDefine58','cDefine59','cDefine60','MOQ','iLowCost']
+      iInterID?:any
+iLineID?:any
+iDetailID?:any
+cValuationCode?:any
+cWorkItemNo?:any
+cWorkItemName?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cMaterial?:any
+cColor?:any
+cComUnitCode?:any
+cPaperType?:any
+iQtyPer?:any
+iBaseQuantity?:any
+iScrap?:any
+fAttribute1?:any
+fAttribute2?:any
+fAttribute3?:any
+fAttribute4?:any
+fAttribute5?:any
+fAttribute6?:any
+fAttribute7?:any
+fAttribute8?:any
+fAttribute9?:any
+fAttribute10?:any
+iMaterialprice?:any
+iProFilmprice?:any
+iMatProprice?:any
+iMatFreightMoney?:any
+cFormula?:any
+cFormula2?:any
+cDefine45?:any
+cDefine46?:any
+cDefine47?:any
+cDefine48?:any
+cDefine49?:any
+cDefine50?:any
+cDefine51?:any
+cDefine52?:any
+cDefine53?:any
+cDefine54?:any
+cDefine55?:any
+cDefine56?:any
+cDefine57?:any
+cDefine58?:any
+cDefine59?:any
+cDefine60?:any
+MOQ?:any
+iLowCost?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

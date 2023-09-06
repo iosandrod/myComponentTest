@@ -1,0 +1,31 @@
+export default class ZZ_APVenDtailTemp {
+      columnArr=['fl','fl1','mx','mx1','vtype','vid','cdigest','ccode','cdwabbname','cpayname','dcreditstart','dvouchdate','cdepname','cPsn_Name','cdlcode','corderno','cexch_name','ye_f','ye','VDate','zl','XYED','bSign','xyqx']
+      fl?:any
+fl1?:any
+mx?:any
+mx1?:any
+vtype?:any
+vid?:any
+cdigest?:any
+ccode?:any
+cdwabbname?:any
+cpayname?:any
+dcreditstart?:any
+dvouchdate?:any
+cdepname?:any
+cPsn_Name?:any
+cdlcode?:any
+corderno?:any
+cexch_name?:any
+ye_f?:any
+ye?:any
+VDate?:any
+zl?:any
+XYED?:any
+bSign?:any
+xyqx?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

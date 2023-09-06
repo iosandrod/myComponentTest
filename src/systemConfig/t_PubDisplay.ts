@@ -1,0 +1,90 @@
+export default class t_PubDisplay {
+      columnArr=['iInterID','cDisNo','cDisName','dDate','cOperator','dOpeDate','cChecker','cUser','dCheckDate','cStatus','cNote','cCloser','dCloseDate','cModifier','dModifyDate','iImage1','iImage2','iImage3','cImage4','cImage5','cImage6','cDefine1','cDefine1_t','cDefine2','cDefine2_t','cDefine3','cDefine3_t','cDefine4','cDefine4_t','cDefine5','cDefine5_t','cDefine6','cDefine6_t','cDefine7','cDefine7_t','cDefine8','cDefine8_t','cDefine9','cDefine9_t','cDefine10','cDefine10_t','cDefine11','cDefine11_t','cDefine12','cDefine12_t','cDefine13','cDefine13_t','cDefine14','cDefine14_t','cDefine15','cDefine15_t','cDefine16','cDefine16_t','cDefine17','cDefine17_t','cDefine18','cDefine18_t','cDefine19','cDefine19_t','cDefine20','cDefine20_t','cDefine21','cDefine21_t','cDefine22','cDefine22_t','cDefine23','cDefine23_t','cDefine24','cDefine24_t','cDefine25','cDefine25_t','iHeadWidth','iHeadHeight','iPlate1Width','iPlate1Height','iPlate2Width','iPlate2Height','iPlate3Width','iPlate3Height','iRefreshTime','iPageCurrent','iPageSiZe','iPageSum']
+      iInterID?:any
+cDisNo?:any
+cDisName?:any
+dDate?:any
+cOperator?:any
+dOpeDate?:any
+cChecker?:any
+cUser?:any
+dCheckDate?:any
+cStatus?:any
+cNote?:any
+cCloser?:any
+dCloseDate?:any
+cModifier?:any
+dModifyDate?:any
+iImage1?:any
+iImage2?:any
+iImage3?:any
+cImage4?:any
+cImage5?:any
+cImage6?:any
+cDefine1?:any
+cDefine1_t?:any
+cDefine2?:any
+cDefine2_t?:any
+cDefine3?:any
+cDefine3_t?:any
+cDefine4?:any
+cDefine4_t?:any
+cDefine5?:any
+cDefine5_t?:any
+cDefine6?:any
+cDefine6_t?:any
+cDefine7?:any
+cDefine7_t?:any
+cDefine8?:any
+cDefine8_t?:any
+cDefine9?:any
+cDefine9_t?:any
+cDefine10?:any
+cDefine10_t?:any
+cDefine11?:any
+cDefine11_t?:any
+cDefine12?:any
+cDefine12_t?:any
+cDefine13?:any
+cDefine13_t?:any
+cDefine14?:any
+cDefine14_t?:any
+cDefine15?:any
+cDefine15_t?:any
+cDefine16?:any
+cDefine16_t?:any
+cDefine17?:any
+cDefine17_t?:any
+cDefine18?:any
+cDefine18_t?:any
+cDefine19?:any
+cDefine19_t?:any
+cDefine20?:any
+cDefine20_t?:any
+cDefine21?:any
+cDefine21_t?:any
+cDefine22?:any
+cDefine22_t?:any
+cDefine23?:any
+cDefine23_t?:any
+cDefine24?:any
+cDefine24_t?:any
+cDefine25?:any
+cDefine25_t?:any
+iHeadWidth?:any
+iHeadHeight?:any
+iPlate1Width?:any
+iPlate1Height?:any
+iPlate2Width?:any
+iPlate2Height?:any
+iPlate3Width?:any
+iPlate3Height?:any
+iRefreshTime?:any
+iPageCurrent?:any
+iPageSiZe?:any
+iPageSum?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

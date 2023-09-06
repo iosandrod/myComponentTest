@@ -1,0 +1,36 @@
+export default class t_InvForeInv {
+      columnArr=['iAutoID','cInvType','cBillType','cCode','iLineID','cInvCode','iQuantity','iNum','iInvQty','iInvNum','iForeInQty','iForeOutQty','iLastQty','iDispatchQty','dDate','cSdType','cSdOrderNo','iSdLineID','cMiNo','cProductNo','cParentNo','iBomLevel','cLevelInfo','cLevelPath','iKeepQty','iPlanQty','cInvName','cInvStd','cComUnitCode']
+      iAutoID?:any
+cInvType?:any
+cBillType?:any
+cCode?:any
+iLineID?:any
+cInvCode?:any
+iQuantity?:any
+iNum?:any
+iInvQty?:any
+iInvNum?:any
+iForeInQty?:any
+iForeOutQty?:any
+iLastQty?:any
+iDispatchQty?:any
+dDate?:any
+cSdType?:any
+cSdOrderNo?:any
+iSdLineID?:any
+cMiNo?:any
+cProductNo?:any
+cParentNo?:any
+iBomLevel?:any
+cLevelInfo?:any
+cLevelPath?:any
+iKeepQty?:any
+iPlanQty?:any
+cInvName?:any
+cInvStd?:any
+cComUnitCode?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

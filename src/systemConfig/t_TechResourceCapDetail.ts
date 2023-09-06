@@ -1,0 +1,42 @@
+export default class t_TechResourceCapDetail {
+      columnArr=['iInterID','iAutoID','cVersionNo','iSchSDID','iProcessProductID','cTechNo','cSeqNote','cResourceNo','cResourceName','iResProcessID','iProcessID','iResReqQty','iCapacity','iResPreTime','iResRationHour','iWorkersPd','iLaborTime','cMoldNo','cSubMoldNo','iSubQtyPer','iMoldQty','iSubMoldQty','iMoldHours','iSubMoldHours','cWoNo','cInvCode','cInvName','cInvStd','cComUnitCode','cSdOrderNo','cCustNo','cMiNo','cWcNo','cDeptNo','cDNote']
+      iInterID?:any
+iAutoID?:any
+cVersionNo?:any
+iSchSDID?:any
+iProcessProductID?:any
+cTechNo?:any
+cSeqNote?:any
+cResourceNo?:any
+cResourceName?:any
+iResProcessID?:any
+iProcessID?:any
+iResReqQty?:any
+iCapacity?:any
+iResPreTime?:any
+iResRationHour?:any
+iWorkersPd?:any
+iLaborTime?:any
+cMoldNo?:any
+cSubMoldNo?:any
+iSubQtyPer?:any
+iMoldQty?:any
+iSubMoldQty?:any
+iMoldHours?:any
+iSubMoldHours?:any
+cWoNo?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cComUnitCode?:any
+cSdOrderNo?:any
+cCustNo?:any
+cMiNo?:any
+cWcNo?:any
+cDeptNo?:any
+cDNote?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

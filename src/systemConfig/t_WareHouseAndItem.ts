@@ -1,0 +1,65 @@
+export default class t_WareHouseAndItem {
+      columnArr=['iInterID','cWhCode','cInvCode','cInvName','cInvStd','cItemClsNo','cComUnitCode','cFree1','cFree2','cFree3','cFree4','cFree5','cFree6','cFree7','cFree8','cFree9','cFree10','cValueType','iInvSCost','iInvSPrice','iInvNCost','iInvRCost','iInvHSCost','iInvLSCost','iExpSaleRate','bInvType','iInvMPCost','iInvSaleCost','iInvSCost1','iInvSCost2','iInvSCost3','iRopOverPer','iTopSum','iLowSum','iSafeStock','iLowLot','iIncLot','cInvPersonCode','cPurPersonCode','cWhKeeper','cWhMan','cWIDefine1','cWIDefine2','cWIDefine3','cWIDefine4','cWIDefine5','cWIDefine6','cWIDefine7','cWIDefine8','cWIDefine9','cWIDefine10','cWIDefine11','cWIDefine12','cWIDefine13','cWIDefine14','cWIDefine15','cWIDefine16','bSaleRate']
+      iInterID?:any
+cWhCode?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any
+cItemClsNo?:any
+cComUnitCode?:any
+cFree1?:any
+cFree2?:any
+cFree3?:any
+cFree4?:any
+cFree5?:any
+cFree6?:any
+cFree7?:any
+cFree8?:any
+cFree9?:any
+cFree10?:any
+cValueType?:any
+iInvSCost?:any
+iInvSPrice?:any
+iInvNCost?:any
+iInvRCost?:any
+iInvHSCost?:any
+iInvLSCost?:any
+iExpSaleRate?:any
+bInvType?:any
+iInvMPCost?:any
+iInvSaleCost?:any
+iInvSCost1?:any
+iInvSCost2?:any
+iInvSCost3?:any
+iRopOverPer?:any
+iTopSum?:any
+iLowSum?:any
+iSafeStock?:any
+iLowLot?:any
+iIncLot?:any
+cInvPersonCode?:any
+cPurPersonCode?:any
+cWhKeeper?:any
+cWhMan?:any
+cWIDefine1?:any
+cWIDefine2?:any
+cWIDefine3?:any
+cWIDefine4?:any
+cWIDefine5?:any
+cWIDefine6?:any
+cWIDefine7?:any
+cWIDefine8?:any
+cWIDefine9?:any
+cWIDefine10?:any
+cWIDefine11?:any
+cWIDefine12?:any
+cWIDefine13?:any
+cWIDefine14?:any
+cWIDefine15?:any
+cWIDefine16?:any
+bSaleRate?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,62 @@
+export default class t_SdValuationEntryRoute {
+      columnArr=['iInterID','iLineID','iDetailID','cValuationCode','cWorkItemNo','cWorkItemName','cMaterial','cColor','cComUnitCode','iQuantity','iOneQuantity','iWoSeqID','cTechNo','cTechName','iNextSeqID','iMinQuantity','iMaxQuantity','iTaxUnitPrice','iLowestCost','iQtyPer','iBaseQuantity','iScrap','cDefine65','cDefine66','cDefine67','cDefine68','cDefine69','cDefine70','cDefine71','cDefine72','cDefine73','cDefine74','cDefine75','cDefine76','cDefine77','cDefine78','cDefine79','cDefine80','iMacMoney','fAttribute1','fAttribute2','fAttribute3','fAttribute4','fAttribute5','fAttribute6','fAttribute7','fAttribute8','fAttribute9','fAttribute10','iTolUnitPrice','cFormula','cFormula2','cInvCode','cInvName','cInvStd']
+      iInterID?:any
+iLineID?:any
+iDetailID?:any
+cValuationCode?:any
+cWorkItemNo?:any
+cWorkItemName?:any
+cMaterial?:any
+cColor?:any
+cComUnitCode?:any
+iQuantity?:any
+iOneQuantity?:any
+iWoSeqID?:any
+cTechNo?:any
+cTechName?:any
+iNextSeqID?:any
+iMinQuantity?:any
+iMaxQuantity?:any
+iTaxUnitPrice?:any
+iLowestCost?:any
+iQtyPer?:any
+iBaseQuantity?:any
+iScrap?:any
+cDefine65?:any
+cDefine66?:any
+cDefine67?:any
+cDefine68?:any
+cDefine69?:any
+cDefine70?:any
+cDefine71?:any
+cDefine72?:any
+cDefine73?:any
+cDefine74?:any
+cDefine75?:any
+cDefine76?:any
+cDefine77?:any
+cDefine78?:any
+cDefine79?:any
+cDefine80?:any
+iMacMoney?:any
+fAttribute1?:any
+fAttribute2?:any
+fAttribute3?:any
+fAttribute4?:any
+fAttribute5?:any
+fAttribute6?:any
+fAttribute7?:any
+fAttribute8?:any
+fAttribute9?:any
+fAttribute10?:any
+iTolUnitPrice?:any
+cFormula?:any
+cFormula2?:any
+cInvCode?:any
+cInvName?:any
+cInvStd?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

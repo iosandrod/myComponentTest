@@ -1,0 +1,37 @@
+export default class t_MrpRouteExp {
+      columnArr=['FEntityNo','FCtrNo','FType','FMrpID','FWoSeqID','FItemNo','FRouteNo','FQty','FWcNo','FHoursPd','FPreTime','FParellelType','FParallelNo','FSeqRatio','FNextSeqID','FProTime','FProMin','FProSec','FOthTime','FRationHour','FBegDate','FLeadTime','FEndDate','FKeyBrantch','FTechNo','FSeqNote','FOffSetLt','FWorkersPd','FDevCount','FMoveLot']
+      FEntityNo?:any
+FCtrNo?:any
+FType?:any
+FMrpID?:any
+FWoSeqID?:any
+FItemNo?:any
+FRouteNo?:any
+FQty?:any
+FWcNo?:any
+FHoursPd?:any
+FPreTime?:any
+FParellelType?:any
+FParallelNo?:any
+FSeqRatio?:any
+FNextSeqID?:any
+FProTime?:any
+FProMin?:any
+FProSec?:any
+FOthTime?:any
+FRationHour?:any
+FBegDate?:any
+FLeadTime?:any
+FEndDate?:any
+FKeyBrantch?:any
+FTechNo?:any
+FSeqNote?:any
+FOffSetLt?:any
+FWorkersPd?:any
+FDevCount?:any
+FMoveLot?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

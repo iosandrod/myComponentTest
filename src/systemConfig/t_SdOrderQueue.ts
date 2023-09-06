@@ -1,0 +1,89 @@
+export default class t_SdOrderQueue {
+      columnArr=['FEntityNo','FCtrNo','FSONo','FLineID','FSeqID','FDate','FItemNo','FItemName','FGrade','FDistinctNo','FUnit','FUnitName','FSDUnit','FSDUnitName','FRation','FQty','Fprice','FDiscount','FTax','FCommision','FStockedQty','FCancelQty','FEnd','FRequireDate','FDeliverAddress','FTransitTool','FTransitName','FTakeedQty','FSendedQty','FBilledQty','FMakeNo','FNote','FReturnedQty','FTakeedSpareQty','FStockedSPareQty','FRebilledSpareQty','FReSpareQty','FrebilledQty','FSpareQty','FPutQty','FFlag','FkeepedQty','FCmpQty','FFasflag','FforeConsumed','FMoNo','FVendorNo','FVendorName','FManCurrency','FManPrice','FManAmount','FStatus','FOperator','FOperName','FOperDate','FChecker','FCheckerName','FCheckDate','fstuffcost','flaborcost','foverhead','fothercost','finsurance','fciqfee','fotherfee','foldseqid','faudittypeid','fadjQty','fadjamount','FBilledAmount','fputdate','FMFDate','FPlanQty','fmanqty','FBuyQty','FReqID','fadjflag','FTrunPOQty','fRejQTY','fRejSpareQty','fwono','FSubcontractflow']
+      FEntityNo?:any
+FCtrNo?:any
+FSONo?:any
+FLineID?:any
+FSeqID?:any
+FDate?:any
+FItemNo?:any
+FItemName?:any
+FGrade?:any
+FDistinctNo?:any
+FUnit?:any
+FUnitName?:any
+FSDUnit?:any
+FSDUnitName?:any
+FRation?:any
+FQty?:any
+Fprice?:any
+FDiscount?:any
+FTax?:any
+FCommision?:any
+FStockedQty?:any
+FCancelQty?:any
+FEnd?:any
+FRequireDate?:any
+FDeliverAddress?:any
+FTransitTool?:any
+FTransitName?:any
+FTakeedQty?:any
+FSendedQty?:any
+FBilledQty?:any
+FMakeNo?:any
+FNote?:any
+FReturnedQty?:any
+FTakeedSpareQty?:any
+FStockedSPareQty?:any
+FRebilledSpareQty?:any
+FReSpareQty?:any
+FrebilledQty?:any
+FSpareQty?:any
+FPutQty?:any
+FFlag?:any
+FkeepedQty?:any
+FCmpQty?:any
+FFasflag?:any
+FforeConsumed?:any
+FMoNo?:any
+FVendorNo?:any
+FVendorName?:any
+FManCurrency?:any
+FManPrice?:any
+FManAmount?:any
+FStatus?:any
+FOperator?:any
+FOperName?:any
+FOperDate?:any
+FChecker?:any
+FCheckerName?:any
+FCheckDate?:any
+fstuffcost?:any
+flaborcost?:any
+foverhead?:any
+fothercost?:any
+finsurance?:any
+fciqfee?:any
+fotherfee?:any
+foldseqid?:any
+faudittypeid?:any
+fadjQty?:any
+fadjamount?:any
+FBilledAmount?:any
+fputdate?:any
+FMFDate?:any
+FPlanQty?:any
+fmanqty?:any
+FBuyQty?:any
+FReqID?:any
+fadjflag?:any
+FTrunPOQty?:any
+fRejQTY?:any
+fRejSpareQty?:any
+fwono?:any
+FSubcontractflow?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

@@ -1,0 +1,86 @@
+export default class t_SdBillVouch {
+      columnArr=['SBVID','cSBVCode','cVouchType','cSTCode','dDate','cStatus','cSaleOut','cRdCode','cDepCode','cPersonCode','cSOCode','cCustNo','cPayCode','cexch_name','cMemo','iExchRate','iTaxRate','bReturnFlag','cBCode','cBillVer','cOperator','cInvalider','cBusType','bFirst','citem_class','citemcode','cHeadCode','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','bPayMent','iDisp','cCustName','cDLCode','cAccounter','iVTid','bIAFirst','qkts','cCreChpName','cInfoTypeCode','cSource','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16','cSCCode','cShipAddress','ccusbank','ccusaccount','ioutgolden','cgatheringplan','dCreditStart','dGatheringDate','icreditdays','bCredit','caddcode','iverifystate','ireturncount','iswfcontrolled','icreditstate','ccusperson','dOpeDate','dCheckDate','cChecker','dModifyDate','cmodifier','cCloser','dCloseDate','iPrintCount','cPZID']
+      SBVID?:any
+cSBVCode?:any
+cVouchType?:any
+cSTCode?:any
+dDate?:any
+cStatus?:any
+cSaleOut?:any
+cRdCode?:any
+cDepCode?:any
+cPersonCode?:any
+cSOCode?:any
+cCustNo?:any
+cPayCode?:any
+cexch_name?:any
+cMemo?:any
+iExchRate?:any
+iTaxRate?:any
+bReturnFlag?:any
+cBCode?:any
+cBillVer?:any
+cOperator?:any
+cInvalider?:any
+cBusType?:any
+bFirst?:any
+citem_class?:any
+citemcode?:any
+cHeadCode?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+bPayMent?:any
+iDisp?:any
+cCustName?:any
+cDLCode?:any
+cAccounter?:any
+iVTid?:any
+bIAFirst?:any
+qkts?:any
+cCreChpName?:any
+cInfoTypeCode?:any
+cSource?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any
+cSCCode?:any
+cShipAddress?:any
+ccusbank?:any
+ccusaccount?:any
+ioutgolden?:any
+cgatheringplan?:any
+dCreditStart?:any
+dGatheringDate?:any
+icreditdays?:any
+bCredit?:any
+caddcode?:any
+iverifystate?:any
+ireturncount?:any
+iswfcontrolled?:any
+icreditstate?:any
+ccusperson?:any
+dOpeDate?:any
+dCheckDate?:any
+cChecker?:any
+dModifyDate?:any
+cmodifier?:any
+cCloser?:any
+dCloseDate?:any
+iPrintCount?:any
+cPZID?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

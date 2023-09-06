@@ -1,0 +1,66 @@
+export default class t_PubGridColumn {
+      columnArr=['iInterID','cBusiness','cWinName','cControl','cColName','cColType','cFieldName','cFieldType','cCaption','cVisible','cVisibleIndex','cWidth','cAllowEdit','cAllowFocus','cReadOnly','cTag','cColumnEditName','cColumnEditType','cColumnEditDataSource','cColumnEditColumns','cColumnEditValueMember','cColumnEditTag','cDisplayFormatType','cDisplayFormatString','cGroupFormatType','cGroupFormatString','cSummaryFieldName','cSummaryType','cSummaryDisplayFormat','cPropertyKey','cPropertyType','cPropertyValue','cLocation','cSize','cForeColor','cBackColor','cDock','cFontName','cFontSize','cFontBold','cXML','cNote','dOpeDate','cDefine1','cDefine2','cDefine3','cDefine4','cDefine5','cDefine6','cDefine7','cDefine8','cDefine9','cDefine10','cDefine11','cDefine12','cDefine13','cDefine14','cDefine15','cDefine16']
+      iInterID?:any
+cBusiness?:any
+cWinName?:any
+cControl?:any
+cColName?:any
+cColType?:any
+cFieldName?:any
+cFieldType?:any
+cCaption?:any
+cVisible?:any
+cVisibleIndex?:any
+cWidth?:any
+cAllowEdit?:any
+cAllowFocus?:any
+cReadOnly?:any
+cTag?:any
+cColumnEditName?:any
+cColumnEditType?:any
+cColumnEditDataSource?:any
+cColumnEditColumns?:any
+cColumnEditValueMember?:any
+cColumnEditTag?:any
+cDisplayFormatType?:any
+cDisplayFormatString?:any
+cGroupFormatType?:any
+cGroupFormatString?:any
+cSummaryFieldName?:any
+cSummaryType?:any
+cSummaryDisplayFormat?:any
+cPropertyKey?:any
+cPropertyType?:any
+cPropertyValue?:any
+cLocation?:any
+cSize?:any
+cForeColor?:any
+cBackColor?:any
+cDock?:any
+cFontName?:any
+cFontSize?:any
+cFontBold?:any
+cXML?:any
+cNote?:any
+dOpeDate?:any
+cDefine1?:any
+cDefine2?:any
+cDefine3?:any
+cDefine4?:any
+cDefine5?:any
+cDefine6?:any
+cDefine7?:any
+cDefine8?:any
+cDefine9?:any
+cDefine10?:any
+cDefine11?:any
+cDefine12?:any
+cDefine13?:any
+cDefine14?:any
+cDefine15?:any
+cDefine16?:any 
+      constructor() {}
+      insert(){}
+      update(){} 
+      delete(){}    
+    }

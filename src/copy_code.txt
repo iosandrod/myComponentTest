@@ -121,3 +121,1450 @@ export default defineComponent({
     }
   },
 })
+
+
+import {
+  defineComponent,
+  h,
+  Teleport,
+  ref,
+  Ref,
+  computed,
+  reactive,
+  nextTick,
+  watch,
+  PropType,
+  VNode,
+  onMounted,
+  onUnmounted,
+} from "vue";
+import XEUtils from "xe-utils";
+import { useSize } from "../../hooks/size";
+import { getDomNode, getEventTargetNode } from "../../tools/dom";
+import { getLastZIndex, nextZIndex, getFuncText } from "../../tools/utils";
+import { errLog } from "../../tools/log";
+import { GlobalEvent, hasEventKey, EVENT_KEYS } from "../../tools/event";
+import GlobalConfig from "../../v-x-e-table/src/conf";
+import VxeButtonConstructor from "../../button/src/button";
+import VxeLoading from "../../loading/index";
+import { getSlotVNs } from "../../tools/vn";
+
+import {
+  VxeModalConstructor,
+  VxeModalPropTypes,
+  ModalReactData,
+  VxeModalEmits,
+  ModalEventTypes,
+  VxeButtonInstance,
+  ModalMethods,
+  ModalPrivateRef,
+  VxeModalMethods,
+} from "../../../types/all";
+
+export const allActivedModals: VxeModalConstructor[] = []; //所有的活动的modal
+export const msgQueue: VxeModalConstructor[] = []; //这个是弹框的构造函数
+
+export default defineComponent({
+  name: "VxeModal",
+  props: {
+    modelValue: Boolean as PropType<VxeModalPropTypes.ModelValue>,
+    id: String as PropType<VxeModalPropTypes.ID>,
+    type: {
+      type: String as PropType<VxeModalPropTypes.Type>,
+      default: "modal",
+    },
+    loading: {
+      type: Boolean as PropType<VxeModalPropTypes.Loading>,
+      default: null,
+    },
+    status: String as PropType<VxeModalPropTypes.Status>,
+    iconStatus: String as PropType<VxeModalPropTypes.IconStatus>,
+    className: String as PropType<VxeModalPropTypes.ClassName>,
+    top: {
+      type: [Number, String] as PropType<VxeModalPropTypes.Top>,
+      default: () => GlobalConfig.modal.top,
+    },
+    position: [String, Object] as PropType<VxeModalPropTypes.Position>,
+    title: String as PropType<VxeModalPropTypes.Title>,
+    duration: {
+      type: [Number, String] as PropType<VxeModalPropTypes.Duration>,
+      default: () => GlobalConfig.modal.duration,
+    },
+    message: [Number, String] as PropType<VxeModalPropTypes.Message>,
+    content: [Number, String] as PropType<VxeModalPropTypes.Content>,
+    cancelButtonText: {
+      type: String as PropType<VxeModalPropTypes.CancelButtonText>,
+      default: () => GlobalConfig.modal.cancelButtonText,
+    },
+    confirmButtonText: {
+      type: String as PropType<VxeModalPropTypes.ConfirmButtonText>,
+      default: () => GlobalConfig.modal.confirmButtonText,
+    },
+    lockView: {
+      type: Boolean as PropType<VxeModalPropTypes.LockView>,
+      default: () => GlobalConfig.modal.lockView,
+    },
+    lockScroll: Boolean as PropType<VxeModalPropTypes.LockScroll>,
+    mask: {
+      type: Boolean as PropType<VxeModalPropTypes.Mask>,
+      default: () => GlobalConfig.modal.mask,
+    },
+    maskClosable: {
+      type: Boolean as PropType<VxeModalPropTypes.MaskClosable>,
+      default: () => GlobalConfig.modal.maskClosable,
+    },
+    escClosable: {
+      type: Boolean as PropType<VxeModalPropTypes.EscClosable>,
+      default: () => GlobalConfig.modal.escClosable,
+    },
+    resize: Boolean as PropType<VxeModalPropTypes.Resize>,
+    showHeader: {
+      type: Boolean as PropType<VxeModalPropTypes.ShowHeader>,
+      default: () => GlobalConfig.modal.showHeader,
+    },
+    showFooter: {
+      type: Boolean as PropType<VxeModalPropTypes.ShowFooter>,
+      default: () => GlobalConfig.modal.showFooter,
+    },
+    showZoom: Boolean as PropType<VxeModalPropTypes.ShowZoom>,
+    showClose: {
+      type: Boolean as PropType<VxeModalPropTypes.ShowClose>,
+      default: () => GlobalConfig.modal.showClose,
+    },
+    dblclickZoom: {
+      type: Boolean as PropType<VxeModalPropTypes.DblclickZoom>,
+      default: () => GlobalConfig.modal.dblclickZoom,
+    },
+    width: [Number, String] as PropType<VxeModalPropTypes.Width>,
+    height: [Number, String] as PropType<VxeModalPropTypes.Height>,
+    minWidth: {
+      type: [Number, String] as PropType<VxeModalPropTypes.MinWidth>,
+      default: () => GlobalConfig.modal.minWidth,
+    },
+    minHeight: {
+      type: [Number, String] as PropType<VxeModalPropTypes.MinHeight>,
+      default: () => GlobalConfig.modal.minHeight,
+    },
+    zIndex: Number as PropType<VxeModalPropTypes.ZIndex>,
+    marginSize: {
+      type: [Number, String] as PropType<VxeModalPropTypes.MarginSize>,
+      default: () => GlobalConfig.modal.marginSize,
+    },
+    fullscreen: Boolean as PropType<VxeModalPropTypes.Fullscreen>,
+    draggable: {
+      type: Boolean as PropType<VxeModalPropTypes.Draggable>,
+      default: () => GlobalConfig.modal.draggable,
+    },
+    remember: { type: Boolean, default: () => GlobalConfig.modal.remember },
+    destroyOnClose: {
+      type: Boolean as PropType<VxeModalPropTypes.DestroyOnClose>,
+      default: () => GlobalConfig.modal.destroyOnClose,
+    },
+    showTitleOverflow: {
+      type: Boolean as PropType<VxeModalPropTypes.ShowTitleOverflow>,
+      default: () => GlobalConfig.modal.showTitleOverflow,
+    },
+    transfer: {
+      type: Boolean as PropType<VxeModalPropTypes.Transfer>,
+      default: () => GlobalConfig.modal.transfer,
+    },
+    storage: {
+      type: Boolean as PropType<VxeModalPropTypes.Storage>,
+      default: () => GlobalConfig.modal.storage,
+    },
+    storageKey: {
+      type: String as PropType<VxeModalPropTypes.StorageKey>,
+      default: () => GlobalConfig.modal.storageKey,
+    },
+    animat: {
+      type: Boolean as PropType<VxeModalPropTypes.Animat>,
+      default: () => GlobalConfig.modal.animat,
+    },
+    size: {
+      type: String as PropType<VxeModalPropTypes.Size>,
+      default: () => GlobalConfig.modal.size || GlobalConfig.size,
+    },
+    beforeHideMethod: {
+      type: Function as PropType<VxeModalPropTypes.BeforeHideMethod>,
+      default: () => GlobalConfig.modal.beforeHideMethod,
+    },
+    slots: Object as PropType<VxeModalPropTypes.Slots>,
+  },
+  emits: [
+    "update:modelValue",
+    "show",
+    "hide",
+    "before-hide",
+    "close",
+    "confirm",
+    "cancel",
+    "zoom",
+  ] as VxeModalEmits,
+  setup(props, context) {
+    const { slots, emit } = context;
+    const xID = XEUtils.uniqueId();
+    const computeSize = useSize(props);
+    const reactData = reactive<ModalReactData>({
+      inited: false,
+      visible: false,
+      contentVisible: false,
+      modalTop: 0,
+      modalZindex: 0,
+      zoomLocat: null,
+      firstOpen: true,
+    });
+    const refElem = ref() as Ref<HTMLDivElement>;
+    const refModalBox = ref() as Ref<HTMLDivElement>;
+    const refConfirmBtn = ref() as Ref<VxeButtonInstance>;
+    const refCancelBtn = ref() as Ref<VxeButtonInstance>;
+    const refMaps: ModalPrivateRef = {
+      refElem,
+    };
+    const $xemodal = {
+      xID,
+      props,
+      context,
+      reactData,
+      getRefMaps: () => refMaps,
+    } as unknown as VxeModalConstructor & VxeModalMethods;
+    let modalMethods = {} as ModalMethods;
+
+    const getBox = () => {
+      const boxElem = refModalBox.value;
+      return boxElem;
+    };
+    const recalculate = () => {
+      const { width, height } = props;
+      const boxElem = getBox();
+      boxElem.style.width = `${
+        width ? (isNaN(width as number) ? width : `${width}px`) : ""
+      }`;
+      boxElem.style.height = `${
+        height ? (isNaN(height as number) ? height : `${height}px`) : ""
+      }`;
+      return nextTick();
+    };
+
+    const updateZindex = () => {
+      const { zIndex } = props; //获取
+      const { modalZindex } = reactData;
+      if (zIndex) {
+        reactData.modalZindex = zIndex;
+      } else if (modalZindex < getLastZIndex()) {
+        reactData.modalZindex = nextZIndex(); //下一个zIndex，显示到最上层
+      }
+    };
+
+    const updatePosition = () => {
+      return nextTick().then(() => {
+        const { position } = props;
+        const marginSize = XEUtils.toNumber(props.marginSize);
+        const boxElem = getBox();
+        const clientVisibleWidth =
+          document.documentElement.clientWidth || document.body.clientWidth;
+        const clientVisibleHeight =
+          document.documentElement.clientHeight || document.body.clientHeight;
+        const isPosCenter = position === "center";
+        const { top, left }: any = XEUtils.isString(position)
+          ? { top: position, left: position }
+          : Object.assign({}, position);
+        const topCenter = isPosCenter || top === "center";
+        const leftCenter = isPosCenter || left === "center";
+        let posTop = "";
+        let posLeft = "";
+        if (left && !leftCenter) {
+          posLeft = isNaN(left) ? left : `${left}px`;
+        } else {
+          posLeft = `${Math.max(
+            marginSize,
+            clientVisibleWidth / 2 - boxElem.offsetWidth / 2
+          )}px`;
+        }
+        if (top && !topCenter) {
+          posTop = isNaN(top) ? top : `${top}px`;
+        } else {
+          posTop = `${Math.max(
+            marginSize,
+            clientVisibleHeight / 2 - boxElem.offsetHeight / 2
+          )}px`;
+        }
+        boxElem.style.top = posTop;
+        boxElem.style.left = posLeft;
+      });
+    };
+
+    const updateStyle = () => {
+      nextTick(() => {
+        let offsetTop = 0;
+        msgQueue.forEach((comp) => {
+          const boxElem = comp.getBox();
+          offsetTop += XEUtils.toNumber(comp.props.top);
+          comp.reactData.modalTop = offsetTop;
+          offsetTop += boxElem.clientHeight;
+        });
+      });
+    };
+
+    const removeMsgQueue = () => {
+      if (msgQueue.indexOf($xemodal) > -1) {
+        XEUtils.remove(msgQueue, (comp) => comp === $xemodal);
+      }
+      updateStyle();
+    };
+
+    const closeModal = (type: ModalEventTypes) => {
+      const { remember, beforeHideMethod } = props;
+      const { visible } = reactData;
+      const params = { type };
+      if (visible) {
+        Promise.resolve(beforeHideMethod ? beforeHideMethod(params) : null)
+          .then((rest) => {
+            if (!XEUtils.isError(rest)) {
+              reactData.contentVisible = false; //
+              if (!remember) {
+                reactData.zoomLocat = null;
+              }
+              XEUtils.remove(allActivedModals, (item) => item === $xemodal);
+              modalMethods.dispatchEvent("before-hide", params);
+              setTimeout(() => {
+                reactData.visible = false;
+                emit("update:modelValue", false);
+                modalMethods.dispatchEvent("hide", params);
+              }, 200);
+            }
+          })
+          .catch((e) => e);
+      }
+      return nextTick();
+    };
+
+    const closeEvent = (evnt: Event) => {
+      const type = "close";
+      modalMethods.dispatchEvent(type, { type }, evnt);
+      closeModal(type);
+    };
+
+    const confirmEvent = (evnt: Event) => {
+      const type = "confirm"; //
+      modalMethods.dispatchEvent(type, { type }, evnt);
+      closeModal(type);
+    };
+
+    const cancelEvent = (evnt: Event) => {
+      const type = "cancel";
+      modalMethods.dispatchEvent(type, { type }, evnt);
+      closeModal(type);
+    };
+    const addMsgQueue = () => {
+      if (msgQueue.indexOf($xemodal) === -1) {
+        msgQueue.push($xemodal);
+      }
+      updateStyle();
+    };
+    const maximize = () => {
+      //最大化窗口
+      return nextTick().then(() => {
+        if (!reactData.zoomLocat) {
+          const marginSize = Math.max(0, XEUtils.toNumber(props.marginSize));
+          const boxElem = getBox();
+          const { visibleHeight, visibleWidth } = getDomNode();
+          reactData.zoomLocat = {
+            top: boxElem.offsetTop,
+            left: boxElem.offsetLeft,
+            width: boxElem.offsetWidth + (boxElem.style.width ? 0 : 1),
+            height: boxElem.offsetHeight + (boxElem.style.height ? 0 : 1),
+          };
+          Object.assign(boxElem.style, {
+            top: `${marginSize}px`,
+            left: `${marginSize}px`,
+            width: `${visibleWidth - marginSize * 2}px`,
+            height: `${visibleHeight - marginSize * 2}px`,
+          });
+        }
+      });
+    };
+
+    const openModal = () => {
+      const { duration, remember, showFooter } = props; //动效
+      const { inited, visible } = reactData; //init
+      if (!inited) {
+        reactData.inited = true;
+      }
+      if (!visible) {
+        if (!remember) {
+          recalculate();
+        }
+        reactData.visible = true;
+        reactData.contentVisible = false;
+        updateZindex();
+        allActivedModals.push($xemodal);
+        setTimeout(() => {
+          reactData.contentVisible = true;
+          nextTick(() => {
+            if (showFooter) {
+              const confirmBtn = refConfirmBtn.value;
+              const cancelBtn = refCancelBtn.value;
+              const operBtn = confirmBtn || cancelBtn;
+              if (operBtn) {
+                operBtn.focus();
+              }
+            }
+            const type = "";
+            const params = { type };
+            emit("update:modelValue", true);
+            modalMethods.dispatchEvent("show", params);
+          });
+        }, 10);
+      }
+    };
+    const isMaximized = () => {
+      //是否最大化窗口
+      return !!reactData.zoomLocat;
+    };
+
+    const revert = () => {
+      //重置
+      return nextTick().then(() => {
+        const { zoomLocat } = reactData;
+        if (zoomLocat) {
+          const boxElem = getBox();
+          reactData.zoomLocat = null;
+          Object.assign(boxElem.style, {
+            top: `${zoomLocat.top}px`,
+            left: `${zoomLocat.left}px`,
+            width: `${zoomLocat.width}px`,
+            height: `${zoomLocat.height}px`,
+          });
+        }
+      });
+    };
+
+    const zoom = () => {
+      //
+      if (reactData.zoomLocat) {
+        return revert().then(() => isMaximized());
+      }
+      return maximize().then(() => isMaximized());
+    };
+
+    const toggleZoomEvent = (evnt: Event) => {
+      const { zoomLocat } = reactData;
+      const params = { type: zoomLocat ? "revert" : "max" };
+      return zoom().then(() => {
+        modalMethods.dispatchEvent("zoom", params, evnt);
+      });
+    };
+
+    const getPosition = () => {
+      return null;
+    };
+
+    const setPosition = (top?: number, left?: number) => {
+      return nextTick();
+    };
+
+    const boxMousedownEvent = () => {
+      //点击弹框之后这个弹框显示到最上层
+      const { modalZindex } = reactData;
+      if (
+        allActivedModals.some(
+          (comp) =>
+            comp.reactData.visible && comp.reactData.modalZindex > modalZindex
+        )
+      ) {
+        updateZindex(); //这个函数用来显示弹框的
+      }
+    };
+
+    const mousedownEvent = (evnt: MouseEvent) => {
+      const { remember, storage } = props;
+      const { zoomLocat } = reactData;
+      const marginSize = XEUtils.toNumber(props.marginSize);
+      const boxElem = getBox();
+      if (
+        // 这个是什么
+        !zoomLocat &&
+        evnt.button === 0 &&
+        !getEventTargetNode(evnt, boxElem, "trigger--btn").flag
+      ) {
+        evnt.preventDefault();
+        //这个是缓存之前的事件
+        const domMousemove = document.onmousemove;
+        const domMouseup = document.onmouseup;
+        //
+        const disX = evnt.clientX - boxElem.offsetLeft;
+        const disY = evnt.clientY - boxElem.offsetTop;
+        //可以展示的可见高度
+        const { visibleHeight, visibleWidth } = getDomNode();
+        document.onmousemove = (evnt) => {
+          evnt.preventDefault();
+          //这里是相关的计算
+          const offsetWidth = boxElem.offsetWidth;
+          const offsetHeight = boxElem.offsetHeight;
+          const minX = marginSize;
+          const maxX = visibleWidth - offsetWidth - marginSize - 1;
+          const minY = marginSize;
+          const maxY = visibleHeight - offsetHeight - marginSize - 1;
+          let left = evnt.clientX - disX;
+          let top = evnt.clientY - disY;
+          if (left > maxX) {
+            left = maxX;
+          }
+          if (left < minX) {
+            left = minX;
+          }
+          if (top > maxY) {
+            top = maxY;
+          }
+          if (top < minY) {
+            top = minY;
+          }
+          boxElem.style.left = `${left}px`;
+          boxElem.style.top = `${top}px`;
+          boxElem.className =
+            boxElem.className.replace(/\s?is--drag/, "") + " is--drag";
+        };
+        document.onmouseup = () => {
+          document.onmousemove = domMousemove;
+          document.onmouseup = domMouseup;
+          setTimeout(() => {
+            boxElem.className = boxElem.className.replace(/\s?is--drag/, "");
+          }, 50);
+        };
+      }
+    };
+
+    const dragEvent = (evnt: MouseEvent) => {
+      //拖住的函数
+      evnt.preventDefault(); //防止冒泡
+      const { visibleHeight, visibleWidth } = getDomNode();
+      const marginSize = XEUtils.toNumber(props.marginSize);
+      const targetElem = evnt.target as HTMLSpanElement;
+      const type = targetElem.getAttribute("type");
+      const minWidth = XEUtils.toNumber(props.minWidth);
+      const minHeight = XEUtils.toNumber(props.minHeight);
+      const maxWidth = visibleWidth;
+      const maxHeight = visibleHeight;
+      const boxElem = getBox();
+      const domMousemove = document.onmousemove;
+      const domMouseup = document.onmouseup;
+      const clientWidth = boxElem.clientWidth;
+      const clientHeight = boxElem.clientHeight;
+      const disX = evnt.clientX; //拖拽的视口X
+      const disY = evnt.clientY; //拖拽的视口Y
+      const offsetTop = boxElem.offsetTop; //高度
+      const offsetLeft = boxElem.offsetLeft; //宽度
+      const params = { type: "resize" };
+      document.onmousemove = (evnt) => {
+        evnt.preventDefault();
+        let dragLeft;
+        let dragTop;
+        let width;
+        let height;
+        switch (type) {
+          case "wl":
+            dragLeft = disX - evnt.clientX;
+            width = dragLeft + clientWidth;
+            if (offsetLeft - dragLeft > marginSize) {
+              if (width > minWidth) {
+                boxElem.style.width = `${
+                  width < maxWidth ? width : maxWidth
+                }px`;
+                boxElem.style.left = `${offsetLeft - dragLeft}px`;
+              }
+            }
+            break;
+          case "swst":
+            dragLeft = disX - evnt.clientX;
+            dragTop = disY - evnt.clientY;
+            width = dragLeft + clientWidth;
+            height = dragTop + clientHeight;
+            if (offsetLeft - dragLeft > marginSize) {
+              if (width > minWidth) {
+                boxElem.style.width = `${
+                  width < maxWidth ? width : maxWidth
+                }px`;
+                boxElem.style.left = `${offsetLeft - dragLeft}px`;
+              }
+            }
+            if (offsetTop - dragTop > marginSize) {
+              if (height > minHeight) {
+                //最大高度
+                boxElem.style.height = `${
+                  height < maxHeight ? height : maxHeight
+                }px`;
+                boxElem.style.top = `${offsetTop - dragTop}px`;
+              }
+            }
+            break;
+          case "swlb":
+            dragLeft = disX - evnt.clientX;
+            dragTop = evnt.clientY - disY;
+            width = dragLeft + clientWidth;
+            height = dragTop + clientHeight;
+            if (offsetLeft - dragLeft > marginSize) {
+              if (width > minWidth) {
+                boxElem.style.width = `${
+                  width < maxWidth ? width : maxWidth
+                }px`;
+                boxElem.style.left = `${offsetLeft - dragLeft}px`;
+              }
+            }
+            if (offsetTop + height + marginSize < visibleHeight) {
+              if (height > minHeight) {
+                boxElem.style.height = `${
+                  height < maxHeight ? height : maxHeight
+                }px`;
+              }
+            }
+            break;
+          case "st":
+            dragTop = disY - evnt.clientY;
+            height = clientHeight + dragTop;
+            if (offsetTop - dragTop > marginSize) {
+              if (height > minHeight) {
+                boxElem.style.height = `${
+                  height < maxHeight ? height : maxHeight
+                }px`;
+                boxElem.style.top = `${offsetTop - dragTop}px`;
+              }
+            }
+            break;
+          case "wr":
+            dragLeft = evnt.clientX - disX;
+            width = dragLeft + clientWidth;
+            if (offsetLeft + width + marginSize < visibleWidth) {
+              if (width > minWidth) {
+                boxElem.style.width = `${
+                  width < maxWidth ? width : maxWidth
+                }px`;
+              }
+            }
+            break;
+          case "sest":
+            dragLeft = evnt.clientX - disX;
+            dragTop = disY - evnt.clientY;
+            width = dragLeft + clientWidth;
+            height = dragTop + clientHeight;
+            if (offsetLeft + width + marginSize < visibleWidth) {
+              if (width > minWidth) {
+                boxElem.style.width = `${
+                  width < maxWidth ? width : maxWidth
+                }px`;
+              }
+            }
+            if (offsetTop - dragTop > marginSize) {
+              if (height > minHeight) {
+                boxElem.style.height = `${
+                  height < maxHeight ? height : maxHeight
+                }px`;
+                boxElem.style.top = `${offsetTop - dragTop}px`;
+              }
+            }
+            break;
+          case "selb":
+            dragLeft = evnt.clientX - disX;
+            dragTop = evnt.clientY - disY;
+            width = dragLeft + clientWidth;
+            height = dragTop + clientHeight;
+            if (offsetLeft + width + marginSize < visibleWidth) {
+              if (width > minWidth) {
+                boxElem.style.width = `${
+                  width < maxWidth ? width : maxWidth
+                }px`;
+              }
+            }
+            if (offsetTop + height + marginSize < visibleHeight) {
+              if (height > minHeight) {
+                boxElem.style.height = `${
+                  height < maxHeight ? height : maxHeight
+                }px`;
+              }
+            }
+            break;
+          case "sb":
+            dragTop = evnt.clientY - disY;
+            height = dragTop + clientHeight;
+            if (offsetTop + height + marginSize < visibleHeight) {
+              if (height > minHeight) {
+                boxElem.style.height = `${
+                  height < maxHeight ? height : maxHeight
+                }px`;
+              }
+            }
+            break;
+        }
+        modalMethods.dispatchEvent("zoom", params, evnt); //这个函数的作用是修改zoom变量
+      };
+      document.onmouseup = () => {
+        reactData.zoomLocat = null;
+        document.onmousemove = domMousemove;
+        document.onmouseup = domMouseup;
+        setTimeout(() => {
+          boxElem.className = boxElem.className.replace(/\s?is--drag/, "");
+        }, 50); //清除isDrag的类属性
+      };
+    };
+
+    const renderTitles = () => {
+      //渲染title函数
+      const { slots: propSlots = {}, showClose, showZoom, title } = props;
+      const { zoomLocat } = reactData;
+      const titleSlot = slots.title || propSlots.title; //这个竟然是个函数
+      const cornerSlot = slots.corner || propSlots.corner; //这个是什么东西
+      const titVNs = [
+        h(
+          "div",
+          {
+            class: "vxe-modal--header-title",
+          },
+          titleSlot
+            ? getSlotVNs(titleSlot({ $modal: $xemodal })) //为什么要这么传呢
+            : title
+            ? getFuncText(title)
+            : GlobalConfig.i18n("vxe.alert.title")
+        ),
+      ];
+      const rightVNs = [];
+      if (cornerSlot) {
+        rightVNs.push(
+          h(
+            "span",
+            {
+              class: "vxe-modal--corner-warpper",
+            },
+            getSlotVNs(cornerSlot({ $modal: $xemodal }))
+          )
+        );
+      }
+      if (showZoom) {
+        rightVNs.push(
+          h("i", {
+            class: [
+              "vxe-modal--zoom-btn",
+              "trigger--btn",
+              zoomLocat
+                ? GlobalConfig.icon.MODAL_ZOOM_OUT
+                : GlobalConfig.icon.MODAL_ZOOM_IN,
+            ],
+            title: GlobalConfig.i18n(
+              `vxe.modal.zoom${zoomLocat ? "Out" : "In"}`
+            ),
+            onClick: toggleZoomEvent,
+          })
+        );
+      }
+      if (showClose) {
+        rightVNs.push(
+          h("i", {
+            class: [
+              "vxe-modal--close-btn",
+              "trigger--btn",
+              GlobalConfig.icon.MODAL_CLOSE,
+            ],
+            title: GlobalConfig.i18n("vxe.modal.close"),
+            onClick: closeEvent,
+          })
+        );
+      }
+      titVNs.push(
+        h(
+          "div",
+          {
+            class: "vxe-modal--header-right",
+          },
+          rightVNs
+        )
+      );
+      return titVNs;
+    };
+
+    const renderHeaders = () => {
+      //插槽,显示Zoom
+      const { slots: propSlots = {}, showZoom, draggable } = props;
+      const headerSlot = slots.header || propSlots.header;
+      const headVNs: VNode[] = [];
+      //是否显示showHeader
+      if (props.showHeader) {
+        //定义一些头部的事件的对象
+        const headerOns: {
+          onMousedown?: any; //鼠标按下事件
+          onDblclick?: any; //双击事件
+        } = {};
+        if (draggable) {
+          headerOns.onMousedown = mousedownEvent;
+        }
+        if (showZoom && props.dblclickZoom && props.type === "modal") {
+          headerOns.onDblclick = toggleZoomEvent;
+        }
+        headVNs.push(
+          h(
+            "div",
+            {
+              class: [
+                "vxe-modal--header",
+                {
+                  "is--draggable": draggable,
+                  "is--ellipsis": props.showTitleOverflow,
+                },
+              ],
+              ...headerOns,
+            },
+            headerSlot
+              ? !reactData.inited ||
+                (props.destroyOnClose && !reactData.visible)
+                ? []
+                : getSlotVNs(headerSlot({ $modal: $xemodal }))
+              : renderTitles()
+          )
+        );
+      }
+      return headVNs;
+    };
+
+    const renderBodys = () => {
+      const { slots: propSlots = {}, status, message } = props;
+      const content = props.content || message;
+      const isMsg = computeIsMsg.value;
+      const defaultSlot = slots.default || propSlots.default;
+      const contVNs: VNode[] = [];
+      if (status) {
+        contVNs.push(
+          h(
+            "div",
+            {
+              class: "vxe-modal--status-wrapper",
+            },
+            [
+              h("i", {
+                class: [
+                  "vxe-modal--status-icon",
+                  props.iconStatus ||
+                    GlobalConfig.icon[`MODAL_${status}`.toLocaleUpperCase()],
+                ],
+              }),
+            ]
+          )
+        );
+      }
+      contVNs.push(
+        h(
+          "div",
+          {
+            class: "vxe-modal--content",
+          },
+          defaultSlot
+            ? ((!reactData.inited ||
+              (props.destroyOnClose && !reactData.visible)
+                ? []
+                : getSlotVNs(defaultSlot({ $modal: $xemodal }))) as VNode[])
+            : getFuncText(content)
+        )
+      );
+      if (!isMsg) {
+        /**
+         * 加载中
+         */
+        contVNs.push(
+          h(VxeLoading, {
+            class: "vxe-modal--loading",
+            modelValue: props.loading,
+          })
+        );
+      }
+      return [
+        h(
+          "div",
+          {
+            class: "vxe-modal--body",
+          },
+          contVNs
+        ),
+      ];
+    };
+
+    const renderBtns = () => {
+      const { type } = props;
+      const btnVNs = [];
+      if (type === "confirm") {
+        btnVNs.push(
+          h(VxeButtonConstructor, {
+            ref: refCancelBtn,
+            content:
+              props.cancelButtonText || GlobalConfig.i18n("vxe.button.cancel"),
+            onClick: cancelEvent,
+          })
+        );
+      }
+      btnVNs.push(
+        h(VxeButtonConstructor, {
+          ref: refConfirmBtn,
+          status: "primary",
+          content:
+            props.confirmButtonText || GlobalConfig.i18n("vxe.button.confirm"),
+          onClick: confirmEvent,
+        })
+      );
+      return btnVNs;
+    };
+
+    const renderFooters = () => {
+      const { slots: propSlots = {} } = props;
+      const footerSlot = slots.footer || propSlots.footer;
+      const footVNs: VNode[] = [];
+      if (props.showFooter) {
+        footVNs.push(
+          h(
+            "div",
+            {
+              class: "vxe-modal--footer",
+            },
+            footerSlot
+              ? ((!reactData.inited ||
+                (props.destroyOnClose && !reactData.visible)
+                  ? []
+                  : getSlotVNs(footerSlot({ $modal: $xemodal }))) as VNode[])
+              : renderBtns()
+          )
+        );
+      }
+      if (props.resize) {
+        footVNs.push(
+          h(
+            "span",
+            {
+              class: "vxe-modal--resize",
+            },
+            ["wl", "wr", "swst", "sest", "st", "swlb", "selb", "sb"].map(
+              (type) => {
+                return h("span", {
+                  class: `${type}-resize`,
+                  type: type,
+                  onMousedown: dragEvent,
+                });
+              }
+            )
+          )
+        );
+      }
+      return footVNs;
+    };
+
+    modalMethods = {
+      dispatchEvent(type, params, evnt) {
+        emit(type, Object.assign({ $modal: $xemodal, $event: evnt }, params));
+      },
+      open: openModal as any,
+      close() {
+        return closeModal("close");
+      },
+      getBox,
+      getPosition,
+      setPosition,
+      isMaximized,
+      zoom,
+      maximize,
+      revert,
+    };
+
+    Object.assign($xemodal, modalMethods); //添加到$xemodal
+
+    watch(() => props.width, recalculate);
+    watch(() => props.height, recalculate);
+
+    watch(
+      () => props.modelValue,
+      (value) => {
+        if (value) {
+          openModal();
+        } else {
+          closeModal("model");
+        }
+      }
+    );
+
+    onMounted(() => {
+      nextTick(() => {
+        if (props.storage && !props.id) {
+          errLog("vxe.error.reqProp", ["modal.id"]);
+        }
+        if (props.modelValue) {
+          openModal();
+        }
+        recalculate();
+      });
+      if (props.escClosable) {
+        GlobalEvent.on($xemodal, "keydown", () => {}); //这个就是类实例
+      }
+    });
+
+    onUnmounted(() => {
+      GlobalEvent.off($xemodal, "keydown");
+      removeMsgQueue();
+    });
+
+    const renderVN = () => {
+      //渲染虚拟节点函数
+      const {
+        className,
+        type,
+        animat,
+        loading,
+        status,
+        lockScroll,
+        lockView,
+        mask,
+        resize,
+      } = props;
+      const { inited, zoomLocat, modalTop, contentVisible, visible } =
+        reactData;
+      const vSize = computeSize.value;
+      return h(
+        Teleport,
+        {
+          to: "body",
+          disabled: props.transfer ? !inited : true,
+        },
+        [
+          h(
+            "div", //这个div是指外部的遮罩层
+            {
+              ref: refElem,
+              class: [
+                "vxe-modal--wrapper",
+                `type--${type}`,
+                className || "", //它这种写法是使用父级选择器&
+                {
+                  //这么写有什么好处吗
+                  [`size--${vSize}`]: vSize, //大小,这里是指字体大小
+                  [`status--${status}`]: status, //颜色,这里是指模态框的类型，是警告还是成功，表示背景色
+                  "is--animat": animat, //动效制作
+                  "lock--scroll": lockScroll, //锁住滚动
+                  "lock--view": lockView, //
+                  "is--resize": resize, //
+                  "is--mask": mask, //
+                  "is--maximize": zoomLocat, //
+                  "is--visible": contentVisible, //contentVisible
+                  "is--active": visible, //
+                  "is--loading": loading,
+                },
+              ],
+              style: {
+                zIndex: reactData.modalZindex,
+                top: modalTop ? `${modalTop}px` : null,
+              },
+            },
+            [
+              h(
+                "div",
+                {
+                  ref: refModalBox, //这个是box的内部的实例
+                  class: "vxe-modal--box",
+                  onMousedown: boxMousedownEvent,
+                },
+                renderHeaders().concat(renderBodys(), renderFooters())
+              ),
+            ]
+          ),
+        ]
+      );
+    };
+    $xemodal.renderVN = renderVN; //这个渲染函数是什么时候放上去的呢
+    return $xemodal;
+  },
+  render() {
+    return this.renderVN();
+  },
+});
+
+
+
+ setup() {
+    const modalArr = []
+    const modalShow = ref(false)
+    const diaRef = ref()
+    onMounted(() => {
+      watchEffect(() => {
+        if (modalShow.value == true) {
+          diaRef.value.showModal()
+        } else {
+          diaRef.value.close()
+        }
+      })
+    })
+    function closeModal(payload: MouseEvent): void {
+      diaRef.value.close()
+      subject.next('confirm')
+    }
+    const subject = new Rx.Subject()
+    subject.subscribe((value) => {
+      console.log(value)
+    })
+    function openModal(payload: MouseEvent): void {}
+    function btnDivClick(mouseEvent: MouseEvent) {
+      console.log('divClick')
+    }
+    function createConfirmSubject() {
+      console.log('createConfirmSubject')
+    }
+    function btn1Click(mouseEvent?: MouseEvent) {
+      const modalSub = new Rx.Subject()
+    }
+    return () => (
+      <div>
+        <div class={['m-7', 'bg-red-400']}>
+          <button onClick={btn1Click}>btn1</button>
+          <button>btn1</button>
+          <button>btn1</button>
+          <button>btn1</button>
+          <button>btn1</button>
+        </div>
+        <dialog ref={diaRef}>
+          <h2>这是一个对话框</h2>
+          <p>这里可以放一些文本内容或表单元素。</p>
+          <button onClick={closeModal}>关闭对话框</button>
+          <button onClick={openModal}>打开对话框</button>
+        </dialog>
+      </div>
+    )
+  },
+
+
+  import * as Rx from 'rxjs'
+import { withModifiers } from 'vue'
+import {
+  takeUntil,
+  interval,
+  animationFrameScheduler,
+  fromEvent,
+  merge,
+  Observable,
+  Subject,
+  switchMap,
+  pipe,
+  of,
+} from 'rxjs'
+import {
+  map,
+  scan,
+  mapTo,
+  distinctUntilChanged,
+  withLatestFrom,
+  filter,
+  retryWhen,
+  delay,
+  mergeMap,
+} from 'rxjs/operators'
+import {
+  BRICK_GAP,
+  PADDLE_WIDTH,
+  PADDLE_HEIGHT,
+  BALL_RADIUS,
+  TICKER_INTERVAL,
+  PADDLE_SPEED,
+  ARROW_LEFT,
+  ARROW_RIGHT,
+  BRICK_COLUMNS,
+  BRICK_ROWS,
+  BRICK_HEIGHT,
+  BALL_SPEED,
+} from './common'
+import { Ball, Brick, Ticker$, Paddle$, State, State$, Ticker, Collision } from './interface'
+
+export default defineComponent({
+  setup() {
+    const { proxy: instance } = getCurrentInstance()! as any
+    onMounted(() => {
+      // 初始化canvas
+      const canvasRef = { current: instance.$refs.canvasRef as HTMLCanvasElement }
+      const stage = canvasRef.current as HTMLCanvasElement // 最外层幕布DOM
+      const { width: stageWidth, height: stageHeight } = stage // 获取幕布的宽高
+      const context = stage.getContext('2d') as CanvasRenderingContext2D
+      context.fillStyle = 'skyblue'
+      // 绘制开始游戏面板
+      const drawIntro = () => {
+        context.clearRect(0, 0, stageWidth, stageHeight)
+        context.textAlign = 'center'
+        context.font = '24px Courier New'
+        context.fillText('Press [<] and [>]', stageWidth / 2, stageHeight / 2)
+      }
+
+      // 绘制游戏结束面板,结束原因文本由content控制
+      const drawGameOver = (content: string) => {
+        context.clearRect(stageWidth / 4, stageHeight / 3, stageWidth / 2, stageHeight / 3)
+        context.textAlign = 'center'
+        context.font = '24px Courier New'
+        context.fillText(content, stageWidth / 2, stageHeight / 2)
+      }
+
+      // 绘制分数
+      const drawScore = (score: number) => {
+        context.textAlign = 'left'
+        context.font = '16px Courier New'
+        context.fillText(score.toString(), BRICK_GAP, 16)
+      }
+
+      // 绘制底部滑板
+      const drawPaddle = (position: number) => {
+        context.beginPath()
+        context.rect(position - PADDLE_WIDTH / 2, stageHeight - PADDLE_HEIGHT, PADDLE_WIDTH, PADDLE_HEIGHT)
+        context.fill()
+        context.closePath()
+      }
+
+      // 绘制圆球
+      const drawBall = (ball: Ball) => {
+        context.beginPath()
+        context.arc(ball.position.x, ball.position.y, BALL_RADIUS, 0, Math.PI * 2)
+        context.fill()
+        context.closePath()
+      }
+
+      // 绘制砖块
+      const drawBrick = (brink: Brick) => {
+        context.beginPath()
+        context.rect(brink.x - brink.width / 2, brink.y - brink.height / 2, brink.width, brink.height)
+        context.fill()
+        context.closePath()
+      }
+
+      // 遍历绘制砖块
+      const drawBricks = (brinks: Brick[]) => {
+        for (const brink of brinks) {
+          drawBrick(brink)
+        }
+      }
+
+      // // 控制游戏节奏的时钟
+      const tickers$: Ticker$ = interval(TICKER_INTERVAL, animationFrameScheduler) //
+        .pipe(
+          map(() => ({
+            time: Date.now(),
+            deltaTime: 0,
+          })),
+          scan((previous, current) => ({
+            time: current.time,
+            deltaTime: (current.time - previous.time) / 1000,
+          })),
+        ) //游戏控制速度，绘制速率
+
+      const keyDown$ = fromEvent<KeyboardEvent>(document, 'keydown')
+      const keyUp$ = fromEvent<KeyboardEvent>(document, 'keyup')
+      // 监听键盘事件
+      const logTime = pipe(
+        map((v) => {
+          const time = Date.now()
+          return { value: v, time: time }
+        }),
+        Rx.pairwise(),
+        Rx.tap(([v1, v2]) => {
+          console.log('时间间隔', v2.time - v1.time, '毫秒')
+        }),
+        map(([v1, v2]) => {
+          return v1.value
+        }),
+      ) //计算时间间隔的函数
+      const spaceKeyPress$ = fromEvent<KeyboardEvent>(document, 'keydown').pipe(filter((event) => event.key === ' '))
+      // spaceKeyPress$
+      //   .pipe(
+      //     switchMap(() => {
+      //       return interval(2000).pipe(
+      //         takeUntil(spaceKeyPress$), // 取消内部 Observable 的订阅，以在下次按下空格键时重新开始计时
+      //       )
+      //     }),
+      //   )
+      //   .subscribe(() => {
+      //     // 在这里执行节流处理
+      //     console.log('空格键长按了2秒，执行节流处理')
+      //   })
+      keyDown$
+        .pipe(logTime)
+        .pipe(
+          mergeMap((v) => {
+            return of(1)
+          }),
+        )
+        .subscribe((v) => {
+          console.log(v)
+        })
+      // const key$: Observable<number> = merge(
+      //   keyDown$.pipe(
+      //     filter((event) => event.key === 'ArrowLeft'),
+      //     map(() => ARROW_LEFT),
+      //   ),
+      //   keyDown$.pipe(
+      //     filter((event) => event.key === 'ArrowRight'),
+      //     map(() => ARROW_RIGHT),
+      //   ),
+      //   keyUp$.pipe(map(() => 0)),
+      // )
+      //   .pipe(
+      //     distinctUntilChanged(), // 防止出现连续重复数据,
+      //   )
+      //   .subscribe(console.log)
+
+      // // 产生底部滑板位置的事件流
+      // // 使用函数而不是一个流的原因是游戏重新开始的时候应该产生一个新的流
+      // const createPaddle$ = (ticker$: Ticker$): Paddle$ =>
+      //   ticker$.pipe(
+      //     withLatestFrom(key$), // 键盘事件和游戏节奏合并起来: [{time: xxx, deltaTime: xxx}, direction]
+      //     scan((position, [ticker, direction]: [Ticker, number]) => {
+      //       const nextPosition = position + direction * ticker.deltaTime * PADDLE_SPEED
+      //       // 滑板位置横坐标不能小于过PADDLE_WIDTH / 2或大于stageWidth - PADDLE_WIDTH / 2，否则滑板超出幕布之外
+      //       return Math.max(Math.min(nextPosition, stageWidth - PADDLE_WIDTH / 2), PADDLE_WIDTH / 2)
+      //     }, stageWidth / 2),
+      //     distinctUntilChanged(),
+      //   )
+
+      // // 判断小球是否触碰到底部滑板
+      // // y轴判断BALL_RADIUS / 2是为了小球嵌进去弹出来的效果
+      // const isHit = (paddle: number, ball: Ball): boolean => {
+      //   return (
+      //     ball.position.x > paddle - PADDLE_WIDTH / 2 &&
+      //     ball.position.x < paddle + PADDLE_WIDTH / 2 &&
+      //     ball.position.y > stageHeight - PADDLE_HEIGHT - BALL_RADIUS / 2
+      //   )
+      // }
+
+      // // 判断小球是否触碰到砖块
+      // // 这里加上ball.direction.x 是为了要让球更接近
+      // const isCollision = (brick: Brick, ball: Ball): boolean => {
+      //   return (
+      //     ball.position.x + ball.direction.x > brick.x - brick.width / 2 &&
+      //     ball.position.x + ball.direction.x < brick.x + brick.width / 2 &&
+      //     ball.position.y + ball.direction.y > brick.y - brick.height / 2 &&
+      //     ball.position.y + ball.direction.y < brick.y + brick.height / 2
+      //   )
+      // }
+
+      // // 渲染所有砖块
+      // const createBricks = (): Brick[] => {
+      //   const width = (stageWidth - BRICK_GAP - BRICK_COLUMNS * BRICK_GAP) / BRICK_COLUMNS
+      //   const bricks = []
+      //   for (let i = 0; i < BRICK_ROWS; i++) {
+      //     for (let j = 0; j < BRICK_COLUMNS; j++) {
+      //       bricks.push({
+      //         x: j * (width + BRICK_GAP) + width / 2 + BRICK_GAP,
+      //         y: i * (BRICK_HEIGHT + BRICK_GAP) + BRICK_HEIGHT / 2 + BRICK_GAP + 20,
+      //         width,
+      //         height: BRICK_HEIGHT,
+      //       })
+      //     }
+      //   }
+      //   return bricks
+      // }
+
+      // // 渲染球，砖块，分数初始状态
+      // const initState = (): State => ({
+      //   ball: {
+      //     position: {
+      //       x: stageWidth / 2,
+      //       y: stageHeight / 2,
+      //     },
+      //     direction: {
+      //       x: 2,
+      //       y: 2,
+      //     },
+      //   },
+      //   bricks: createBricks(),
+      //   score: 0,
+      // })
+
+      // // 创建整个游戏的状态流
+      // const createState = (ticker$: Ticker$, paddle$: Paddle$): State$ =>
+      //   ticker$.pipe(
+      //     withLatestFrom(paddle$),
+      //     scan((state: State, [ticker, paddle]: [Ticker, number]) => {
+      //       let { ball, bricks, score } = state
+      //       const remainingBricks = []
+      //       // 声明碰撞各种物体的状态
+      //       const collision: Collision = {
+      //         paddle: false,
+      //         floor: false,
+      //         wall: false,
+      //         ceiling: false,
+      //         brick: false,
+      //       }
+
+      //       //更新球的位置
+      //       ball.position.x = ball.position.x + ball.direction.x * ticker.deltaTime * BALL_SPEED
+      //       ball.position.y = ball.position.y + ball.direction.y * ticker.deltaTime * BALL_SPEED
+
+      //       // 判断是否碰到了砖块
+      //       for (const brick of bricks) {
+      //         if (!isCollision(brick, ball)) {
+      //           remainingBricks.push(brick)
+      //         } else {
+      //           score = score + 10
+      //           collision.brick = true
+      //         }
+      //       }
+
+      //       // 判断球是否碰到了底部滑板
+      //       collision.paddle = isHit(paddle, ball)
+
+      //       // 判断球是否碰到了左右墙壁
+      //       if (ball.position.x < BALL_RADIUS || ball.position.x > stageWidth - BALL_RADIUS) {
+      //         ball.direction.x = -ball.direction.x
+      //         collision.wall = true
+      //       }
+
+      //       // 判断球是否碰到了天花板
+      //       collision.ceiling = ball.position.y < BALL_RADIUS
+
+      //       // 改变球的垂直移动方向
+      //       if (collision.brick || collision.paddle || collision.ceiling) {
+      //         ball.direction.y = -ball.direction.y
+      //       }
+
+      //       return {
+      //         ball,
+      //         bricks: remainingBricks,
+      //         score,
+      //       }
+      //     }, initState()),
+      //   )
+
+      // // 开始游戏
+      // function updateView([ticker, paddle, { ball, score, bricks }]: [Ticker, number, State]) {
+      //   context.clearRect(0, 0, stageWidth, stageHeight)
+
+      //   drawPaddle(paddle)
+      //   drawBall(ball)
+      //   drawBricks(bricks)
+      //   drawScore(score)
+
+      //   if (ball.position.y > stageHeight - BALL_RADIUS) {
+      //     drawGameOver('GAME OVER')
+      //     restart$.error('game over')
+      //   }
+
+      //   if (bricks.length === 0) {
+      //     drawGameOver('Congradulations!')
+      //     restart$.error('cong')
+      //   }
+      // }
+
+      // let restart$: Subject<number>
+
+      // // 开始游戏界面
+      // const game$ = new Observable((observer) => {
+      //   drawIntro()
+
+      //   restart$ = new Subject()
+
+      //   const paddle$ = createPaddle$(tickers$)
+      //   const state$ = createState(tickers$, paddle$)
+
+      //   merge(tickers$, restart$).pipe(withLatestFrom(paddle$, state$)).subscribe(observer)
+      // })
+
+      // game$.pipe(retryWhen((err$) => err$.pipe(delay(1000)))).subscribe(updateView as any)
+    })
+    return () => (
+      <div>
+        <canvas width={480} height={320} ref="canvasRef"></canvas>
+      </div>
+    )
+  },
+})

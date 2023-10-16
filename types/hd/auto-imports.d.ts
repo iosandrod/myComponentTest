@@ -6,7 +6,6 @@ export {}
 declare global {
   const CacheKey: typeof import('../../src/enum/CacheKey')['CacheKey']
   const EffectScope: typeof import('vue')['EffectScope']
-  const ElMessage: typeof import('element-plus/es')['ElMessage']
   const HttpStatus: typeof import('../../src/enum/HttpStatus')['HttpStatus']
   const RouteName: typeof import('../../src/enum/RouteName')['RouteName']
   const computed: typeof import('vue')['computed']
@@ -84,7 +83,6 @@ declare module 'vue' {
   interface ComponentCustomProperties {
     readonly CacheKey: UnwrapRef<typeof import('../../src/enum/CacheKey')['CacheKey']>
     readonly EffectScope: UnwrapRef<typeof import('vue')['EffectScope']>
-    readonly ElMessage: UnwrapRef<typeof import('element-plus/es')['ElMessage']>
     readonly HttpStatus: UnwrapRef<typeof import('../../src/enum/HttpStatus')['HttpStatus']>
     readonly RouteName: UnwrapRef<typeof import('../../src/enum/RouteName')['RouteName']>
     readonly computed: UnwrapRef<typeof import('vue')['computed']>
@@ -156,7 +154,6 @@ declare module '@vue/runtime-core' {
   interface ComponentCustomProperties {
     readonly CacheKey: UnwrapRef<typeof import('../../src/enum/CacheKey')['CacheKey']>
     readonly EffectScope: UnwrapRef<typeof import('vue')['EffectScope']>
-    readonly ElMessage: UnwrapRef<typeof import('element-plus/es')['ElMessage']>
     readonly HttpStatus: UnwrapRef<typeof import('../../src/enum/HttpStatus')['HttpStatus']>
     readonly RouteName: UnwrapRef<typeof import('../../src/enum/RouteName')['RouteName']>
     readonly computed: UnwrapRef<typeof import('vue')['computed']>

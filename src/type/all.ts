@@ -130,3 +130,5 @@ export * from './modal'
 // export * from "./pulldown";
 
 // export * from "./table";
+
+export type VXETableConfigOptions = any

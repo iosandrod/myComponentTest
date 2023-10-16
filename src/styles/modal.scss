@@ -2,8 +2,7 @@
 @import './helpers/mixin.scss';
 
 .vxe-modal--wrapper {
-  display: block;
-  // position: fixed;
+  position: fixed;
   top: 0; //他究竟为什么要这么写呢，难道是方便对象类的形式的写法吗
   left: 0;
   line-height: 1.5;
@@ -22,13 +21,8 @@
         background-color: rgba(0, 0, 0, 0.5);
       }
     }
-    &.type--message {
-      .vxe-modal--box {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
     .vxe-modal--box {
+      position: absolute;
       opacity: 1;
       visibility: visible;
     }

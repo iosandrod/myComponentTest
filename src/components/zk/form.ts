@@ -1,7 +1,7 @@
-import { Base } from './base'
-
-export class Form extends Base {
-  constructor() {
-    super()
+import { Base, baseConstructor } from './base'
+type FormPropData = {}
+export class Form extends Base<FormPropData> {
+  constructor(comConfig: baseConstructor) {
+    super(comConfig)
   }
 }

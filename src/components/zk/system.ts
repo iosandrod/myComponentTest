@@ -1,6 +1,6 @@
 import { Base } from './base'
 
-class System extends Base {
+export class System extends Base {
   constructor() {
     super()
   }

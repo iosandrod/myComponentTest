@@ -15,7 +15,6 @@ export default class Axios {
     this.instance = axios.create(config)
     this.interceptors()
   }
-
   public async request<T>(config: AxiosRequestConfig, options?: IOptions) {
     this.options = Object.assign(this.options, options ?? {})
     return new Promise(async (resolve, reject) => {
@@ -27,12 +26,10 @@ export default class Axios {
       }
     }) as Promise<T>
   }
-
   private interceptors() {
     this.interceptorsRequest()
     this.interceptorsResponse()
   }
-
   private interceptorsRequest() {
     this.instance.interceptors.request.use(
       (config: InternalAxiosRequestConfig) => {
@@ -42,7 +39,6 @@ export default class Axios {
         if (this.options.clearValidateError) useErrorStore().resetError()
         config.headers.Accept = 'application/json'
         config.headers.Authorization = `Bearer ${storage.get(CacheKey.TOKEN_NAME)}`
-
         return config
       },
       (error: any) => {

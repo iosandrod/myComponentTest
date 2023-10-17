@@ -4,5 +4,7 @@ const http = new Axios({
   baseURL: '/api',
   timeout: 10000,
 })
-export default () => {}
+export default () => {
+  return http
+}
 export { http }
